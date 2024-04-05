@@ -1,0 +1,3552 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<LandXML version="1.0" date="2014-06-12" time="18:03:49" xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd">
+<Units>
+<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" angularUnit="decimal dd.mm.ss" temperatureUnit="celsius" pressureUnit="milliBars" directionUnit="decimal dd.mm.ss"/>
+</Units>
+<CoordinateSystem datum="MGA" horizontalDatum="Local" verticalDatum="AHD"/>
+<FeatureDictionary name="ReferenceDataContext" version="NSW-101013">
+<DocFileRef name="au-gov-nsw-icsm-cif-enumerated-types.xsd" location="http://www.lpi.nsw.gov.au/__data/assets/xml_file/0010/137368/xml-govau-nsw-icsm-eplan-cif-referencedata-101013.xml"/>
+</FeatureDictionary>
+<Application name="LandMark" version="LMK12.2" />
+<CgPoints zoneNumber="56">
+<CgPoint name="14" state="existing" pntSurv="traverse">6257921.921473 334203.797445 62.0330</CgPoint>
+<CgPoint name="31" state="existing" pntSurv="reference">6258180.893506 334167.789937</CgPoint>
+<CgPoint name="33" state="existing" pntSurv="boundary">6257939.633738 334202.969371</CgPoint>
+<CgPoint name="381" state="existing" pntSurv="boundary">6257937.186912 334190.433521 60.8565</CgPoint>
+<CgPoint name="384" state="existing" pntSurv="boundary">6257941.266330 334193.674002 61.3138</CgPoint>
+<CgPoint name="738" state="existing" pntSurv="traverse">6258297.483194 334188.198736</CgPoint>
+<CgPoint name="747" state="existing" pntSurv="boundary">6257933.616201 334201.991639</CgPoint>
+<CgPoint name="749" state="existing" pntSurv="boundary">6257917.671248 334199.400895</CgPoint>
+<CgPoint name="750" state="existing" pntSurv="boundary">6257936.330627 334174.057211</CgPoint>
+<CgPoint name="751" state="existing" pntSurv="boundary">6257921.777343 334174.129299</CgPoint>
+<CgPoint name="752" state="existing" pntSurv="boundary">6257902.342663 334166.404425</CgPoint>
+<CgPoint name="753" state="existing" pntSurv="boundary">6257907.442717 334135.015351</CgPoint>
+<CgPoint name="754" state="existing" pntSurv="boundary">6257916.554384 334149.361802</CgPoint>
+<CgPoint name="755" state="existing" pntSurv="boundary">6257908.272780 334129.907339</CgPoint>
+<CgPoint name="765" state="existing" pntSurv="boundary">6257904.074850 334100.061211</CgPoint>
+<CgPoint name="766" state="existing" pntSurv="sideshot">6258209.790713 334317.548481</CgPoint>
+<CgPoint name="790" state="existing" pntSurv="boundary">6258054.387842 334233.887714</CgPoint>
+<CgPoint name="793" state="existing" pntSurv="boundary">6258029.248595 334183.459370</CgPoint>
+<CgPoint name="794" state="existing" pntSurv="boundary">6257990.152416 334177.013430</CgPoint>
+<CgPoint name="798" state="existing" pntSurv="boundary">6257903.230058 334115.379892</CgPoint>
+<CgPoint name="800" state="existing" pntSurv="boundary">6258153.038615 334238.614073</CgPoint>
+<CgPoint name="804" state="existing" pntSurv="boundary">6258223.587088 334175.474401</CgPoint>
+<CgPoint name="805" state="existing" pntSurv="boundary">6258143.468906 334141.265623</CgPoint>
+<CgPoint name="816" state="existing" pntSurv="boundary">6257948.784543 334211.442257</CgPoint>
+<CgPoint name="818" state="existing" pntSurv="boundary">6257942.793113 334210.316632</CgPoint>
+<CgPoint name="819" state="existing" pntSurv="boundary">6257913.396839 334117.129648</CgPoint>
+<CgPoint name="821" state="existing" pntSurv="boundary">6257952.579136 334123.873126</CgPoint>
+<CgPoint name="822" state="existing" pntSurv="boundary">6257949.733101 334182.859325</CgPoint>
+<CgPoint name="823" state="existing" pntSurv="boundary">6258036.190355 334141.355789</CgPoint>
+<CgPoint name="824" state="existing" pntSurv="boundary">6258033.682358 334137.831408</CgPoint>
+<CgPoint name="825" state="existing" pntSurv="sideshot">6258015.018149 334214.784245</CgPoint>
+<CgPoint name="826" state="existing" pntSurv="boundary">6258013.366523 334223.575443</CgPoint>
+<CgPoint name="827" state="existing" pntSurv="boundary">6258023.843994 334216.239399 0.0000</CgPoint>
+<CgPoint name="828" state="existing" pntSurv="boundary">6258104.049040 334134.477829</CgPoint>
+<CgPoint name="833" state="existing" pntSurv="boundary">6258106.096255 334122.211009</CgPoint>
+<CgPoint name="835" state="existing" pntSurv="boundary">6257913.521522 334050.689958</CgPoint>
+<CgPoint name="840" state="existing" pntSurv="sideshot">6258158.784279 334208.462120</CgPoint>
+<CgPoint name="841" state="existing" pntSurv="sideshot">6258154.012371 334207.663528</CgPoint>
+<CgPoint name="1223" state="existing" pntSurv="boundary">6258201.660600 334260.044592</CgPoint>
+<CgPoint name="1407" state="existing" pntSurv="boundary">6257951.329044 334057.197213</CgPoint>
+<CgPoint name="1419" state="existing" pntSurv="boundary">6257945.629500 334166.024554</CgPoint>
+<CgPoint name="1439" state="existing" pntSurv="boundary">6257997.635341 334131.627535</CgPoint>
+<CgPoint name="1440" state="existing" pntSurv="boundary">6257982.616557 334129.042723</CgPoint>
+<CgPoint name="1441" state="existing" pntSurv="boundary">6257967.597350 334126.457839</CgPoint>
+<CgPoint name="1444" state="existing" pntSurv="boundary">6258034.206998 334153.385384</CgPoint>
+<CgPoint name="1445" state="existing" pntSurv="boundary">6258031.727803 334168.422378</CgPoint>
+<CgPoint name="1446" state="existing" pntSurv="boundary">6257992.631618 334161.976470</CgPoint>
+<CgPoint name="1447" state="existing" pntSurv="boundary">6258026.326246 334201.183971</CgPoint>
+<CgPoint name="1450" state="existing" pntSurv="boundary">6257995.113742 334146.921717</CgPoint>
+<CgPoint name="1452" state="existing" pntSurv="boundary">6258002.267055 334197.217258</CgPoint>
+<CgPoint name="1453" state="existing" pntSurv="boundary">6257998.385314 334220.760884</CgPoint>
+<CgPoint name="1454" state="existing" pntSurv="boundary">6257980.411704 334217.384135</CgPoint>
+<CgPoint name="1455" state="existing" pntSurv="boundary">6257963.935896 334214.288782</CgPoint>
+<CgPoint name="1456" state="existing" pntSurv="boundary">6257990.594411 334174.332687</CgPoint>
+<CgPoint name="1457" state="existing" pntSurv="boundary">6257945.856703 334166.956642</CgPoint>
+<CgPoint name="1458" state="existing" pntSurv="boundary">6257975.558192 334171.853619</CgPoint>
+<CgPoint name="1459" state="existing" pntSurv="boundary">6257960.521551 334169.374481</CgPoint>
+<CgPoint name="1460" state="existing" pntSurv="boundary">6257987.591456 334173.837580</CgPoint>
+<CgPoint name="1461" state="existing" pntSurv="boundary">6257971.048166 334171.110037</CgPoint>
+<CgPoint name="1469" state="existing" pntSurv="sideshot">6258149.265005 334256.618348</CgPoint>
+<CgPoint name="1470" state="existing" pntSurv="boundary">6258150.551953 334251.227532</CgPoint>
+<CgPoint name="1474" state="existing" pntSurv="boundary">6258039.190828 334123.315387</CgPoint>
+<CgPoint name="1476" state="existing" pntSurv="traverse">6258206.975945 334172.614092</CgPoint>
+<CgPoint name="1488" state="existing" pntSurv="boundary">6258174.292170 334322.914618</CgPoint>
+<CgPoint name="1489" state="existing" pntSurv="boundary">6258160.310756 334283.519750</CgPoint>
+<CgPoint name="1490" state="existing" pntSurv="sideshot">6258004.539521 334358.102694</CgPoint>
+<CgPoint name="1491" state="existing" pntSurv="boundary">6258215.950149 334276.123703</CgPoint>
+<CgPoint name="1512" state="existing" pntSurv="sideshot">6258154.590073 334204.211534</CgPoint>
+<CgPoint name="1513" state="existing" pntSurv="sideshot">6258159.361980 334205.010127</CgPoint>
+<CgPoint name="1581" state="existing" pntSurv="boundary">6257943.055672 334106.770017</CgPoint>
+<CgPoint name="1590" state="existing" pntSurv="boundary">6258037.538009 334133.236801</CgPoint>
+<CgPoint name="1592" state="existing" pntSurv="boundary">6258099.264476 334153.905830</CgPoint>
+<CgPoint name="1594" state="existing" pntSurv="boundary">6258029.252783 334226.560036</CgPoint>
+<CgPoint name="1601" state="existing" pntSurv="boundary">6258002.381070 334065.987101</CgPoint>
+<CgPoint name="1610" state="existing" pntSurv="traverse">6257918.224526 334226.789027</CgPoint>
+<CgPoint name="1616" state="existing" pntSurv="traverse">6258025.425968 334246.929237</CgPoint>
+<CgPoint name="1623" state="existing" pntSurv="boundary">6258154.217362 334232.634942</CgPoint>
+<CgPoint name="1626" state="existing" pntSurv="boundary">6258150.636289 334231.928956</CgPoint>
+<CgPoint name="1629" state="existing" pntSurv="boundary">6258146.757237 334251.605235</CgPoint>
+<CgPoint name="1630" state="existing" pntSurv="boundary">6258147.439417 334267.015698</CgPoint>
+<CgPoint name="1632" state="existing" pntSurv="boundary">6258145.465533 334266.687962</CgPoint>
+<CgPoint name="1634" state="existing" pntSurv="boundary">6258148.056934 334253.543222</CgPoint>
+<CgPoint name="1635" state="existing" pntSurv="boundary">6258093.442442 334258.050268</CgPoint>
+<CgPoint name="1643" state="existing" pntSurv="boundary">6257902.184654 334109.939962</CgPoint>
+<CgPoint name="1644" state="existing" pntSurv="boundary">6258221.991428 334176.737766</CgPoint>
+<CgPoint name="1657" state="existing" pntSurv="boundary">6258259.933190 334181.732917</CgPoint>
+<CgPoint name="1658" state="existing" pntSurv="boundary">6257943.447974 334157.074979</CgPoint>
+<CgPoint name="1664" state="existing" pntSurv="reference">6258101.244837 334148.072945 78.9100</CgPoint>
+<CgPoint name="1668" state="existing" pntSurv="boundary">6258055.531615 334234.352851</CgPoint>
+<CgPoint name="1669" state="existing" pntSurv="boundary">6257902.281529 334115.216645</CgPoint>
+<CgPoint name="1670" state="existing" pntSurv="boundary">6258206.883464 334174.135283</CgPoint>
+<CgPoint name="1679" state="existing" pntSurv="boundary">6258132.750822 334194.606593</CgPoint>
+<CgPoint name="1734" state="existing" pntSurv="boundary">6258259.559587 334226.665873</CgPoint>
+<CgPoint name="1761" state="existing" pntSurv="boundary">6258259.185998 334271.597018</CgPoint>
+<CgPoint name="1768" state="existing" pntSurv="boundary">6258202.695658 334243.019236</CgPoint>
+<CgPoint name="1769" state="existing" pntSurv="boundary">6258202.857044 334240.364636</CgPoint>
+<CgPoint name="1774" state="existing" pntSurv="boundary">6258204.545263 334212.595631</CgPoint>
+<CgPoint name="1775" state="existing" pntSurv="boundary">6258153.830546 334234.597046</CgPoint>
+<CgPoint name="1786" state="existing" pntSurv="boundary">6258158.137855 334212.748457</CgPoint>
+<CgPoint name="1788" state="existing" pntSurv="boundary">6258174.064322 334207.334122</CgPoint>
+<CgPoint name="1790" state="existing" pntSurv="boundary">6258173.681603 334209.553842</CgPoint>
+<CgPoint name="1791" state="existing" pntSurv="boundary">6258159.257929 334207.066944</CgPoint>
+<CgPoint name="1811" state="existing" pntSurv="boundary">6258147.144317 334268.512578</CgPoint>
+<CgPoint name="1867" state="existing" pntSurv="boundary">6258041.270547 334110.831414</CgPoint>
+<CgPoint name="2121" state="existing" pntSurv="boundary">6258259.808657 334196.710356</CgPoint>
+<CgPoint name="2219" state="existing" pntSurv="boundary">6257994.108176 334115.556424</CgPoint>
+<CgPoint name="2231" state="existing" pntSurv="boundary">6258205.473087 334172.355311</CgPoint>
+<CgPoint name="2232" state="existing" pntSurv="boundary">6258194.342888 334170.438778</CgPoint>
+<CgPoint name="2242" state="existing" pntSurv="boundary">6258180.836653 334168.113109</CgPoint>
+<CgPoint name="2305" state="existing" pntSurv="boundary">6258259.684124 334211.687896</CgPoint>
+<CgPoint name="2306" state="existing" pntSurv="sideshot">6257940.519239 334210.143455</CgPoint>
+<CgPoint name="2307" state="existing" pntSurv="sideshot">6257939.119859 334191.126540</CgPoint>
+<CgPoint name="2308" state="existing" pntSurv="sideshot">6257941.052781 334171.200318</CgPoint>
+<CgPoint name="2309" state="existing" pntSurv="sideshot">6257939.296958 334165.590879</CgPoint>
+<CgPoint name="2350" state="existing" pntSurv="boundary">6258095.982585 334181.824485</CgPoint>
+<CgPoint name="2351" state="existing" pntSurv="boundary">6258108.237872 334186.084914</CgPoint>
+<CgPoint name="2352" state="existing" pntSurv="boundary">6258120.494349 334190.345754</CgPoint>
+<CgPoint name="2366" state="existing" pntSurv="boundary">6257996.191574 334103.073083</CgPoint>
+<CgPoint name="2429" state="existing" pntSurv="reference">6258044.049425 334214.541097</CgPoint>
+<CgPoint name="2442" state="existing" pntSurv="boundary">6258100.717749 334154.317258</CgPoint>
+<CgPoint name="2464" state="existing" pntSurv="reference">6258100.786898 334153.867690</CgPoint>
+<CgPoint name="2466" state="existing" pntSurv="reference">6258180.525992 334161.741678</CgPoint>
+<CgPoint name="2467" state="existing" pntSurv="reference">6258207.460912 334168.323790</CgPoint>
+<CgPoint name="2495" state="existing" pntSurv="boundary">6258059.016637 334126.727514</CgPoint>
+<CgPoint name="2576" state="existing" pntSurv="boundary">6258205.728939 334193.125710</CgPoint>
+<CgPoint name="2586" state="existing" pntSurv="boundary">6258177.362104 334188.235474</CgPoint>
+<CgPoint name="2587" state="existing" pntSurv="boundary">6258190.878944 334190.565678</CgPoint>
+<CgPoint name="2589" state="existing" pntSurv="boundary">6258158.902957 334208.867522</CgPoint>
+<CgPoint name="2590" state="existing" pntSurv="boundary">6258143.735432 334206.257112</CgPoint>
+<CgPoint name="2591" state="existing" pntSurv="boundary">6258131.119316 334204.085808</CgPoint>
+<CgPoint name="2594" state="existing" pntSurv="boundary">6258113.331712 334156.489284</CgPoint>
+<CgPoint name="2595" state="existing" pntSurv="boundary">6258125.947646 334158.661649</CgPoint>
+<CgPoint name="2596" state="existing" pntSurv="boundary">6258138.563580 334160.834015</CgPoint>
+<CgPoint name="2597" state="existing" pntSurv="boundary">6258151.179514 334163.006381</CgPoint>
+<CgPoint name="2600" state="existing" pntSurv="boundary">6258059.439241 334142.625140</CgPoint>
+<CgPoint name="2601" state="existing" pntSurv="boundary">6258056.010726 334144.802164</CgPoint>
+<CgPoint name="2603" state="existing" pntSurv="boundary">6257895.850126 334108.849756</CgPoint>
+<CgPoint name="2624" state="existing" pntSurv="boundary">6257943.171629 334204.263922 60.4466</CgPoint>
+<CgPoint name="2633" state="existing" pntSurv="boundary">6257938.836181 334174.516123 61.1534</CgPoint>
+<CgPoint name="2635" state="existing" pntSurv="boundary">6257938.671105 334166.696747 61.1490</CgPoint>
+<CgPoint name="2636" state="existing" pntSurv="boundary">6257936.154603 334164.796050 61.4132</CgPoint>
+<CgPoint name="2638" state="existing" pntSurv="boundary">6257930.263397 334158.040698 61.7313</CgPoint>
+<CgPoint name="2639" state="existing" pntSurv="boundary">6257925.992168 334153.845884 62.4891</CgPoint>
+<CgPoint name="2640" state="existing" pntSurv="boundary">6257921.484225 334147.711102 63.2724</CgPoint>
+<CgPoint name="2641" state="existing" pntSurv="boundary">6257916.407144 334139.764954 63.7501</CgPoint>
+<CgPoint name="2660" state="existing" pntSurv="boundary">6257942.782354 334171.328633 61.6020</CgPoint>
+<CgPoint name="2686" state="existing" pntSurv="boundary">6257920.331597 334139.714418 63.0420</CgPoint>
+<CgPoint name="2687" state="existing" pntSurv="boundary">6257923.618239 334143.375837 63.1269</CgPoint>
+<CgPoint name="2688" state="existing" pntSurv="boundary">6257925.309088 334144.324810 62.1715</CgPoint>
+<CgPoint name="2689" state="existing" pntSurv="boundary">6257927.931936 334144.863472 62.1184</CgPoint>
+<CgPoint name="2690" state="existing" pntSurv="boundary">6257928.800694 334149.909981 62.4213</CgPoint>
+<CgPoint name="2691" state="existing" pntSurv="boundary">6257933.630384 334156.385825 61.9156</CgPoint>
+<CgPoint name="2693" state="existing" pntSurv="boundary">6257938.338735 334161.207236 61.4841</CgPoint>
+<CgPoint name="2698" state="existing" pntSurv="boundary">6257940.628638 334162.170829 61.6109</CgPoint>
+<CgPoint name="2728" state="existing" pntSurv="boundary">6257907.097870 334122.826969 64.1633</CgPoint>
+<CgPoint name="2775" state="existing" pntSurv="sideshot">6257921.296605 334144.006186</CgPoint>
+<CgPoint name="2992" state="existing" pntSurv="boundary">6258075.714672 334026.493875</CgPoint>
+<CgPoint name="3082" state="existing" pntSurv="reference">6258054.083876 334241.115845</CgPoint>
+<CgPoint name="3091" state="existing" pntSurv="reference">6258042.936409 334122.674588</CgPoint>
+<CgPoint name="3096" state="existing" pntSurv="reference">6258056.489498 334120.355908</CgPoint>
+<CgPoint name="3481" state="existing" pntSurv="boundary">6258061.061599 334114.452182</CgPoint>
+<CgPoint name="3611" state="existing" pntSurv="sideshot">6258116.941707 334285.560311</CgPoint>
+<CgPoint name="3612" state="existing" pntSurv="boundary">6258100.943636 334144.149246</CgPoint>
+<CgPoint name="3626" state="existing" pntSurv="sideshot">6258206.721483 334304.127159</CgPoint>
+<CgPoint name="3634" state="existing" pntSurv="sideshot">6258209.749397 334317.506715</CgPoint>
+<CgPoint name="3636" state="existing" pntSurv="sideshot">6258213.223789 334332.560791</CgPoint>
+<CgPoint name="3733" state="existing" pntSurv="sideshot">6258144.533595 334161.805547 82.6837</CgPoint>
+<CgPoint name="3734" state="existing" pntSurv="sideshot">6258138.582920 334160.816400 82.2477</CgPoint>
+<CgPoint name="3735" state="existing" pntSurv="sideshot">6258138.390661 334161.112756 82.2838</CgPoint>
+<CgPoint name="3736" state="existing" pntSurv="sideshot">6258137.183252 334168.359969 82.2823</CgPoint>
+<CgPoint name="3737" state="existing" pntSurv="sideshot">6258135.991388 334175.682645 82.1233</CgPoint>
+<CgPoint name="3784" state="existing" pntSurv="sideshot">6258135.021456 334180.817606 81.9389</CgPoint>
+<CgPoint name="3785" state="existing" pntSurv="sideshot">6258133.939273 334187.946192 81.6871</CgPoint>
+<CgPoint name="3786" state="existing" pntSurv="sideshot">6258132.473974 334196.773824 81.0825</CgPoint>
+<CgPoint name="3787" state="existing" pntSurv="sideshot">6258131.148246 334204.218517 80.8097</CgPoint>
+<CgPoint name="3788" state="existing" pntSurv="sideshot">6258124.565087 334203.285126 80.6401</CgPoint>
+<CgPoint name="3789" state="existing" pntSurv="sideshot">6258118.586044 334202.239138 80.2727</CgPoint>
+<CgPoint name="3913" state="existing" pntSurv="sideshot">6258151.210784 334163.020526 82.9346</CgPoint>
+<CgPoint name="4338" state="existing" pntSurv="boundary">6257917.497921 334230.374086</CgPoint>
+<CgPoint name="4340" state="existing" pntSurv="boundary">6257907.673958 334228.528433</CgPoint>
+<CgPoint name="4346" state="existing" pntSurv="sideshot">6258119.976197 334285.437578</CgPoint>
+<CgPoint name="5248" state="existing" pntSurv="reference">6258212.798018 334264.052702</CgPoint>
+<CgPoint name="5252" state="proposed" pntSurv="reference">6258085.665952 334259.620908</CgPoint>
+<CgPoint name="7172" state="existing" pntSurv="boundary">6258054.480391 334136.152675</CgPoint>
+<CgPoint name="7617" state="existing" pntSurv="sideshot">6258132.565072 334198.198731 81.2236</CgPoint>
+<CgPoint name="7630" state="existing" pntSurv="sideshot">6258144.288355 334200.226943</CgPoint>
+<CgPoint name="7631" state="existing" pntSurv="sideshot">6258135.828352 334198.761421</CgPoint>
+<CgPoint name="7632" state="existing" pntSurv="sideshot">6258141.034572 334199.689015</CgPoint>
+<CgPoint name="7852" state="existing" pntSurv="boundary">6258167.708786 334304.364883</CgPoint>
+<CgPoint name="7860" state="existing" pntSurv="sideshot">6258120.764492 334190.345676 80.7450</CgPoint>
+<CgPoint name="7880" state="existing" pntSurv="boundary">6258103.966954 334312.320760</CgPoint>
+<CgPoint name="7883" state="existing" pntSurv="boundary">6258216.669592 334264.288040</CgPoint>
+<CgPoint name="7884" state="existing" pntSurv="boundary">6258087.552312 334286.751095</CgPoint>
+<CgPoint name="7885" state="existing" pntSurv="sideshot">6258158.900252 334208.867404</CgPoint>
+<CgPoint name="7886" state="existing" pntSurv="boundary">6258075.204306 334337.307158</CgPoint>
+<CgPoint name="7887" state="existing" pntSurv="boundary">6258063.760889 334309.056873</CgPoint>
+<CgPoint name="7888" state="existing" pntSurv="boundary">6258294.479400 334187.681506</CgPoint>
+<CgPoint name="7889" state="proposed" pntSurv="reference">6258109.223989 334149.487909</CgPoint>
+<CgPoint name="7919" state="existing" pntSurv="sideshot">6258213.184668 334332.569738</CgPoint>
+<CgPoint name="7925" state="existing" pntSurv="sideshot">6258126.098180 334302.148162</CgPoint>
+<CgPoint name="7926" state="existing" pntSurv="sideshot">6258132.957773 334317.135204</CgPoint>
+<CgPoint name="7927" state="existing" pntSurv="sideshot">6258139.879643 334332.051620</CgPoint>
+<CgPoint name="7928" state="existing" pntSurv="sideshot">6258154.687924 334364.322197</CgPoint>
+<CgPoint name="7929" state="existing" pntSurv="sideshot">6258163.309399 334382.944684</CgPoint>
+<CgPoint name="7932" state="existing" pntSurv="boundary">6258161.592254 334287.130576</CgPoint>
+<CgPoint name="7934" state="existing" pntSurv="boundary">6258219.377271 334219.743641</CgPoint>
+<CgPoint name="7935" state="existing" pntSurv="sideshot">6258154.740983 334364.297768</CgPoint>
+<CgPoint name="7936" state="existing" pntSurv="boundary">6258220.279507 334204.900833 0.0000</CgPoint>
+<CgPoint name="7937" state="existing" pntSurv="sideshot">6258139.891701 334332.046068</CgPoint>
+<CgPoint name="7939" state="existing" pntSurv="boundary">6258221.181731 334190.058214</CgPoint>
+<CgPoint name="7940" state="existing" pntSurv="reference">6258221.535486 334176.710047</CgPoint>
+<CgPoint name="7942" state="existing" pntSurv="sideshot">6258133.014448 334317.109110</CgPoint>
+<CgPoint name="7946" state="existing" pntSurv="boundary">6258220.253903 334294.943385</CgPoint>
+<CgPoint name="7947" state="existing" pntSurv="boundary">6258223.922986 334310.987749</CgPoint>
+<CgPoint name="7949" state="existing" pntSurv="boundary">6258297.601666 334191.244432</CgPoint>
+<CgPoint name="7950" state="existing" pntSurv="boundary">6258298.070579 334203.299316</CgPoint>
+<CgPoint name="7951" state="existing" pntSurv="boundary">6258228.082276 334329.175716</CgPoint>
+<CgPoint name="7953" state="existing" pntSurv="sideshot">6258209.464208 334317.621819</CgPoint>
+<CgPoint name="7954" state="existing" pntSurv="sideshot">6258206.745688 334304.121624</CgPoint>
+<CgPoint name="7955" state="existing" pntSurv="sideshot">6258209.756945 334317.556204</CgPoint>
+<CgPoint name="7956" state="existing" pntSurv="sideshot">6258206.451391 334304.180416</CgPoint>
+<CgPoint name="7957" state="existing" pntSurv="sideshot">6258212.960435 334332.620917</CgPoint>
+<CgPoint name="7958" state="existing" pntSurv="sideshot">6258209.532711 334317.607383</CgPoint>
+<CgPoint name="7959" state="existing" pntSurv="sideshot">6258163.518117 334382.848056</CgPoint>
+<CgPoint name="7960" state="existing" pntSurv="sideshot">6258154.896641 334364.225569</CgPoint>
+<CgPoint name="7961" state="existing" pntSurv="sideshot">6258152.586831 334359.779290</CgPoint>
+<CgPoint name="7962" state="existing" pntSurv="sideshot">6258152.795540 334359.682644</CgPoint>
+<CgPoint name="7963" state="existing" pntSurv="sideshot">6258141.981836 334336.582419</CgPoint>
+<CgPoint name="7964" state="existing" pntSurv="sideshot">6258139.978110 334332.034180</CgPoint>
+<CgPoint name="7966" state="existing" pntSurv="sideshot">6258144.814618 334331.166517</CgPoint>
+<CgPoint name="7969" state="existing" pntSurv="sideshot">6258137.862461 334327.469749</CgPoint>
+<CgPoint name="7970" state="existing" pntSurv="sideshot">6258140.204275 334331.993396</CgPoint>
+<CgPoint name="7971" state="existing" pntSurv="sideshot">6258138.071084 334327.372917</CgPoint>
+<CgPoint name="7972" state="existing" pntSurv="sideshot">6258133.806687 334318.940268</CgPoint>
+<CgPoint name="7973" state="existing" pntSurv="sideshot">6258133.165812 334317.037123</CgPoint>
+<CgPoint name="7974" state="existing" pntSurv="sideshot">6258134.014717 334318.842170</CgPoint>
+<CgPoint name="7975" state="existing" pntSurv="sideshot">6258128.174072 334306.691084</CgPoint>
+<CgPoint name="7976" state="existing" pntSurv="sideshot">6258126.307315 334302.052440</CgPoint>
+<CgPoint name="7977" state="existing" pntSurv="sideshot">6258128.383199 334306.595345</CgPoint>
+<CgPoint name="7978" state="existing" pntSurv="sideshot">6258124.046612 334297.577811</CgPoint>
+<CgPoint name="7979" state="existing" pntSurv="sideshot">6258123.841257 334297.681392</CgPoint>
+<CgPoint name="7980" state="existing" pntSurv="boundary">6258259.580328 334301.832350</CgPoint>
+<CgPoint name="7981" state="existing" pntSurv="boundary">6258260.166934 334315.131109</CgPoint>
+<CgPoint name="7982" state="existing" pntSurv="boundary">6258132.999494 334317.076631</CgPoint>
+<CgPoint name="7984" state="existing" pntSurv="control" oID="50352">6258118.894322 334142.498111</CgPoint>
+<CgPoint name="7989" desc="B" state="existing" pntSurv="control" oID="15731">6258308.222772 334469.278421</CgPoint>
+<CgPoint name="7995" state="existing" pntSurv="control" oID="15730">6258297.813753 334183.318595</CgPoint>
+<CgPoint name="7997" state="existing" pntSurv="reference">6258218.831074 334348.897127</CgPoint>
+<CgPoint name="7998" state="existing" pntSurv="reference">6258217.047356 334331.682822</CgPoint>
+<CgPoint name="7999" state="existing" pntSurv="boundary">6258108.428306 334322.011093</CgPoint>
+<CgPoint name="8002" state="existing" pntSurv="boundary">6258162.113580 334380.310580</CgPoint>
+<CgPoint name="8003" state="existing" pntSurv="boundary">6258139.954847 334390.512797</CgPoint>
+<CgPoint name="8004" state="existing" pntSurv="boundary">6258117.017753 334285.557090</CgPoint>
+<CgPoint name="8005" state="existing" pntSurv="boundary">6258095.527164 334259.942284</CgPoint>
+<CgPoint name="8006" state="existing" pntSurv="boundary">6258155.475578 334269.895866</CgPoint>
+<CgPoint name="8007" state="existing" pntSurv="boundary">6258200.606943 334277.389287</CgPoint>
+<CgPoint name="8019" state="existing" pntSurv="boundary">6258002.897444 334246.418310</CgPoint>
+<CgPoint name="8022" state="existing" pntSurv="boundary">6258260.812001 334329.755234</CgPoint>
+<CgPoint name="8023" state="existing" pntSurv="boundary">6258139.883490 334332.028235</CgPoint>
+<CgPoint name="8024" state="existing" pntSurv="boundary">6258147.167997 334347.849723</CgPoint>
+<CgPoint name="8025" state="existing" pntSurv="boundary">6258154.720499 334364.253277</CgPoint>
+<CgPoint name="8026" state="existing" pntSurv="boundary">6258165.102121 334297.020187</CgPoint>
+<CgPoint name="8027" state="existing" pntSurv="boundary">6258170.199561 334311.383039</CgPoint>
+<CgPoint name="8028" state="existing" pntSurv="boundary">6258175.296922 334325.745666</CgPoint>
+<CgPoint name="8029" state="existing" pntSurv="boundary">6258180.411130 334340.155763</CgPoint>
+<CgPoint name="8030" state="existing" pntSurv="boundary">6258258.929510 334287.077849</CgPoint>
+<CgPoint name="8036" state="existing" pntSurv="boundary">6258184.403066 334357.384495</CgPoint>
+<CgPoint name="8037" state="existing" pntSurv="boundary">6258188.874738 334376.683717</CgPoint>
+<CgPoint name="8038" state="existing" pntSurv="boundary">6258197.141075 334412.360273</CgPoint>
+<CgPoint name="8040" state="existing" pntSurv="sideshot">6258126.121257 334302.137537</CgPoint>
+<CgPoint name="8041" state="existing" pntSurv="boundary">6258181.556567 334408.528241</CgPoint>
+<CgPoint name="8043" state="existing" pntSurv="boundary">6258203.664739 334290.760464</CgPoint>
+<CgPoint name="8044" state="existing" pntSurv="boundary">6258206.722354 334304.130970</CgPoint>
+<CgPoint name="8045" state="existing" pntSurv="boundary">6258209.780098 334317.502033</CgPoint>
+<CgPoint name="8046" state="existing" pntSurv="boundary">6258213.226575 334332.572972</CgPoint>
+<CgPoint name="8047" state="existing" pntSurv="boundary">6258214.795943 334349.875988</CgPoint>
+<CgPoint name="8049" state="existing" pntSurv="boundary">6258211.897255 334371.368811</CgPoint>
+<CgPoint name="8050" state="existing" pntSurv="boundary">6258214.117890 334356.801543</CgPoint>
+<CgPoint name="8051" state="existing" pntSurv="boundary">6258207.508430 334400.159315</CgPoint>
+<CgPoint name="8115" state="existing" pntSurv="boundary">6258114.801654 334335.854432</CgPoint>
+<CgPoint name="8126" state="existing" pntSurv="reference">6258216.476840 334280.480071</CgPoint>
+<CgPoint name="8127" state="existing" pntSurv="boundary">6258216.856560 334280.087305</CgPoint>
+<CgPoint name="8131" state="existing" pntSurv="reference">6258108.884373 334321.802793</CgPoint>
+<CgPoint name="8132" state="existing" pntSurv="boundary">6258298.657964 334218.399896</CgPoint>
+<CgPoint name="8136" state="existing" pntSurv="boundary">6258121.175001 334349.697772</CgPoint>
+<CgPoint name="8139" state="existing" pntSurv="boundary">6258299.245349 334233.500476</CgPoint>
+<CgPoint name="8140" state="existing" pntSurv="boundary">6258052.775190 334281.937470</CgPoint>
+<CgPoint name="8142" desc="A" state="existing" pntSurv="control" oID="135144">6258033.909000 334249.777000</CgPoint>
+<CgPoint name="8148" state="existing" pntSurv="boundary">6258127.803450 334364.095208</CgPoint>
+<CgPoint name="8149" state="existing" pntSurv="boundary">6258134.686581 334379.045833</CgPoint>
+<CgPoint name="8151" state="existing" pntSurv="boundary">6258080.932707 334351.447387</CgPoint>
+<CgPoint name="8153" state="existing" pntSurv="boundary">6258088.402439 334364.785961</CgPoint>
+<CgPoint name="8154" state="existing" pntSurv="boundary">6258096.165424 334378.661067</CgPoint>
+<CgPoint name="8155" state="existing" pntSurv="boundary">6258104.231235 334393.067197</CgPoint>
+<CgPoint name="8156" state="existing" pntSurv="boundary">6258112.591341 334408.001447</CgPoint>
+<CgPoint name="8167" state="existing" pntSurv="sideshot">6258149.272612 334207.210090</CgPoint>
+<CgPoint name="8173" state="existing" pntSurv="boundary">6258299.832734 334248.601056</CgPoint>
+<CgPoint name="8174" state="existing" pntSurv="boundary">6258167.321721 334165.785943</CgPoint>
+<CgPoint name="8176" state="existing" pntSurv="reference">6258208.381241 334213.262788</CgPoint>
+<CgPoint name="8177" state="existing" pntSurv="boundary">6258037.532675 334288.959498</CgPoint>
+<CgPoint name="8178" state="existing" pntSurv="reference">6258206.540601 334243.691254</CgPoint>
+<CgPoint name="8180" state="existing" pntSurv="boundary">6258072.945475 334272.645282</CgPoint>
+<CgPoint name="8181" state="existing" pntSurv="boundary">6258062.273211 334305.384781</CgPoint>
+<CgPoint name="8182" state="existing" pntSurv="boundary">6258054.848695 334260.883801</CgPoint>
+<CgPoint name="8183" state="existing" pntSurv="boundary">6258037.070133 334272.073832</CgPoint>
+<CgPoint name="8184" state="existing" pntSurv="boundary">6258069.482516 334323.182048</CgPoint>
+<CgPoint name="8185" state="existing" pntSurv="sideshot">6258049.241452 334271.709868</CgPoint>
+<CgPoint name="8186" state="existing" pntSurv="boundary">6258230.087177 334348.325047</CgPoint>
+<CgPoint name="8187" state="existing" pntSurv="boundary">6258038.168459 334311.428205</CgPoint>
+<CgPoint name="8188" state="existing" pntSurv="boundary">6258038.758317 334332.273861</CgPoint>
+<CgPoint name="8189" state="existing" pntSurv="boundary">6258261.600611 334347.633589</CgPoint>
+<CgPoint name="8190" state="existing" pntSurv="boundary">6258229.179462 334359.098311</CgPoint>
+<CgPoint name="8191" state="existing" pntSurv="boundary">6258262.362881 334364.914762</CgPoint>
+<CgPoint name="8192" state="existing" pntSurv="boundary">6258300.420120 334263.701637</CgPoint>
+<CgPoint name="8193" state="existing" pntSurv="boundary">6258301.007505 334278.802217</CgPoint>
+<CgPoint name="8194" state="existing" pntSurv="boundary">6258021.696657 334268.436924</CgPoint>
+<CgPoint name="8195" state="existing" pntSurv="sideshot">6258062.457456 334217.575604</CgPoint>
+<CgPoint name="8196" state="existing" pntSurv="boundary">6258044.500338 334214.615441</CgPoint>
+<CgPoint name="8240" state="existing" pntSurv="boundary">6258304.818497 334425.204166</CgPoint>
+<CgPoint name="8247" state="existing" pntSurv="boundary">6258259.058091 334287.099213</CgPoint>
+<CgPoint name="8248" state="existing" pntSurv="boundary">6258023.627823 334336.684607</CgPoint>
+<CgPoint name="8250" state="existing" pntSurv="boundary">6258301.603254 334294.168216</CgPoint>
+<CgPoint name="8254" state="existing" pntSurv="sideshot">6258150.011661 334347.029188</CgPoint>
+<CgPoint name="8255" state="existing" pntSurv="sideshot">6258192.442475 334397.862661</CgPoint>
+<CgPoint name="8257" state="existing" pntSurv="boundary">6258163.215211 334382.624867</CgPoint>
+<CgPoint name="8259" state="existing" pntSurv="boundary">6258126.114985 334302.123915</CgPoint>
+<CgPoint name="8260" state="existing" pntSurv="sideshot">6258253.127128 334338.406250</CgPoint>
+<CgPoint name="8262" state="existing" pntSurv="sideshot">6258149.605130 334205.353850</CgPoint>
+<CgPoint name="8265" state="existing" pntSurv="sideshot">6258149.422860 334206.337090</CgPoint>
+<CgPoint name="8266" state="existing" pntSurv="sideshot">6258144.840060 334205.487540</CgPoint>
+<CgPoint name="8267" state="existing" pntSurv="sideshot">6258145.022330 334204.504300</CgPoint>
+<CgPoint name="8270" state="existing" pntSurv="traverse">6258222.083956 334175.215574</CgPoint>
+<CgPoint name="8271" state="existing" pntSurv="boundary">6258259.435618 334241.642985</CgPoint>
+<CgPoint name="8272" state="existing" pntSurv="boundary">6258259.311230 334256.620002</CgPoint>
+<CgPoint name="8273" state="existing" pntSurv="sideshot">6257998.642777 334269.085463</CgPoint>
+<CgPoint name="8274" state="existing" pntSurv="sideshot">6258143.309420 334206.162940</CgPoint>
+<CgPoint name="8275" state="existing" pntSurv="sideshot">6258140.055610 334205.625120</CgPoint>
+<CgPoint name="8278" state="existing" pntSurv="sideshot">6258134.831720 334204.693260</CgPoint>
+<CgPoint name="8279" state="existing" pntSurv="sideshot">6258131.568440 334204.130570</CgPoint>
+<CgPoint name="8281" state="existing" pntSurv="sideshot">6258144.679645 334206.419616</CgPoint>
+<CgPoint name="8282" state="existing" pntSurv="sideshot">6258143.305934 334206.183193</CgPoint>
+<CgPoint name="8283" state="existing" pntSurv="sideshot">6258140.055832 334205.623832</CgPoint>
+<CgPoint name="8284" state="existing" pntSurv="sideshot">6258131.563002 334204.162169</CgPoint>
+<CgPoint name="8285" state="existing" pntSurv="sideshot">6258134.826459 334204.723828</CgPoint>
+<CgPoint name="8286" state="existing" pntSurv="sideshot">6258131.124756 334204.054205</CgPoint>
+<CgPoint name="8291" state="existing" pntSurv="sideshot">6258158.902878 334208.867922</CgPoint>
+<CgPoint name="8292" state="existing" pntSurv="sideshot">6258146.897805 334268.471648</CgPoint>
+<CgPoint name="8293" state="existing" pntSurv="sideshot">6258147.142861 334268.519960</CgPoint>
+<CgPoint name="8294" state="existing" pntSurv="sideshot">6258149.480801 334256.660891</CgPoint>
+<CgPoint name="8295" state="existing" pntSurv="boundary">6258301.916008 334306.914379</CgPoint>
+<CgPoint name="8299" state="existing" pntSurv="boundary">6258279.437768 334304.216063</CgPoint>
+<CgPoint name="8300" state="existing" pntSurv="boundary">6258280.048433 334317.305040</CgPoint>
+<CgPoint name="8301" state="existing" pntSurv="boundary">6258280.768390 334331.075280</CgPoint>
+<CgPoint name="8302" state="existing" pntSurv="boundary">6258281.576931 334346.660624</CgPoint>
+<CgPoint name="8314" state="existing" pntSurv="boundary">6257952.351275 334236.169964</CgPoint>
+<CgPoint name="8315" state="existing" pntSurv="sideshot">6258132.800097 334194.615074</CgPoint>
+<CgPoint name="8316" state="existing" pntSurv="sideshot">6258132.750822 334194.606593</CgPoint>
+<CgPoint name="8317" state="existing" pntSurv="sideshot">6258132.773807 334194.540475</CgPoint>
+<CgPoint name="8318" state="existing" pntSurv="sideshot">6258132.773905 334194.540509</CgPoint>
+<CgPoint name="8319" state="existing" pntSurv="sideshot">6258095.918106 334181.960379</CgPoint>
+<CgPoint name="8320" state="existing" pntSurv="sideshot">6258100.666503 334154.308438</CgPoint>
+<CgPoint name="8321" state="existing" pntSurv="sideshot">6258095.967206 334181.819139</CgPoint>
+<CgPoint name="8322" state="existing" pntSurv="sideshot">6258095.957043 334181.967080</CgPoint>
+<CgPoint name="8323" state="existing" pntSurv="sideshot">6258100.715778 334154.316918</CgPoint>
+<CgPoint name="8324" state="existing" pntSurv="reference">6258140.807260 334154.889513</CgPoint>
+<CgPoint name="8327" state="existing" pntSurv="reference">6257987.463355 334237.900737</CgPoint>
+<CgPoint name="8334" state="existing" pntSurv="sideshot">6258143.758351 334206.237008</CgPoint>
+<CgPoint name="8335" state="existing" pntSurv="sideshot">6258143.706281 334206.552743</CgPoint>
+<CgPoint name="8337" state="existing" pntSurv="boundary">6257917.908895 334230.451296</CgPoint>
+<CgPoint name="8338" state="existing" pntSurv="reference">6258005.357479 334227.997680</CgPoint>
+<CgPoint name="LC-206" state="existing" pntSurv="sideshot">6258098.84 334208.54</CgPoint>
+<CgPoint name="LC-249" state="existing" pntSurv="sideshot">6258105.06 334128.34</CgPoint>
+<CgPoint name="LC-250" state="existing" pntSurv="sideshot">6258082.28 334124.44</CgPoint>
+<CgPoint name="LC-254" state="existing" pntSurv="sideshot">6258017.42 334113.16</CgPoint>
+<CgPoint name="LC-264" state="existing" pntSurv="sideshot">6258149.80 334248.02</CgPoint>
+<CgPoint name="LC-268" state="existing" pntSurv="sideshot">6258155.04 334185.78</CgPoint>
+<CgPoint name="LC-269" state="existing" pntSurv="sideshot">6258140.86 334183.52</CgPoint>
+<CgPoint name="LC-274" state="existing" pntSurv="sideshot">6258013.36 334237.88</CgPoint>
+<CgPoint name="LC-277" state="existing" pntSurv="sideshot">6258084.94 334313.42</CgPoint>
+<CgPoint name="LC-279" state="existing" pntSurv="sideshot">6258278.28 334192.60</CgPoint>
+<CgPoint name="LC-280" state="existing" pntSurv="sideshot">6258278.78 334207.56</CgPoint>
+<CgPoint name="LC-281" state="existing" pntSurv="sideshot">6258279.02 334222.60</CgPoint>
+<CgPoint name="LC-282" state="existing" pntSurv="sideshot">6258279.26 334237.64</CgPoint>
+<CgPoint name="LC-283" state="existing" pntSurv="sideshot">6258279.48 334252.66</CgPoint>
+<CgPoint name="LC-284" state="existing" pntSurv="sideshot">6258279.72 334267.70</CgPoint>
+<CgPoint name="LC-285" state="existing" pntSurv="sideshot">6258279.92 334282.94</CgPoint>
+<CgPoint name="LC-291" state="existing" pntSurv="sideshot">6258291.98 334335.36</CgPoint>
+<CgPoint name="LC-292" state="existing" pntSurv="sideshot">6258266.74 334309.30</CgPoint>
+<CgPoint name="LC-293" state="existing" pntSurv="sideshot">6258267.20 334323.04</CgPoint>
+<CgPoint name="LC-294" state="existing" pntSurv="sideshot">6258267.56 334338.72</CgPoint>
+<CgPoint name="LC-295" state="existing" pntSurv="sideshot">6258247.06 334351.38</CgPoint>
+<CgPoint name="LC-296" state="existing" pntSurv="sideshot">6258244.60 334338.58</CgPoint>
+<CgPoint name="LC-297" state="existing" pntSurv="sideshot">6258242.22 334320.90</CgPoint>
+<CgPoint name="LC-298" state="existing" pntSurv="sideshot">6258240.08 334305.38</CgPoint>
+<CgPoint name="LC-299" state="existing" pntSurv="sideshot">6258238.50 334290.76</CgPoint>
+<CgPoint name="LC-300" state="existing" pntSurv="sideshot">6258179.16 334280.94</CgPoint>
+<CgPoint name="LC-301" state="existing" pntSurv="sideshot">6258183.76 334296.32</CgPoint>
+<CgPoint name="LC-302" state="existing" pntSurv="sideshot">6258188.24 334312.06</CgPoint>
+<CgPoint name="LC-303" state="existing" pntSurv="sideshot">6258193.60 334328.18</CgPoint>
+<CgPoint name="LC-304" state="existing" pntSurv="sideshot">6258197.80 334344.78</CgPoint>
+<CgPoint name="LC-305" state="existing" pntSurv="sideshot">6258199.92 334362.92</CgPoint>
+<CgPoint name="LC-306" state="existing" pntSurv="sideshot">6258200.38 334389.26</CgPoint>
+<CgPoint name="LC-307" state="existing" pntSurv="sideshot">6258182.24 334393.58</CgPoint>
+<CgPoint name="LC-308" state="existing" pntSurv="sideshot">6258172.26 334369.82</CgPoint>
+<CgPoint name="LC-309" state="existing" pntSurv="sideshot">6258166.20 334352.10</CgPoint>
+<CgPoint name="LC-310" state="existing" pntSurv="sideshot">6258159.96 334336.36</CgPoint>
+<CgPoint name="LC-311" state="existing" pntSurv="sideshot">6258154.02 334321.46</CgPoint>
+<CgPoint name="LC-312" state="existing" pntSurv="sideshot">6258148.04 334306.80</CgPoint>
+<CgPoint name="LC-313" state="existing" pntSurv="sideshot">6258140.92 334291.84</CgPoint>
+<CgPoint name="LC-314" state="existing" pntSurv="sideshot">6258127.88 334273.34</CgPoint>
+<CgPoint name="LC-321" state="existing" pntSurv="sideshot">6258119.52 334389.68</CgPoint>
+<CgPoint name="LC-322" state="existing" pntSurv="sideshot">6258115.34 334378.60</CgPoint>
+<CgPoint name="LC-323" state="existing" pntSurv="sideshot">6258108.02 334364.20</CgPoint>
+<CgPoint name="LC-324" state="existing" pntSurv="sideshot">6258100.96 334350.34</CgPoint>
+<CgPoint name="LC-325" state="existing" pntSurv="sideshot">6258094.54 334336.68</CgPoint>
+<CgPoint name="LC-326" state="existing" pntSurv="sideshot">6258068.64 334289.28</CgPoint>
+<CgPoint name="LC-327" state="existing" pntSurv="sideshot">6258047.86 334297.84</CgPoint>
+<CgPoint name="LC-328" state="existing" pntSurv="sideshot">6258050.58 334314.42</CgPoint>
+<CgPoint name="LC-329" state="existing" pntSurv="sideshot">6257987.32 334263.32</CgPoint>
+<CgPoint name="LC-344" state="existing" pntSurv="sideshot">6258015.20 334142.62</CgPoint>
+<CgPoint name="LC-345" state="existing" pntSurv="sideshot">6258013.12 334157.66</CgPoint>
+<CgPoint name="LC-346" state="existing" pntSurv="sideshot">6258010.64 334172.70</CgPoint>
+<CgPoint name="LC-347" state="existing" pntSurv="sideshot">6258010.52 334188.18</CgPoint>
+<CgPoint name="LC-348" state="existing" pntSurv="sideshot">6258011.30 334210.02</CgPoint>
+<CgPoint name="LC-349" state="existing" pntSurv="sideshot">6257990.72 334199.30</CgPoint>
+<CgPoint name="LC-350" state="existing" pntSurv="sideshot">6257975.50 334194.14</CgPoint>
+<CgPoint name="LC-351" state="existing" pntSurv="sideshot">6257957.64 334189.16</CgPoint>
+<CgPoint name="LC-352" state="existing" pntSurv="sideshot">6257986.32 334151.68</CgPoint>
+<CgPoint name="LC-353" state="existing" pntSurv="sideshot">6257971.28 334149.16</CgPoint>
+<CgPoint name="LC-354" state="existing" pntSurv="sideshot">6257956.30 334146.58</CgPoint>
+<CgPoint name="LC-355" state="existing" pntSurv="sideshot">6257936.76 334136.38</CgPoint>
+<CgPoint name="LC-356" state="existing" pntSurv="sideshot">6257920.02 334129.86</CgPoint>
+<CgPoint name="LC-362" state="existing" pntSurv="sideshot">6258120.28 334263.28</CgPoint>
+<CgPoint name="LC-369" state="existing" pntSurv="sideshot">6258175.54 334231.12</CgPoint>
+<CgPoint name="LC-370" state="existing" pntSurv="sideshot">6258184.52 334219.68</CgPoint>
+<CgPoint name="LC-388" state="existing" pntSurv="sideshot">6258169.96 334187.78</CgPoint>
+<CgPoint name="LC-391" state="existing" pntSurv="sideshot">6258240.64 334186.06</CgPoint>
+<CgPoint name="LC-392" state="existing" pntSurv="sideshot">6258239.96 334200.88</CgPoint>
+<CgPoint name="LC-393" state="existing" pntSurv="sideshot">6258239.44 334215.78</CgPoint>
+<CgPoint name="LC-394" state="existing" pntSurv="sideshot">6258237.54 334275.72</CgPoint>
+<CgPoint name="LC-395" state="existing" pntSurv="sideshot">6258190.10 334200.50</CgPoint>
+<CgPoint name="LC-396" state="existing" pntSurv="sideshot">6258176.94 334247.34</CgPoint>
+<CgPoint name="LC-397" state="existing" pntSurv="sideshot">6258174.70 334264.40</CgPoint>
+<CgPoint name="LC-435" state="existing" pntSurv="sideshot">6257919.38 334170.50</CgPoint>
+<CgPoint name="LC-437" state="existing" pntSurv="sideshot">6257920.10 334152.80</CgPoint>
+<CgPoint name="LC-465" state="existing" pntSurv="sideshot">6258185.38 334179.30</CgPoint>
+<CgPoint name="LC-466" state="existing" pntSurv="sideshot">6258198.90 334182.10</CgPoint>
+<CgPoint name="LC-499" state="existing" pntSurv="sideshot">6257972.56 334086.36</CgPoint>
+<CgPoint name="LC-500" state="existing" pntSurv="sideshot">6257927.78 334078.82</CgPoint>
+<CgPoint name="LC-523" state="existing" pntSurv="sideshot">6258131.90 334319.64</CgPoint>
+<CgPoint name="LC-524" state="existing" pntSurv="sideshot">6258023.64 334248.08</CgPoint>
+<CgPoint name="LC-528" state="existing" pntSurv="sideshot">6258303.20 334359.68</CgPoint>
+<CgPoint name="LC-741" state="existing" pntSurv="sideshot">6258037.62 334302.28</CgPoint>
+<CgPoint name="LC-742" state="existing" pntSurv="sideshot">6258067.28 334076.90</CgPoint>
+<CgPoint name="LC-791" state="existing" pntSurv="sideshot">6258238.54 334245.86</CgPoint>
+<CgPoint name="LC-800" state="existing" pntSurv="sideshot">6258011.34 334149.48</CgPoint>
+<CgPoint name="LC-812" state="existing" pntSurv="sideshot">6258104.34 334169.72</CgPoint>
+<CgPoint name="LC-813" state="existing" pntSurv="sideshot">6258116.78 334172.94</CgPoint>
+<CgPoint name="LC-814" state="existing" pntSurv="sideshot">6258129.22 334176.16</CgPoint>
+<CgPoint name="LC-1264" state="existing" pntSurv="sideshot">6258054.86 334273.18</CgPoint>
+<CgPoint name="LC-1601" state="existing" pntSurv="sideshot">6258206.80 334287.40</CgPoint>
+<CgPoint name="LC-1703" state="existing" pntSurv="sideshot">6258127.66 334155.74</CgPoint>
+</CgPoints>
+<Parcels>
+<Parcel name="51" area="8574" class="Lot" state="proposed" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-206"/>
+<CoordGeom name="Consol-1-51">
+<Line>
+<Start pntRef="2442"/>
+<End pntRef="2350"/>
+</Line>
+<Line>
+<Start pntRef="2350"/>
+<End pntRef="1679"/>
+</Line>
+<Line>
+<Start pntRef="1679"/>
+<End pntRef="2591"/>
+</Line>
+<Line>
+<Start pntRef="2591"/>
+<End pntRef="2589"/>
+</Line>
+<Line>
+<Start pntRef="2589"/>
+<End pntRef="1811"/>
+</Line>
+<Line>
+<Start pntRef="1811"/>
+<End pntRef="8005"/>
+</Line>
+<Curve rot="ccw" radius="133.844">
+<Start pntRef="8005"/>
+<Center pntRef="1490"/>
+<End pntRef="790"/>
+</Curve>
+<Curve rot="cw" radius="18.200">
+<Start pntRef="790"/>
+<Center pntRef="8195"/>
+<End pntRef="8196"/>
+</Curve>
+<Line>
+<Start pntRef="8196"/>
+<End pntRef="2601"/>
+</Line>
+<Line>
+<Start pntRef="2601"/>
+<End pntRef="2600"/>
+</Line>
+<Line>
+<Start pntRef="2600"/>
+<End pntRef="2442"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="16/DP11591" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-249"/>
+<CoordGeom name="DP11591-1-16">
+<Line>
+<Start pntRef="833"/>
+<End pntRef="828"/>
+</Line>
+<Line>
+<Start pntRef="828"/>
+<End pntRef="805"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="17/DP11591" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-250"/>
+<CoordGeom name="DP11591-1-17">
+<Line>
+<Start pntRef="2495"/>
+<End pntRef="3481"/>
+</Line>
+<Line>
+<Start pntRef="3481"/>
+<End pntRef="833"/>
+</Line>
+<Line>
+<Start pntRef="833"/>
+<End pntRef="828"/>
+</Line>
+<Line>
+<Start pntRef="828"/>
+<End pntRef="2495"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="21/DP11591" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-254"/>
+<CoordGeom name="DP11591-1-21">
+<Line>
+<Start pntRef="1867"/>
+<End pntRef="1474"/>
+</Line>
+<Line>
+<Start pntRef="1474"/>
+<End pntRef="2219"/>
+</Line>
+<Line>
+<Start pntRef="2219"/>
+<End pntRef="2366"/>
+</Line>
+<Line>
+<Start pntRef="2366"/>
+<End pntRef="1867"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="E1" desc="EASEMENT TO DRAIN WATER 2 &amp; 3.65 WIDE (DP122711)" class="Easement" state="existing" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-264"/>
+<CoordGeom name="DP122711-33-1">
+<Line>
+<Start pntRef="1632"/>
+<End pntRef="1634"/>
+</Line>
+<Line>
+<Start pntRef="1634"/>
+<End pntRef="1629"/>
+</Line>
+<Line>
+<Start pntRef="1629"/>
+<End pntRef="1626"/>
+</Line>
+<Line>
+<Start pntRef="1626"/>
+<End pntRef="1623"/>
+</Line>
+<Line>
+<Start pntRef="1623"/>
+<End pntRef="1775"/>
+</Line>
+<Line>
+<Start pntRef="1775"/>
+<End pntRef="800"/>
+</Line>
+<Line>
+<Start pntRef="800"/>
+<End pntRef="1630"/>
+</Line>
+<Line>
+<Start pntRef="1630"/>
+<End pntRef="1632"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP168124" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-268"/>
+<CoordGeom name="DP168124-1-1">
+<Line>
+<Start pntRef="2597"/>
+<End pntRef="8174"/>
+</Line>
+<Line>
+<Start pntRef="8174"/>
+<End pntRef="1791"/>
+</Line>
+<Line>
+<Start pntRef="1791"/>
+<End pntRef="2589"/>
+</Line>
+<Line>
+<Start pntRef="2589"/>
+<End pntRef="2590"/>
+</Line>
+<Line>
+<Start pntRef="2590"/>
+<End pntRef="2597"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="2/DP168124" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-269"/>
+<CoordGeom name="DP168124-1-2">
+<Line>
+<Start pntRef="2597"/>
+<End pntRef="2590"/>
+</Line>
+<Line>
+<Start pntRef="2590"/>
+<End pntRef="2591"/>
+</Line>
+<Line>
+<Start pntRef="2591"/>
+<End pntRef="2596"/>
+</Line>
+<Line>
+<Start pntRef="2596"/>
+<End pntRef="2597"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP188014" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-274"/>
+<CoordGeom name="DP188014-1-1">
+<Line>
+<Start pntRef="818"/>
+<End pntRef="1594"/>
+</Line>
+<Curve rot="cw" radius="133.845">
+<Start pntRef="1594"/>
+<Center pntRef="1490"/>
+<End pntRef="8005"/>
+</Curve>
+<Line>
+<Start pntRef="8005"/>
+<End pntRef="8314"/>
+</Line>
+<Line>
+<Start pntRef="8314"/>
+<End pntRef="8337"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP189577" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-277"/>
+<CoordGeom name="DP189577-1-1">
+<Line>
+<Start pntRef="7887"/>
+<End pntRef="7884"/>
+</Line>
+<Curve rot="cw" radius="109.462">
+<Start pntRef="7884"/>
+<Center pntRef="1490"/>
+<End pntRef="7880"/>
+</Curve>
+<Line>
+<Start pntRef="7880"/>
+<End pntRef="7999"/>
+</Line>
+<Line>
+<Start pntRef="7999"/>
+<End pntRef="7886"/>
+</Line>
+<Line>
+<Start pntRef="7886"/>
+<End pntRef="7887"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP19096" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-279"/>
+<CoordGeom name="DP19096-1-1">
+<Line>
+<Start pntRef="7950"/>
+<End pntRef="2121"/>
+</Line>
+<Line>
+<Start pntRef="2121"/>
+<End pntRef="1657"/>
+</Line>
+<Line>
+<Start pntRef="1657"/>
+<End pntRef="7888"/>
+</Line>
+<Line>
+<Start pntRef="7888"/>
+<End pntRef="7949"/>
+</Line>
+<Line>
+<Start pntRef="7949"/>
+<End pntRef="7950"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="2/DP19096" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-280"/>
+<CoordGeom name="DP19096-1-2">
+<Line>
+<Start pntRef="7950"/>
+<End pntRef="8132"/>
+</Line>
+<Line>
+<Start pntRef="8132"/>
+<End pntRef="2305"/>
+</Line>
+<Line>
+<Start pntRef="2305"/>
+<End pntRef="2121"/>
+</Line>
+<Line>
+<Start pntRef="2121"/>
+<End pntRef="7950"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="3/DP19096" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-281"/>
+<CoordGeom name="DP19096-1-3">
+<Line>
+<Start pntRef="8132"/>
+<End pntRef="8139"/>
+</Line>
+<Line>
+<Start pntRef="8139"/>
+<End pntRef="1734"/>
+</Line>
+<Line>
+<Start pntRef="1734"/>
+<End pntRef="2305"/>
+</Line>
+<Line>
+<Start pntRef="2305"/>
+<End pntRef="8132"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="4/DP19096" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-282"/>
+<CoordGeom name="DP19096-1-4">
+<Line>
+<Start pntRef="1734"/>
+<End pntRef="8139"/>
+</Line>
+<Line>
+<Start pntRef="8139"/>
+<End pntRef="8173"/>
+</Line>
+<Line>
+<Start pntRef="8173"/>
+<End pntRef="8271"/>
+</Line>
+<Line>
+<Start pntRef="8271"/>
+<End pntRef="1734"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="5/DP19096" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-283"/>
+<CoordGeom name="DP19096-1-5">
+<Line>
+<Start pntRef="8173"/>
+<End pntRef="8192"/>
+</Line>
+<Line>
+<Start pntRef="8192"/>
+<End pntRef="8272"/>
+</Line>
+<Line>
+<Start pntRef="8272"/>
+<End pntRef="8271"/>
+</Line>
+<Line>
+<Start pntRef="8271"/>
+<End pntRef="8173"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="6/DP19096" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-284"/>
+<CoordGeom name="DP19096-1-6">
+<Line>
+<Start pntRef="8192"/>
+<End pntRef="8193"/>
+</Line>
+<Line>
+<Start pntRef="8193"/>
+<End pntRef="1761"/>
+</Line>
+<Line>
+<Start pntRef="1761"/>
+<End pntRef="8272"/>
+</Line>
+<Line>
+<Start pntRef="8272"/>
+<End pntRef="8192"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="7/DP19096" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-285"/>
+<CoordGeom name="DP19096-1-7">
+<Line>
+<Start pntRef="8193"/>
+<End pntRef="8250"/>
+</Line>
+<Line>
+<Start pntRef="8250"/>
+<End pntRef="8247"/>
+</Line>
+<Line>
+<Start pntRef="8247"/>
+<End pntRef="1761"/>
+</Line>
+<Line>
+<Start pntRef="1761"/>
+<End pntRef="8193"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-291"/>
+<CoordGeom name="DP20044-1-1">
+<Line>
+<Start pntRef="8299"/>
+<End pntRef="7980"/>
+</Line>
+<Line>
+<Start pntRef="7980"/>
+<End pntRef="8030"/>
+</Line>
+<Line>
+<Start pntRef="8030"/>
+<End pntRef="8250"/>
+</Line>
+<Line>
+<Start pntRef="8250"/>
+<End pntRef="8295"/>
+</Line>
+<Line>
+<Start pntRef="8295"/>
+<End pntRef="8240"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="2/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-292"/>
+<CoordGeom name="DP20044-1-2">
+<Line>
+<Start pntRef="8300"/>
+<End pntRef="7981"/>
+</Line>
+<Line>
+<Start pntRef="7981"/>
+<End pntRef="7980"/>
+</Line>
+<Line>
+<Start pntRef="7980"/>
+<End pntRef="8299"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="3/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-293"/>
+<CoordGeom name="DP20044-1-3">
+<Line>
+<Start pntRef="8301"/>
+<End pntRef="8022"/>
+</Line>
+<Line>
+<Start pntRef="8022"/>
+<End pntRef="7981"/>
+</Line>
+<Line>
+<Start pntRef="7981"/>
+<End pntRef="8300"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="4/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-294"/>
+<CoordGeom name="DP20044-1-4">
+<Line>
+<Start pntRef="8302"/>
+<End pntRef="8189"/>
+</Line>
+<Line>
+<Start pntRef="8189"/>
+<End pntRef="8022"/>
+</Line>
+<Line>
+<Start pntRef="8022"/>
+<End pntRef="8301"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="16/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-295"/>
+<CoordGeom name="DP20044-1-16">
+<Curve rot="ccw" radius="80.087">
+<Start pntRef="8190"/>
+<Center pntRef="8254"/>
+<End pntRef="8186"/>
+</Curve>
+<Line>
+<Start pntRef="8186"/>
+<End pntRef="8189"/>
+</Line>
+<Line>
+<Start pntRef="8189"/>
+<End pntRef="8191"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="17/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-296"/>
+<CoordGeom name="DP20044-1-17">
+<Line>
+<Start pntRef="7951"/>
+<End pntRef="8022"/>
+</Line>
+<Line>
+<Start pntRef="8022"/>
+<End pntRef="8189"/>
+</Line>
+<Line>
+<Start pntRef="8189"/>
+<End pntRef="8186"/>
+</Line>
+<Curve rot="ccw" radius="80.086">
+<Start pntRef="8186"/>
+<Center pntRef="8254"/>
+<End pntRef="7951"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="18/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-297"/>
+<CoordGeom name="DP20044-1-18">
+<Line>
+<Start pntRef="7947"/>
+<End pntRef="7981"/>
+</Line>
+<Line>
+<Start pntRef="7981"/>
+<End pntRef="8022"/>
+</Line>
+<Line>
+<Start pntRef="8022"/>
+<End pntRef="7951"/>
+</Line>
+<Line>
+<Start pntRef="7951"/>
+<End pntRef="7947"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="19/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-298"/>
+<CoordGeom name="DP20044-1-19">
+<Line>
+<Start pntRef="7946"/>
+<End pntRef="7980"/>
+</Line>
+<Line>
+<Start pntRef="7980"/>
+<End pntRef="7981"/>
+</Line>
+<Line>
+<Start pntRef="7981"/>
+<End pntRef="7947"/>
+</Line>
+<Line>
+<Start pntRef="7947"/>
+<End pntRef="7946"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="20/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-299"/>
+<CoordGeom name="DP20044-1-20">
+<Line>
+<Start pntRef="7980"/>
+<End pntRef="7946"/>
+</Line>
+<Line>
+<Start pntRef="7946"/>
+<End pntRef="8127"/>
+</Line>
+<Line>
+<Start pntRef="8127"/>
+<End pntRef="8030"/>
+</Line>
+<Line>
+<Start pntRef="8030"/>
+<End pntRef="7980"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="21/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-300"/>
+<CoordGeom name="DP20044-1-21">
+<Line>
+<Start pntRef="8006"/>
+<End pntRef="8007"/>
+</Line>
+<Line>
+<Start pntRef="8007"/>
+<End pntRef="8043"/>
+</Line>
+<Line>
+<Start pntRef="8043"/>
+<End pntRef="7932"/>
+</Line>
+<Line>
+<Start pntRef="7932"/>
+<End pntRef="8006"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="22/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-301"/>
+<CoordGeom name="DP20044-1-22">
+<Line>
+<Start pntRef="7932"/>
+<End pntRef="8043"/>
+</Line>
+<Line>
+<Start pntRef="8043"/>
+<End pntRef="8044"/>
+</Line>
+<Line>
+<Start pntRef="8044"/>
+<End pntRef="7852"/>
+</Line>
+<Line>
+<Start pntRef="7852"/>
+<End pntRef="7932"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="23/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-302"/>
+<CoordGeom name="DP20044-1-23">
+<Line>
+<Start pntRef="7852"/>
+<End pntRef="8044"/>
+</Line>
+<Line>
+<Start pntRef="8044"/>
+<End pntRef="8045"/>
+</Line>
+<Line>
+<Start pntRef="8045"/>
+<End pntRef="1488"/>
+</Line>
+<Line>
+<Start pntRef="1488"/>
+<End pntRef="7852"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="24/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-303"/>
+<CoordGeom name="DP20044-1-24">
+<Line>
+<Start pntRef="1488"/>
+<End pntRef="8045"/>
+</Line>
+<Line>
+<Start pntRef="8045"/>
+<End pntRef="8046"/>
+</Line>
+<Line>
+<Start pntRef="8046"/>
+<End pntRef="8029"/>
+</Line>
+<Line>
+<Start pntRef="8029"/>
+<End pntRef="1488"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="25/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-304"/>
+<CoordGeom name="DP20044-1-25">
+<Line>
+<Start pntRef="8029"/>
+<End pntRef="8046"/>
+</Line>
+<Curve rot="cw" radius="64.847">
+<Start pntRef="8046"/>
+<Center pntRef="8254"/>
+<End pntRef="8047"/>
+</Curve>
+<Line>
+<Start pntRef="8047"/>
+<End pntRef="8036"/>
+</Line>
+<Line>
+<Start pntRef="8036"/>
+<End pntRef="8029"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="26/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-305"/>
+<CoordGeom name="DP20044-1-26">
+<Line>
+<Start pntRef="8036"/>
+<End pntRef="8047"/>
+</Line>
+<Curve rot="cw" radius="64.847">
+<Start pntRef="8047"/>
+<Center pntRef="8254"/>
+<End pntRef="8050"/>
+</Curve>
+<Line>
+<Start pntRef="8050"/>
+<End pntRef="8049"/>
+</Line>
+<Line>
+<Start pntRef="8049"/>
+<End pntRef="8037"/>
+</Line>
+<Line>
+<Start pntRef="8037"/>
+<End pntRef="8036"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="27/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-306"/>
+<CoordGeom name="DP20044-1-27">
+<Line>
+<Start pntRef="8037"/>
+<End pntRef="8049"/>
+</Line>
+<Line>
+<Start pntRef="8049"/>
+<End pntRef="8051"/>
+</Line>
+<Curve rot="cw" radius="15.241">
+<Start pntRef="8051"/>
+<Center pntRef="8255"/>
+<End pntRef="8038"/>
+</Curve>
+<Line>
+<Start pntRef="8038"/>
+<End pntRef="8037"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="28/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-307"/>
+<CoordGeom name="DP20044-1-28">
+<Line>
+<Start pntRef="8257"/>
+<End pntRef="8037"/>
+</Line>
+<Line>
+<Start pntRef="8037"/>
+<End pntRef="8038"/>
+</Line>
+<Curve rot="cw" radius="15.240">
+<Start pntRef="8038"/>
+<Center pntRef="8255"/>
+<End pntRef="8041"/>
+</Curve>
+<Curve rot="cw" radius="100.197">
+<Start pntRef="8041"/>
+<Center pntRef="8260"/>
+<End pntRef="8257"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="29/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-308"/>
+<CoordGeom name="DP20044-1-29">
+<Line>
+<Start pntRef="8025"/>
+<End pntRef="8036"/>
+</Line>
+<Line>
+<Start pntRef="8036"/>
+<End pntRef="8037"/>
+</Line>
+<Line>
+<Start pntRef="8037"/>
+<End pntRef="8257"/>
+</Line>
+<Curve rot="cw" radius="100.198">
+<Start pntRef="8257"/>
+<Center pntRef="8260"/>
+<End pntRef="8002"/>
+</Curve>
+<Line>
+<Start pntRef="8002"/>
+<End pntRef="8025"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="30/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-309"/>
+<CoordGeom name="DP20044-1-30">
+<Line>
+<Start pntRef="8024"/>
+<End pntRef="8029"/>
+</Line>
+<Line>
+<Start pntRef="8029"/>
+<End pntRef="8036"/>
+</Line>
+<Line>
+<Start pntRef="8036"/>
+<End pntRef="8025"/>
+</Line>
+<Line>
+<Start pntRef="8025"/>
+<End pntRef="8024"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="31/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-310"/>
+<CoordGeom name="DP20044-1-31">
+<Line>
+<Start pntRef="8023"/>
+<End pntRef="8028"/>
+</Line>
+<Line>
+<Start pntRef="8028"/>
+<End pntRef="8029"/>
+</Line>
+<Line>
+<Start pntRef="8029"/>
+<End pntRef="8024"/>
+</Line>
+<Line>
+<Start pntRef="8024"/>
+<End pntRef="8023"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="32/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-311"/>
+<CoordGeom name="DP20044-1-32">
+<Line>
+<Start pntRef="7982"/>
+<End pntRef="8027"/>
+</Line>
+<Line>
+<Start pntRef="8027"/>
+<End pntRef="8028"/>
+</Line>
+<Line>
+<Start pntRef="8028"/>
+<End pntRef="8023"/>
+</Line>
+<Line>
+<Start pntRef="8023"/>
+<End pntRef="7982"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="33/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-312"/>
+<CoordGeom name="DP20044-1-33">
+<Line>
+<Start pntRef="8259"/>
+<End pntRef="8026"/>
+</Line>
+<Line>
+<Start pntRef="8026"/>
+<End pntRef="8027"/>
+</Line>
+<Line>
+<Start pntRef="8027"/>
+<End pntRef="7982"/>
+</Line>
+<Line>
+<Start pntRef="7982"/>
+<End pntRef="8259"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="34/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-313"/>
+<CoordGeom name="DP20044-1-34">
+<Line>
+<Start pntRef="8004"/>
+<End pntRef="1489"/>
+</Line>
+<Line>
+<Start pntRef="1489"/>
+<End pntRef="8026"/>
+</Line>
+<Line>
+<Start pntRef="8026"/>
+<End pntRef="8259"/>
+</Line>
+<Curve rot="ccw" radius="133.845">
+<Start pntRef="8259"/>
+<Center pntRef="1490"/>
+<End pntRef="8004"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="35/DP20044" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-314"/>
+<CoordGeom name="DP20044-1-35">
+<Line>
+<Start pntRef="8005"/>
+<End pntRef="8006"/>
+</Line>
+<Line>
+<Start pntRef="8006"/>
+<End pntRef="1489"/>
+</Line>
+<Line>
+<Start pntRef="1489"/>
+<End pntRef="8004"/>
+</Line>
+<Curve rot="ccw" radius="133.845">
+<Start pntRef="8004"/>
+<Center pntRef="1490"/>
+<End pntRef="8005"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="50/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-321"/>
+<CoordGeom name="DP20195-1-50">
+<Line>
+<Start pntRef="8156"/>
+<End pntRef="8155"/>
+</Line>
+<Line>
+<Start pntRef="8155"/>
+<End pntRef="8149"/>
+</Line>
+<Line>
+<Start pntRef="8149"/>
+<End pntRef="8003"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="51/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-322"/>
+<CoordGeom name="DP20195-1-51">
+<Line>
+<Start pntRef="8148"/>
+<End pntRef="8149"/>
+</Line>
+<Line>
+<Start pntRef="8149"/>
+<End pntRef="8155"/>
+</Line>
+<Line>
+<Start pntRef="8155"/>
+<End pntRef="8154"/>
+</Line>
+<Line>
+<Start pntRef="8154"/>
+<End pntRef="8148"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="52/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-323"/>
+<CoordGeom name="DP20195-1-52">
+<Line>
+<Start pntRef="8148"/>
+<End pntRef="8154"/>
+</Line>
+<Line>
+<Start pntRef="8154"/>
+<End pntRef="8153"/>
+</Line>
+<Line>
+<Start pntRef="8153"/>
+<End pntRef="8136"/>
+</Line>
+<Line>
+<Start pntRef="8136"/>
+<End pntRef="8148"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="53/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-324"/>
+<CoordGeom name="DP20195-1-53">
+<Line>
+<Start pntRef="8115"/>
+<End pntRef="8136"/>
+</Line>
+<Line>
+<Start pntRef="8136"/>
+<End pntRef="8153"/>
+</Line>
+<Line>
+<Start pntRef="8153"/>
+<End pntRef="8151"/>
+</Line>
+<Line>
+<Start pntRef="8151"/>
+<End pntRef="8115"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="54/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-325"/>
+<CoordGeom name="DP20195-1-54">
+<Line>
+<Start pntRef="7999"/>
+<End pntRef="8115"/>
+</Line>
+<Line>
+<Start pntRef="8115"/>
+<End pntRef="8151"/>
+</Line>
+<Line>
+<Start pntRef="8151"/>
+<End pntRef="7886"/>
+</Line>
+<Line>
+<Start pntRef="7886"/>
+<End pntRef="7999"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="55/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-326"/>
+<CoordGeom name="DP20195-1-55">
+<Line>
+<Start pntRef="7884"/>
+<End pntRef="7887"/>
+</Line>
+<Line>
+<Start pntRef="7887"/>
+<End pntRef="8140"/>
+</Line>
+<Line>
+<Start pntRef="8140"/>
+<End pntRef="8180"/>
+</Line>
+<Curve rot="cw" radius="109.464">
+<Start pntRef="8180"/>
+<Center pntRef="1490"/>
+<End pntRef="7884"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="57/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-327"/>
+<CoordGeom name="DP20195-1-57">
+<Line>
+<Start pntRef="8177"/>
+<End pntRef="8140"/>
+</Line>
+<Line>
+<Start pntRef="8140"/>
+<End pntRef="8181"/>
+</Line>
+<Line>
+<Start pntRef="8181"/>
+<End pntRef="8187"/>
+</Line>
+<Line>
+<Start pntRef="8187"/>
+<End pntRef="8177"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="58/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-328"/>
+<CoordGeom name="DP20195-1-58">
+<Line>
+<Start pntRef="8188"/>
+<End pntRef="8187"/>
+</Line>
+<Line>
+<Start pntRef="8187"/>
+<End pntRef="8181"/>
+</Line>
+<Line>
+<Start pntRef="8181"/>
+<End pntRef="8184"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="82/DP20195" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-329"/>
+<CoordGeom name="DP20195-1-82">
+<Line>
+<Start pntRef="4340"/>
+<End pntRef="4338"/>
+</Line>
+<Line>
+<Start pntRef="4338"/>
+<End pntRef="8019"/>
+</Line>
+<Curve rot="cw" radius="23.064">
+<Start pntRef="8019"/>
+<Center pntRef="8273"/>
+<End pntRef="8194"/>
+</Curve>
+<Line>
+<Start pntRef="8194"/>
+<End pntRef="8248"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="10/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-344"/>
+<CoordGeom name="DP21172-1-10">
+<Line>
+<Start pntRef="824"/>
+<End pntRef="823"/>
+</Line>
+<Line>
+<Start pntRef="823"/>
+<End pntRef="1444"/>
+</Line>
+<Line>
+<Start pntRef="1444"/>
+<End pntRef="1450"/>
+</Line>
+<Line>
+<Start pntRef="1450"/>
+<End pntRef="1439"/>
+</Line>
+<Line>
+<Start pntRef="1439"/>
+<End pntRef="824"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="11/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-345"/>
+<CoordGeom name="DP21172-1-11">
+<Line>
+<Start pntRef="1444"/>
+<End pntRef="1445"/>
+</Line>
+<Line>
+<Start pntRef="1445"/>
+<End pntRef="1446"/>
+</Line>
+<Line>
+<Start pntRef="1446"/>
+<End pntRef="1450"/>
+</Line>
+<Line>
+<Start pntRef="1450"/>
+<End pntRef="1444"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="12/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-346"/>
+<CoordGeom name="DP21172-1-12">
+<Line>
+<Start pntRef="1445"/>
+<End pntRef="793"/>
+</Line>
+<Line>
+<Start pntRef="793"/>
+<End pntRef="794"/>
+</Line>
+<Line>
+<Start pntRef="794"/>
+<End pntRef="1446"/>
+</Line>
+<Line>
+<Start pntRef="1446"/>
+<End pntRef="1445"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="13/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-347"/>
+<CoordGeom name="DP21172-1-13">
+<Line>
+<Start pntRef="793"/>
+<End pntRef="1447"/>
+</Line>
+<Line>
+<Start pntRef="1447"/>
+<End pntRef="1452"/>
+</Line>
+<Line>
+<Start pntRef="1452"/>
+<End pntRef="794"/>
+</Line>
+<Line>
+<Start pntRef="794"/>
+<End pntRef="793"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="14/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-348"/>
+<CoordGeom name="DP21172-1-14">
+<Line>
+<Start pntRef="1453"/>
+<End pntRef="1452"/>
+</Line>
+<Line>
+<Start pntRef="1452"/>
+<End pntRef="1447"/>
+</Line>
+<Line>
+<Start pntRef="1447"/>
+<End pntRef="827"/>
+</Line>
+<Curve rot="cw" radius="8.945">
+<Start pntRef="827"/>
+<Center pntRef="825"/>
+<End pntRef="826"/>
+</Curve>
+<Line>
+<Start pntRef="826"/>
+<End pntRef="1453"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="15/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-349"/>
+<CoordGeom name="DP21172-1-15">
+<Line>
+<Start pntRef="1454"/>
+<End pntRef="1460"/>
+</Line>
+<Line>
+<Start pntRef="1460"/>
+<End pntRef="1456"/>
+</Line>
+<Line>
+<Start pntRef="1456"/>
+<End pntRef="794"/>
+</Line>
+<Line>
+<Start pntRef="794"/>
+<End pntRef="1452"/>
+</Line>
+<Line>
+<Start pntRef="1452"/>
+<End pntRef="1453"/>
+</Line>
+<Line>
+<Start pntRef="1453"/>
+<End pntRef="1454"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="16/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-350"/>
+<CoordGeom name="DP21172-1-16">
+<Line>
+<Start pntRef="1455"/>
+<End pntRef="1461"/>
+</Line>
+<Line>
+<Start pntRef="1461"/>
+<End pntRef="1460"/>
+</Line>
+<Line>
+<Start pntRef="1460"/>
+<End pntRef="1454"/>
+</Line>
+<Line>
+<Start pntRef="1454"/>
+<End pntRef="1455"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="17/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-351"/>
+<CoordGeom name="DP21172-1-17">
+<Line>
+<Start pntRef="816"/>
+<End pntRef="822"/>
+</Line>
+<Line>
+<Start pntRef="822"/>
+<End pntRef="1457"/>
+</Line>
+<Line>
+<Start pntRef="1457"/>
+<End pntRef="1461"/>
+</Line>
+<Line>
+<Start pntRef="1461"/>
+<End pntRef="1455"/>
+</Line>
+<Line>
+<Start pntRef="1455"/>
+<End pntRef="816"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="18/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-352"/>
+<CoordGeom name="DP21172-1-18">
+<Line>
+<Start pntRef="1439"/>
+<End pntRef="1456"/>
+</Line>
+<Line>
+<Start pntRef="1456"/>
+<End pntRef="1458"/>
+</Line>
+<Line>
+<Start pntRef="1458"/>
+<End pntRef="1440"/>
+</Line>
+<Line>
+<Start pntRef="1440"/>
+<End pntRef="1439"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="19/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-353"/>
+<CoordGeom name="DP21172-1-19">
+<Line>
+<Start pntRef="1440"/>
+<End pntRef="1458"/>
+</Line>
+<Line>
+<Start pntRef="1458"/>
+<End pntRef="1459"/>
+</Line>
+<Line>
+<Start pntRef="1459"/>
+<End pntRef="1441"/>
+</Line>
+<Line>
+<Start pntRef="1441"/>
+<End pntRef="1440"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="20/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-354"/>
+<CoordGeom name="DP21172-1-20">
+<Line>
+<Start pntRef="1419"/>
+<End pntRef="821"/>
+</Line>
+<Line>
+<Start pntRef="821"/>
+<End pntRef="1441"/>
+</Line>
+<Line>
+<Start pntRef="1441"/>
+<End pntRef="1459"/>
+</Line>
+<Line>
+<Start pntRef="1459"/>
+<End pntRef="1457"/>
+</Line>
+<Line>
+<Start pntRef="1457"/>
+<End pntRef="1419"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="21/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-355"/>
+<CoordGeom name="DP21172-1-21">
+<Line>
+<Start pntRef="1658"/>
+<End pntRef="819"/>
+</Line>
+<Line>
+<Start pntRef="819"/>
+<End pntRef="821"/>
+</Line>
+<Line>
+<Start pntRef="821"/>
+<End pntRef="1419"/>
+</Line>
+<Line>
+<Start pntRef="1419"/>
+<End pntRef="1658"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="22/DP21172" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-356"/>
+<CoordGeom name="DP21172-1-22">
+<Line>
+<Start pntRef="798"/>
+<End pntRef="2728"/>
+</Line>
+<Line>
+<Start pntRef="2728"/>
+<End pntRef="2686"/>
+</Line>
+<Line>
+<Start pntRef="2686"/>
+<End pntRef="2687"/>
+</Line>
+<Line>
+<Start pntRef="2687"/>
+<End pntRef="2688"/>
+</Line>
+<Line>
+<Start pntRef="2688"/>
+<End pntRef="2689"/>
+</Line>
+<Line>
+<Start pntRef="2689"/>
+<End pntRef="2690"/>
+</Line>
+<Line>
+<Start pntRef="2690"/>
+<End pntRef="2691"/>
+</Line>
+<Line>
+<Start pntRef="2691"/>
+<End pntRef="2693"/>
+</Line>
+<Line>
+<Start pntRef="2693"/>
+<End pntRef="2698"/>
+</Line>
+<Line>
+<Start pntRef="2698"/>
+<End pntRef="2660"/>
+</Line>
+<Line>
+<Start pntRef="2660"/>
+<End pntRef="384"/>
+</Line>
+<Line>
+<Start pntRef="384"/>
+<End pntRef="2624"/>
+</Line>
+<Line>
+<Start pntRef="2624"/>
+<End pntRef="818"/>
+</Line>
+<Line>
+<Start pntRef="818"/>
+<End pntRef="816"/>
+</Line>
+<Line>
+<Start pntRef="816"/>
+<End pntRef="822"/>
+</Line>
+<Line>
+<Start pntRef="822"/>
+<End pntRef="1658"/>
+</Line>
+<Line>
+<Start pntRef="1658"/>
+<End pntRef="819"/>
+</Line>
+<Line>
+<Start pntRef="819"/>
+<End pntRef="798"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="E2" desc="EASEMENT FOR DRAINAGE 1.525 WIDE (F682140)" class="Easement" state="existing" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-362"/>
+<CoordGeom name="DP21172-33-2">
+<Line>
+<Start pntRef="1635"/>
+<End pntRef="1630"/>
+</Line>
+<Line>
+<Start pntRef="1630"/>
+<End pntRef="1811"/>
+</Line>
+<Line>
+<Start pntRef="1811"/>
+<End pntRef="8005"/>
+</Line>
+<Curve rot="ccw" radius="133.845">
+<Start pntRef="8005"/>
+<Center pntRef="1490"/>
+<End pntRef="1635"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="16/DP214198" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-369"/>
+<CoordGeom name="DP214198-1-16">
+<Line>
+<Start pntRef="1769"/>
+<End pntRef="1768"/>
+</Line>
+<Line>
+<Start pntRef="1768"/>
+<End pntRef="1775"/>
+</Line>
+<Line>
+<Start pntRef="1775"/>
+<End pntRef="1786"/>
+</Line>
+<Line>
+<Start pntRef="1786"/>
+<End pntRef="1769"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="17/DP214198" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-370"/>
+<CoordGeom name="DP214198-1-17">
+<Line>
+<Start pntRef="1791"/>
+<End pntRef="1790"/>
+</Line>
+<Line>
+<Start pntRef="1790"/>
+<End pntRef="1788"/>
+</Line>
+<Line>
+<Start pntRef="1788"/>
+<End pntRef="1774"/>
+</Line>
+<Line>
+<Start pntRef="1774"/>
+<End pntRef="1769"/>
+</Line>
+<Line>
+<Start pntRef="1769"/>
+<End pntRef="1786"/>
+</Line>
+<Line>
+<Start pntRef="1786"/>
+<End pntRef="1791"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP345259" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-388"/>
+<CoordGeom name="DP345259-1-1">
+<Line>
+<Start pntRef="2242"/>
+<End pntRef="1790"/>
+</Line>
+<Line>
+<Start pntRef="1790"/>
+<End pntRef="1791"/>
+</Line>
+<Line>
+<Start pntRef="1791"/>
+<End pntRef="8174"/>
+</Line>
+<Line>
+<Start pntRef="8174"/>
+<End pntRef="2242"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP35206" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-391"/>
+<CoordGeom name="DP35206-1-1">
+<Line>
+<Start pntRef="1657"/>
+<End pntRef="2121"/>
+</Line>
+<Line>
+<Start pntRef="2121"/>
+<End pntRef="7939"/>
+</Line>
+<Line>
+<Start pntRef="7939"/>
+<End pntRef="1644"/>
+</Line>
+<Line>
+<Start pntRef="1644"/>
+<End pntRef="804"/>
+</Line>
+<Line>
+<Start pntRef="804"/>
+<End pntRef="1657"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="2/DP35206" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-392"/>
+<CoordGeom name="DP35206-1-2">
+<Line>
+<Start pntRef="7939"/>
+<End pntRef="2121"/>
+</Line>
+<Line>
+<Start pntRef="2121"/>
+<End pntRef="2305"/>
+</Line>
+<Line>
+<Start pntRef="2305"/>
+<End pntRef="7936"/>
+</Line>
+<Line>
+<Start pntRef="7936"/>
+<End pntRef="7939"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="3/DP35206" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-393"/>
+<CoordGeom name="DP35206-1-3">
+<Line>
+<Start pntRef="7936"/>
+<End pntRef="2305"/>
+</Line>
+<Line>
+<Start pntRef="2305"/>
+<End pntRef="1734"/>
+</Line>
+<Line>
+<Start pntRef="1734"/>
+<End pntRef="7934"/>
+</Line>
+<Line>
+<Start pntRef="7934"/>
+<End pntRef="7936"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="7/DP35206" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-394"/>
+<CoordGeom name="DP35206-1-7">
+<Line>
+<Start pntRef="8247"/>
+<End pntRef="8127"/>
+</Line>
+<Line>
+<Start pntRef="8127"/>
+<End pntRef="1491"/>
+</Line>
+<Line>
+<Start pntRef="1491"/>
+<End pntRef="7883"/>
+</Line>
+<Line>
+<Start pntRef="7883"/>
+<End pntRef="1761"/>
+</Line>
+<Line>
+<Start pntRef="1761"/>
+<End pntRef="8247"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="9/DP35206" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-395"/>
+<CoordGeom name="DP35206-1-9">
+<Line>
+<Start pntRef="2576"/>
+<End pntRef="1774"/>
+</Line>
+<Line>
+<Start pntRef="1774"/>
+<End pntRef="1788"/>
+</Line>
+<Line>
+<Start pntRef="1788"/>
+<End pntRef="2586"/>
+</Line>
+<Line>
+<Start pntRef="2586"/>
+<End pntRef="2576"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="12/DP35206" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-396"/>
+<CoordGeom name="DP35206-1-12">
+<Line>
+<Start pntRef="1768"/>
+<End pntRef="1223"/>
+</Line>
+<Line>
+<Start pntRef="1223"/>
+<End pntRef="1470"/>
+</Line>
+<Line>
+<Start pntRef="1470"/>
+<End pntRef="1775"/>
+</Line>
+<Line>
+<Start pntRef="1775"/>
+<End pntRef="1768"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="13/DP35206" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-397"/>
+<CoordGeom name="DP35206-1-13">
+<Line>
+<Start pntRef="1811"/>
+<End pntRef="1470"/>
+</Line>
+<Line>
+<Start pntRef="1470"/>
+<End pntRef="1223"/>
+</Line>
+<Line>
+<Start pntRef="1223"/>
+<End pntRef="8007"/>
+</Line>
+<Line>
+<Start pntRef="8007"/>
+<End pntRef="1811"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP554171" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-435"/>
+<CoordGeom name="DP554171-1-1">
+<Line>
+<Start pntRef="752"/>
+<End pntRef="753"/>
+</Line>
+<Line>
+<Start pntRef="753"/>
+<End pntRef="754"/>
+</Line>
+<Line>
+<Start pntRef="754"/>
+<End pntRef="750"/>
+</Line>
+<Line>
+<Start pntRef="750"/>
+<End pntRef="747"/>
+</Line>
+<Line>
+<Start pntRef="747"/>
+<End pntRef="749"/>
+</Line>
+<Line>
+<Start pntRef="749"/>
+<End pntRef="751"/>
+</Line>
+<Line>
+<Start pntRef="751"/>
+<End pntRef="752"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="3/DP554171" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-437"/>
+<CoordGeom name="DP554171-1-3">
+<Line>
+<Start pntRef="753"/>
+<End pntRef="755"/>
+</Line>
+<Line>
+<Start pntRef="755"/>
+<End pntRef="2641"/>
+</Line>
+<Line>
+<Start pntRef="2641"/>
+<End pntRef="2640"/>
+</Line>
+<Line>
+<Start pntRef="2640"/>
+<End pntRef="2639"/>
+</Line>
+<Line>
+<Start pntRef="2639"/>
+<End pntRef="2638"/>
+</Line>
+<Line>
+<Start pntRef="2638"/>
+<End pntRef="2636"/>
+</Line>
+<Line>
+<Start pntRef="2636"/>
+<End pntRef="2635"/>
+</Line>
+<Line>
+<Start pntRef="2635"/>
+<End pntRef="2633"/>
+</Line>
+<Line>
+<Start pntRef="2633"/>
+<End pntRef="381"/>
+</Line>
+<Line>
+<Start pntRef="381"/>
+<End pntRef="33"/>
+</Line>
+<Line>
+<Start pntRef="33"/>
+<End pntRef="747"/>
+</Line>
+<Line>
+<Start pntRef="747"/>
+<End pntRef="750"/>
+</Line>
+<Line>
+<Start pntRef="750"/>
+<End pntRef="754"/>
+</Line>
+<Line>
+<Start pntRef="754"/>
+<End pntRef="753"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP833744" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-465"/>
+<CoordGeom name="DP833744-1-1">
+<Line>
+<Start pntRef="2232"/>
+<End pntRef="2587"/>
+</Line>
+<Line>
+<Start pntRef="2587"/>
+<End pntRef="2586"/>
+</Line>
+<Line>
+<Start pntRef="2586"/>
+<End pntRef="2242"/>
+</Line>
+<Line>
+<Start pntRef="2242"/>
+<End pntRef="2232"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="2/DP833744" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-466"/>
+<CoordGeom name="DP833744-1-2">
+<Line>
+<Start pntRef="2232"/>
+<End pntRef="2231"/>
+</Line>
+<Line>
+<Start pntRef="2231"/>
+<End pntRef="1670"/>
+</Line>
+<Line>
+<Start pntRef="1670"/>
+<End pntRef="2576"/>
+</Line>
+<Line>
+<Start pntRef="2576"/>
+<End pntRef="2587"/>
+</Line>
+<Line>
+<Start pntRef="2587"/>
+<End pntRef="2232"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP955973" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-499"/>
+<CoordGeom name="DP955973-1-1">
+<Line>
+<Start pntRef="2219"/>
+<End pntRef="1581"/>
+</Line>
+<Line>
+<Start pntRef="1581"/>
+<End pntRef="1407"/>
+</Line>
+<Line>
+<Start pntRef="1407"/>
+<End pntRef="1601"/>
+</Line>
+<Line>
+<Start pntRef="1601"/>
+<End pntRef="2219"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="2/DP955973" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-500"/>
+<CoordGeom name="DP955973-1-2">
+<Line>
+<Start pntRef="1581"/>
+<End pntRef="765"/>
+</Line>
+<Line>
+<Start pntRef="765"/>
+<End pntRef="835"/>
+</Line>
+<Line>
+<Start pntRef="835"/>
+<End pntRef="1407"/>
+</Line>
+<Line>
+<Start pntRef="1407"/>
+<End pntRef="1581"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R3" desc="EASTERN VALLEY WAY 24.385 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-523"/>
+<CoordGeom name="EASTERN-54-2">
+<Line>
+<Start pntRef="8005"/>
+<End pntRef="8259"/>
+</Line>
+<Line>
+<Start pntRef="8259"/>
+<End pntRef="8002"/>
+</Line>
+<Line>
+<Start pntRef="8002"/>
+<End pntRef="8257"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R4" desc="EASTERN VALLEY WAY (24.385 WIDE AND VARIABLE)" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-524"/>
+<CoordGeom name="EASTERN-54-3">
+<Line>
+<Start pntRef="8314"/>
+<End pntRef="8005"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R5" desc="EDINGURGH ROAD" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-528"/>
+<CoordGeom name="EDINBURG-54-1">
+<Line>
+<Start pntRef="8240"/>
+<End pntRef="8250"/>
+</Line>
+<Line>
+<Start pntRef="8250"/>
+<End pntRef="7949"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R6" desc="MOROTAI CRESCENT" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-741"/>
+<CoordGeom name="MOROTAI-54-1">
+<Line>
+<Start pntRef="8183"/>
+<End pntRef="8188"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R7" desc="MOWBRAY ROAD 20.115 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-742"/>
+<CoordGeom name="MOWBRAY-54-2">
+<Line>
+<Start pntRef="2992"/>
+<End pntRef="2495"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="145/DP1015613" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-791"/>
+<CoordGeom name="P1015613-1-145">
+<Line>
+<Start pntRef="7934"/>
+<End pntRef="1734"/>
+</Line>
+<Line>
+<Start pntRef="1734"/>
+<End pntRef="1761"/>
+</Line>
+<Line>
+<Start pntRef="1761"/>
+<End pntRef="7883"/>
+</Line>
+<Line>
+<Start pntRef="7883"/>
+<End pntRef="7934"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="200/DP1074678" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-800"/>
+<CoordGeom name="P1074678-1-200">
+<Curve rot="ccw" radius="133.845">
+<Start pntRef="1668"/>
+<Center pntRef="1490"/>
+<End pntRef="1594"/>
+</Curve>
+<Line>
+<Start pntRef="1594"/>
+<End pntRef="826"/>
+</Line>
+<Curve rot="ccw" radius="8.946">
+<Start pntRef="826"/>
+<Center pntRef="825"/>
+<End pntRef="827"/>
+</Curve>
+<Line>
+<Start pntRef="827"/>
+<End pntRef="823"/>
+</Line>
+<Line>
+<Start pntRef="823"/>
+<End pntRef="824"/>
+</Line>
+<Line>
+<Start pntRef="824"/>
+<End pntRef="1669"/>
+</Line>
+<Line>
+<Start pntRef="1669"/>
+<End pntRef="2603"/>
+</Line>
+<Line>
+<Start pntRef="2603"/>
+<End pntRef="1643"/>
+</Line>
+<Line>
+<Start pntRef="1643"/>
+<End pntRef="765"/>
+</Line>
+<Line>
+<Start pntRef="765"/>
+<End pntRef="1474"/>
+</Line>
+<Line>
+<Start pntRef="1474"/>
+<End pntRef="1590"/>
+</Line>
+<Line>
+<Start pntRef="1590"/>
+<End pntRef="3612"/>
+</Line>
+<Line>
+<Start pntRef="3612"/>
+<End pntRef="1592"/>
+</Line>
+<Line>
+<Start pntRef="1592"/>
+<End pntRef="2600"/>
+</Line>
+<Line>
+<Start pntRef="2600"/>
+<End pntRef="2601"/>
+</Line>
+<Line>
+<Start pntRef="2601"/>
+<End pntRef="8196"/>
+</Line>
+<Curve rot="ccw" radius="18.200">
+<Start pntRef="8196"/>
+<Center pntRef="8195"/>
+<End pntRef="790"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="101/DP1086676" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-812"/>
+<CoordGeom name="P1086676-1-101">
+<Line>
+<Start pntRef="2442"/>
+<End pntRef="2594"/>
+</Line>
+<Line>
+<Start pntRef="2594"/>
+<End pntRef="2351"/>
+</Line>
+<Line>
+<Start pntRef="2351"/>
+<End pntRef="2350"/>
+</Line>
+<Line>
+<Start pntRef="2350"/>
+<End pntRef="2442"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="102/DP1086676" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-813"/>
+<CoordGeom name="P1086676-1-102">
+<Line>
+<Start pntRef="2594"/>
+<End pntRef="2595"/>
+</Line>
+<Line>
+<Start pntRef="2595"/>
+<End pntRef="2352"/>
+</Line>
+<Line>
+<Start pntRef="2352"/>
+<End pntRef="2351"/>
+</Line>
+<Line>
+<Start pntRef="2351"/>
+<End pntRef="2594"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="103/DP1086676" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-814"/>
+<CoordGeom name="P1086676-1-103">
+<Line>
+<Start pntRef="2595"/>
+<End pntRef="2596"/>
+</Line>
+<Line>
+<Start pntRef="2596"/>
+<End pntRef="1679"/>
+</Line>
+<Line>
+<Start pntRef="1679"/>
+<End pntRef="2352"/>
+</Line>
+<Line>
+<Start pntRef="2352"/>
+<End pntRef="2595"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/SP44174" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-1264"/>
+<CoordGeom name="SP44174-1-1">
+<Line>
+<Start pntRef="8180"/>
+<End pntRef="8177"/>
+</Line>
+<Line>
+<Start pntRef="8177"/>
+<End pntRef="8183"/>
+</Line>
+<Curve rot="cw" radius="12.193">
+<Start pntRef="8183"/>
+<Center pntRef="8185"/>
+<End pntRef="8182"/>
+</Curve>
+<Curve rot="cw" radius="109.464">
+<Start pntRef="8182"/>
+<Center pntRef="1490"/>
+<End pntRef="8180"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="R8" desc="WARNERS AVENUE 15.24 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-1601"/>
+<CoordGeom name="WARNERS-54-3">
+<Line>
+<Start pntRef="1670"/>
+<End pntRef="1774"/>
+</Line>
+<Line>
+<Start pntRef="1774"/>
+<End pntRef="8007"/>
+</Line>
+<Line>
+<Start pntRef="8007"/>
+<End pntRef="8046"/>
+</Line>
+<Curve rot="cw" radius="64.847">
+<Start pntRef="8046"/>
+<Center pntRef="8254"/>
+<End pntRef="8050"/>
+</Curve>
+<Line>
+<Start pntRef="8050"/>
+<End pntRef="8051"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R9" desc="WINDSOR ROAD 20.115 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-1703"/>
+<CoordGeom name="WINDSOR-54-4">
+<Line>
+<Start pntRef="7172"/>
+<End pntRef="3612"/>
+</Line>
+<Line>
+<Start pntRef="3612"/>
+<End pntRef="1592"/>
+</Line>
+<Line>
+<Start pntRef="1592"/>
+<End pntRef="2442"/>
+</Line>
+<Line>
+<Start pntRef="2442"/>
+<End pntRef="2231"/>
+</Line>
+</CoordGeom>
+</Parcel>
+</Parcels>
+<PlanFeatures name="occupation">
+<PlanFeature name="WALLx1" desc="BRICK FENCE">
+<CoordGeom name="BKFCE-62-1">
+<Line>
+<Start pntRef="7928"/>
+<End pntRef="7960"/>
+</Line>
+<Line>
+<Start pntRef="7960"/>
+<End pntRef="7959"/>
+</Line>
+<Line>
+<Start pntRef="7959"/>
+<End pntRef="7929"/>
+</Line>
+<Line>
+<Start pntRef="7929"/>
+<End pntRef="7928"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx2" desc="BRICK FENCE">
+<CoordGeom name="BKFCE-62-2">
+<Line>
+<Start pntRef="7962"/>
+<End pntRef="7960"/>
+</Line>
+<Line>
+<Start pntRef="7960"/>
+<End pntRef="7928"/>
+</Line>
+<Line>
+<Start pntRef="7928"/>
+<End pntRef="7961"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx3" desc="BRICK FENCE">
+<CoordGeom name="BKFCE-62-4">
+<Line>
+<Start pntRef="7963"/>
+<End pntRef="7927"/>
+</Line>
+<Line>
+<Start pntRef="7927"/>
+<End pntRef="7966"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx4" desc="BRICK FENCE">
+<CoordGeom name="BKFCE-62-5">
+<Line>
+<Start pntRef="7971"/>
+<End pntRef="7970"/>
+</Line>
+<Line>
+<Start pntRef="7970"/>
+<End pntRef="7964"/>
+</Line>
+<Line>
+<Start pntRef="7964"/>
+<End pntRef="7969"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx5" desc="BRICK FENCE">
+<CoordGeom name="BKFCE-62-6">
+<Line>
+<Start pntRef="7972"/>
+<End pntRef="7926"/>
+</Line>
+<Line>
+<Start pntRef="7926"/>
+<End pntRef="7973"/>
+</Line>
+<Line>
+<Start pntRef="7973"/>
+<End pntRef="7974"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx6" desc="BRICK FENCE">
+<CoordGeom name="BKFCE-62-7">
+<Line>
+<Start pntRef="7978"/>
+<End pntRef="7976"/>
+</Line>
+<Line>
+<Start pntRef="7976"/>
+<End pntRef="7925"/>
+</Line>
+<Line>
+<Start pntRef="7925"/>
+<End pntRef="7979"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx7" desc="BRICK SHED">
+<CoordGeom name="BKSHED-6-1">
+<Line>
+<Start pntRef="1512"/>
+<End pntRef="1513"/>
+</Line>
+<Line>
+<Start pntRef="1513"/>
+<End pntRef="840"/>
+</Line>
+<Line>
+<Start pntRef="840"/>
+<End pntRef="841"/>
+</Line>
+<Line>
+<Start pntRef="841"/>
+<End pntRef="1512"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx8" desc="BRICK SHELTER">
+<CoordGeom name="BKSHELTR-6-1">
+<Line>
+<Start pntRef="7632"/>
+<End pntRef="7630"/>
+</Line>
+<Line>
+<Start pntRef="7630"/>
+<End pntRef="8274"/>
+</Line>
+<Line>
+<Start pntRef="8274"/>
+<End pntRef="8275"/>
+</Line>
+<Line>
+<Start pntRef="8275"/>
+<End pntRef="7632"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx9" desc="BRICK SHELTER">
+<CoordGeom name="BKSHELTR-6-2">
+<Line>
+<Start pntRef="7617"/>
+<End pntRef="7631"/>
+</Line>
+<Line>
+<Start pntRef="7631"/>
+<End pntRef="8278"/>
+</Line>
+<Line>
+<Start pntRef="8278"/>
+<End pntRef="8279"/>
+</Line>
+<Line>
+<Start pntRef="8279"/>
+<End pntRef="7617"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx10" desc="BRICK WALL">
+<CoordGeom name="BKWALL-62-3">
+<Line>
+<Start pntRef="7955"/>
+<End pntRef="7919"/>
+</Line>
+<Line>
+<Start pntRef="7919"/>
+<End pntRef="7957"/>
+</Line>
+<Line>
+<Start pntRef="7957"/>
+<End pntRef="7958"/>
+</Line>
+<Line>
+<Start pntRef="7958"/>
+<End pntRef="7955"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx11" desc="CONC. BLOCK WALL">
+<CoordGeom name="CONBLKWL-62-1">
+<Line>
+<Start pntRef="7975"/>
+<End pntRef="7925"/>
+</Line>
+<Line>
+<Start pntRef="7925"/>
+<End pntRef="7976"/>
+</Line>
+<Line>
+<Start pntRef="7976"/>
+<End pntRef="7977"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx12" desc="LAPPED PALING FENCE">
+<CoordGeom name="FENCE-62-1">
+<Line>
+<Start pntRef="8317"/>
+<End pntRef="7860"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx13" desc="PAL FCE">
+<CoordGeom name="FENCE-62-2">
+<Line>
+<Start pntRef="7860"/>
+<End pntRef="8319"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx14" desc="LAPPED PALING FENCE">
+<CoordGeom name="FENCE-62-3">
+<Line>
+<Start pntRef="8319"/>
+<End pntRef="8320"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx15" desc="LAPPED PALING FENCE">
+<CoordGeom name="Fence-62-2">
+<Line>
+<Start pntRef="3611"/>
+<End pntRef="4346"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx16" desc="PAL FCE">
+<CoordGeom name="Fence-62-743">
+<Line>
+<Start pntRef="3913"/>
+<End pntRef="3733"/>
+</Line>
+<Line>
+<Start pntRef="3733"/>
+<End pntRef="3734"/>
+</Line>
+<Line>
+<Start pntRef="3734"/>
+<End pntRef="3735"/>
+</Line>
+<Line>
+<Start pntRef="3735"/>
+<End pntRef="3736"/>
+</Line>
+<Line>
+<Start pntRef="3736"/>
+<End pntRef="3737"/>
+</Line>
+<Line>
+<Start pntRef="3737"/>
+<End pntRef="3784"/>
+</Line>
+<Line>
+<Start pntRef="3784"/>
+<End pntRef="3785"/>
+</Line>
+<Line>
+<Start pntRef="3785"/>
+<End pntRef="8315"/>
+</Line>
+<Line>
+<Start pntRef="8315"/>
+<End pntRef="3786"/>
+</Line>
+<Line>
+<Start pntRef="3786"/>
+<End pntRef="3787"/>
+</Line>
+<Line>
+<Start pntRef="3787"/>
+<End pntRef="3788"/>
+</Line>
+<Line>
+<Start pntRef="3788"/>
+<End pntRef="3789"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx17" desc="PALING FENCE">
+<CoordGeom name="Fence-62-906">
+<Line>
+<Start pntRef="8334"/>
+<End pntRef="8335"/>
+</Line>
+<Line>
+<Start pntRef="8335"/>
+<End pntRef="7885"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx18" desc="( 0.060 Occ Int WALL)">
+<CoordGeom name="OFFSETS-87-2">
+<Line>
+<Start pntRef="7935"/>
+<End pntRef="7928"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx19" desc="( 0.890 Clear)">
+<CoordGeom name="OFFSETS-87-3">
+<Line>
+<Start pntRef="8167"/>
+<End pntRef="8265"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx20" desc="( 0.950 Clear)">
+<CoordGeom name="OFFSETS-87-4">
+<Line>
+<Start pntRef="8281"/>
+<End pntRef="8266"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx21" desc="( 0.025 Over CNR WALL)">
+<CoordGeom name="OFFSETS-87-5">
+<Line>
+<Start pntRef="3626"/>
+<End pntRef="7954"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx22" desc="( 0.020 Clear CNR B.K WALL)">
+<CoordGeom name="OFFSETS-87-6">
+<Line>
+<Start pntRef="8282"/>
+<End pntRef="8274"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx23" desc="( 0.015 Over CNR)">
+<CoordGeom name="OFFSETS-87-7">
+<Line>
+<Start pntRef="7937"/>
+<End pntRef="7927"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx24" desc="( 0.060 Over CNR B.K)">
+<CoordGeom name="OFFSETS-87-9">
+<Line>
+<Start pntRef="7942"/>
+<End pntRef="7926"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx25" desc="( On-Bdy CNR B.K BLD)">
+<CoordGeom name="OFFSETS-87-10">
+<Line>
+<Start pntRef="8283"/>
+<End pntRef="8275"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx26" desc="( 0.050 Occ)">
+<CoordGeom name="OFFSETS-87-11">
+<Line>
+<Start pntRef="3634"/>
+<End pntRef="7955"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx27" desc="( 0.040 Occ CNR B.K WALL)">
+<CoordGeom name="OFFSETS-87-12">
+<Line>
+<Start pntRef="3636"/>
+<End pntRef="7919"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx28" desc="( 0.030 Clear CNR B.K BLD)">
+<CoordGeom name="OFFSETS-87-13">
+<Line>
+<Start pntRef="8284"/>
+<End pntRef="8279"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx29" desc="( 0.025 Over Int WALL)">
+<CoordGeom name="OFFSETS-87-14">
+<Line>
+<Start pntRef="8040"/>
+<End pntRef="7925"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx30" desc="( 0.030 Clear CNR B.K WALL)">
+<CoordGeom name="OFFSETS-87-15">
+<Line>
+<Start pntRef="8285"/>
+<End pntRef="8278"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx31" desc="( 0.450)">
+<CoordGeom name="OFFSETS-87-16">
+<Line>
+<Start pntRef="8286"/>
+<End pntRef="8279"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx32" desc="( On-Bdy Occ)">
+<CoordGeom name="OFFSETS-87-17">
+<Line>
+<Start pntRef="8291"/>
+<End pntRef="7885"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx33" desc="( 0.250 Occ)">
+<CoordGeom name="OFFSETS-87-18">
+<Line>
+<Start pntRef="8293"/>
+<End pntRef="8292"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx34" desc="( 0.220 Occ)">
+<CoordGeom name="OFFSETS-87-19">
+<Line>
+<Start pntRef="8294"/>
+<End pntRef="1469"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx35" desc="( 0.050 OCC)">
+<CoordGeom name="OFFSETS-87-20">
+<Line>
+<Start pntRef="8316"/>
+<End pntRef="8315"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx36" desc="( 0.070 OCC)">
+<CoordGeom name="OFFSETS-87-21">
+<Line>
+<Start pntRef="8318"/>
+<End pntRef="1679"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx37" desc="( 0.150 Over)">
+<CoordGeom name="OFFSETS-87-22">
+<Line>
+<Start pntRef="8321"/>
+<End pntRef="8319"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx38" desc="( 0.040 OCC)">
+<CoordGeom name="OFFSETS-87-23">
+<Line>
+<Start pntRef="8322"/>
+<End pntRef="8319"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx39" desc="( 0.050 OCC)">
+<CoordGeom name="OFFSETS-87-24">
+<Line>
+<Start pntRef="8323"/>
+<End pntRef="8320"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="OFFSETx40" desc="( 0.035 Clear Int WALL)">
+<CoordGeom name="OFFSETS-87-27">
+<Line>
+<Start pntRef="766"/>
+<End pntRef="7955"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx41" desc="PALING FENCE">
+<CoordGeom name="PALFENCE-62-2">
+<Line>
+<Start pntRef="7885"/>
+<End pntRef="1469"/>
+</Line>
+<Line>
+<Start pntRef="1469"/>
+<End pntRef="8292"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="BUILDINGx42" desc="POOL">
+<CoordGeom name="POOL-6-2">
+<Line>
+<Start pntRef="8262"/>
+<End pntRef="8265"/>
+</Line>
+<Line>
+<Start pntRef="8265"/>
+<End pntRef="8266"/>
+</Line>
+<Line>
+<Start pntRef="8266"/>
+<End pntRef="8267"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="x43" desc="SAILORS BAY CREEK">
+<CoordGeom name="SBCREEK-65-2">
+<Line>
+<Start pntRef="2775"/>
+<End pntRef="2309"/>
+</Line>
+<Line>
+<Start pntRef="2309"/>
+<End pntRef="2308"/>
+</Line>
+<Line>
+<Start pntRef="2308"/>
+<End pntRef="2307"/>
+</Line>
+<Line>
+<Start pntRef="2307"/>
+<End pntRef="2306"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="WALLx44" desc="STONE WALL">
+<CoordGeom name="STONWALL-62-1">
+<Line>
+<Start pntRef="7956"/>
+<End pntRef="7954"/>
+</Line>
+<Line>
+<Start pntRef="7954"/>
+<End pntRef="7955"/>
+</Line>
+<Line>
+<Start pntRef="7955"/>
+<End pntRef="7953"/>
+</Line>
+<Line>
+<Start pntRef="7953"/>
+<End pntRef="7956"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+</PlanFeatures>
+<Survey>
+<SurveyHeader name="1189041" desc="Plan of CONSOLIDATION OF LOTS 1 TO 9 IN DP21172 AND LOTS 104 TO 106 DP1086676" jurisdiction="New South Wales" surveyFormat="Standard" type="surveyed" surveyorFirm="YOUDALE &amp; STRUDWICK &amp; CO" surveyorReference="6003-ST4-CONSOL" >
+<Personnel name="PHILIP YOUDALE" role="Signing Surveyor" regType="Registered" regNumber="2502" />
+<PurposeOfSurvey name="Consolidation" />
+<Annotation type="Plans Used" name="1" desc="DP168124,DP189577,DP19096,DP20044,DP20195,DP21172,DP214198,DP345259,DP35206,DP554171,DP833744,DP955973,DP1015613,DP1074678,DP1086676,W77-2005,DP11591,DP188014,DP37107,SP44174"/>
+<AdministrativeArea adminAreaType="Local Government Area" adminAreaName="WILLOUGHBY"/>
+<AdministrativeArea adminAreaType="Parish" adminAreaName="WILLOUGHBY"/>
+<AdministrativeArea adminAreaType="Locality" adminAreaName="WILLOUGHBY" adminAreaCode="2068"/>
+<AdministrativeArea adminAreaType="County" adminAreaName="CUMBERLAND"/>
+<AdministrativeArea adminAreaType="Survey Region" adminAreaName="Urban"/>
+<AdministrativeDate adminDateType="Date Of Survey" adminDate="2013-08-06"/>
+<Annotation name ="d1" desc="8287,8288,8289,8290" type="Diagram" />
+</SurveyHeader>
+<InstrumentSetup id="S-14" stationName="14" instrumentHeight="0">
+<InstrumentPoint pntRef="14" />
+</InstrumentSetup>
+<InstrumentSetup id="S-31" stationName="31" instrumentHeight="0">
+<InstrumentPoint pntRef="31" />
+</InstrumentSetup>
+<InstrumentSetup id="S-738" stationName="738" instrumentHeight="0">
+<InstrumentPoint pntRef="738" />
+</InstrumentSetup>
+<InstrumentSetup id="S-790" stationName="790" instrumentHeight="0">
+<InstrumentPoint pntRef="790" />
+</InstrumentSetup>
+<InstrumentSetup id="S-826" stationName="826" instrumentHeight="0">
+<InstrumentPoint pntRef="826" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1474" stationName="1474" instrumentHeight="0">
+<InstrumentPoint pntRef="1474" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1476" stationName="1476" instrumentHeight="0">
+<InstrumentPoint pntRef="1476" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1491" stationName="1491" instrumentHeight="0">
+<InstrumentPoint pntRef="1491" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1590" stationName="1590" instrumentHeight="0">
+<InstrumentPoint pntRef="1590" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1592" stationName="1592" instrumentHeight="0">
+<InstrumentPoint pntRef="1592" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1594" stationName="1594" instrumentHeight="0">
+<InstrumentPoint pntRef="1594" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1610" stationName="1610" instrumentHeight="0">
+<InstrumentPoint pntRef="1610" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1616" stationName="1616" instrumentHeight="0">
+<InstrumentPoint pntRef="1616" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1644" stationName="1644" instrumentHeight="0">
+<InstrumentPoint pntRef="1644" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1664" stationName="1664" instrumentHeight="0">
+<InstrumentPoint pntRef="1664" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1670" stationName="1670" instrumentHeight="0">
+<InstrumentPoint pntRef="1670" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1679" stationName="1679" instrumentHeight="0">
+<InstrumentPoint pntRef="1679" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1768" stationName="1768" instrumentHeight="0">
+<InstrumentPoint pntRef="1768" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1774" stationName="1774" instrumentHeight="0">
+<InstrumentPoint pntRef="1774" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1775" stationName="1775" instrumentHeight="0">
+<InstrumentPoint pntRef="1775" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1791" stationName="1791" instrumentHeight="0">
+<InstrumentPoint pntRef="1791" />
+</InstrumentSetup>
+<InstrumentSetup id="S-1811" stationName="1811" instrumentHeight="0">
+<InstrumentPoint pntRef="1811" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2231" stationName="2231" instrumentHeight="0">
+<InstrumentPoint pntRef="2231" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2242" stationName="2242" instrumentHeight="0">
+<InstrumentPoint pntRef="2242" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2350" stationName="2350" instrumentHeight="0">
+<InstrumentPoint pntRef="2350" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2429" stationName="2429" instrumentHeight="0">
+<InstrumentPoint pntRef="2429" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2442" stationName="2442" instrumentHeight="0">
+<InstrumentPoint pntRef="2442" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2464" stationName="2464" instrumentHeight="0">
+<InstrumentPoint pntRef="2464" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2466" stationName="2466" instrumentHeight="0">
+<InstrumentPoint pntRef="2466" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2467" stationName="2467" instrumentHeight="0">
+<InstrumentPoint pntRef="2467" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2589" stationName="2589" instrumentHeight="0">
+<InstrumentPoint pntRef="2589" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2591" stationName="2591" instrumentHeight="0">
+<InstrumentPoint pntRef="2591" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2596" stationName="2596" instrumentHeight="0">
+<InstrumentPoint pntRef="2596" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2600" stationName="2600" instrumentHeight="0">
+<InstrumentPoint pntRef="2600" />
+</InstrumentSetup>
+<InstrumentSetup id="S-2601" stationName="2601" instrumentHeight="0">
+<InstrumentPoint pntRef="2601" />
+</InstrumentSetup>
+<InstrumentSetup id="S-3082" stationName="3082" instrumentHeight="0">
+<InstrumentPoint pntRef="3082" />
+</InstrumentSetup>
+<InstrumentSetup id="S-3091" stationName="3091" instrumentHeight="0">
+<InstrumentPoint pntRef="3091" />
+</InstrumentSetup>
+<InstrumentSetup id="S-3096" stationName="3096" instrumentHeight="0">
+<InstrumentPoint pntRef="3096" />
+</InstrumentSetup>
+<InstrumentSetup id="S-3612" stationName="3612" instrumentHeight="0">
+<InstrumentPoint pntRef="3612" />
+</InstrumentSetup>
+<InstrumentSetup id="S-5248" stationName="5248" instrumentHeight="0">
+<InstrumentPoint pntRef="5248" />
+</InstrumentSetup>
+<InstrumentSetup id="S-5252" stationName="5252" instrumentHeight="0">
+<InstrumentPoint pntRef="5252" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7880" stationName="7880" instrumentHeight="0">
+<InstrumentPoint pntRef="7880" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7883" stationName="7883" instrumentHeight="0">
+<InstrumentPoint pntRef="7883" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7889" stationName="7889" instrumentHeight="0">
+<InstrumentPoint pntRef="7889" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7940" stationName="7940" instrumentHeight="0">
+<InstrumentPoint pntRef="7940" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7949" stationName="7949" instrumentHeight="0">
+<InstrumentPoint pntRef="7949" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7984" stationName="7984" instrumentHeight="0">
+<InstrumentPoint pntRef="7984" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7989" stationName="7989" instrumentHeight="0">
+<InstrumentPoint pntRef="7989" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7995" stationName="7995" instrumentHeight="0">
+<InstrumentPoint pntRef="7995" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7997" stationName="7997" instrumentHeight="0">
+<InstrumentPoint pntRef="7997" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7998" stationName="7998" instrumentHeight="0">
+<InstrumentPoint pntRef="7998" />
+</InstrumentSetup>
+<InstrumentSetup id="S-7999" stationName="7999" instrumentHeight="0">
+<InstrumentPoint pntRef="7999" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8004" stationName="8004" instrumentHeight="0">
+<InstrumentPoint pntRef="8004" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8005" stationName="8005" instrumentHeight="0">
+<InstrumentPoint pntRef="8005" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8007" stationName="8007" instrumentHeight="0">
+<InstrumentPoint pntRef="8007" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8045" stationName="8045" instrumentHeight="0">
+<InstrumentPoint pntRef="8045" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8046" stationName="8046" instrumentHeight="0">
+<InstrumentPoint pntRef="8046" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8047" stationName="8047" instrumentHeight="0">
+<InstrumentPoint pntRef="8047" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8126" stationName="8126" instrumentHeight="0">
+<InstrumentPoint pntRef="8126" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8127" stationName="8127" instrumentHeight="0">
+<InstrumentPoint pntRef="8127" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8131" stationName="8131" instrumentHeight="0">
+<InstrumentPoint pntRef="8131" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8142" stationName="8142" instrumentHeight="0">
+<InstrumentPoint pntRef="8142" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8174" stationName="8174" instrumentHeight="0">
+<InstrumentPoint pntRef="8174" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8176" stationName="8176" instrumentHeight="0">
+<InstrumentPoint pntRef="8176" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8178" stationName="8178" instrumentHeight="0">
+<InstrumentPoint pntRef="8178" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8196" stationName="8196" instrumentHeight="0">
+<InstrumentPoint pntRef="8196" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8250" stationName="8250" instrumentHeight="0">
+<InstrumentPoint pntRef="8250" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8259" stationName="8259" instrumentHeight="0">
+<InstrumentPoint pntRef="8259" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8270" stationName="8270" instrumentHeight="0">
+<InstrumentPoint pntRef="8270" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8324" stationName="8324" instrumentHeight="0">
+<InstrumentPoint pntRef="8324" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8327" stationName="8327" instrumentHeight="0">
+<InstrumentPoint pntRef="8327" />
+</InstrumentSetup>
+<InstrumentSetup id="S-8338" stationName="8338" instrumentHeight="0">
+<InstrumentPoint pntRef="8338" />
+</InstrumentSetup>
+<ObservationGroup id="OG-1">
+<ReducedObservation name="1" setupID="S-2442" targetSetupID="S-2350" azimuth="99.4600" horizDistance="27.910" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="2" setupID="S-2350" targetSetupID="S-1679" azimuth="19.1010" horizDistance="38.925" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="3" setupID="S-1679" targetSetupID="S-2591" azimuth="99.4600" horizDistance="9.620" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="4" setupID="S-2591" targetSetupID="S-2589" azimuth="9.4550" horizDistance="28.190" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="5" setupID="S-2589" targetSetupID="S-1811" azimuth="101.0910" horizDistance="60.795" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="6" setupID="S-1811" targetSetupID="S-8005" azimuth="189.2540" horizDistance="52.325" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedArcObservation name="7" setupID="S-8005" targetSetupID="S-790" chordAzimuth="212.2050" radius="133.845" length="48.970" rot="ccw" arcType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedArcObservation>
+<ReducedArcObservation name="8" setupID="S-790" targetSetupID="S-8196" chordAzimuth="242.5020" radius="18.200" length="23.200" rot="cw" arcType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedArcObservation>
+<ReducedObservation name="9" setupID="S-8196" targetSetupID="S-2601" azimuth="279.2140" horizDistance="70.755" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="10" setupID="S-2601" targetSetupID="S-2600" azimuth="327.3510" horizDistance="4.060" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="11" setupID="S-2600" targetSetupID="S-2442" azimuth="15.4850" horizDistance="42.905" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="Consol-1-51" ></ReducedObservation>
+<ReducedObservation name="12" setupID="S-5252" targetSetupID="S-8005" azimuth="1.5200" horizDistance="9.865" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="13" setupID="S-7889" targetSetupID="S-2442" azimuth="150.2500" horizDistance="9.785" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="14" setupID="S-7999" targetSetupID="S-7880" azimuth="245.1640" horizDistance="10.670" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="15" setupID="S-7880" targetSetupID="S-8259" azimuth="335.1640" horizDistance="24.385" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedArcObservation name="16" setupID="S-8259" targetSetupID="S-8004" chordAzimuth="241.1340" radius="133.845" length="18.915" rot="ccw" arcType="Measured" desc="Connection" ></ReducedArcObservation>
+<ReducedArcObservation name="17" setupID="S-8004" targetSetupID="S-8005" chordAzimuth="230.0010" radius="133.845" length="33.525" rot="ccw" arcType="Measured" desc="Connection" ></ReducedArcObservation>
+<ReducedObservation name="18" setupID="S-2596" targetSetupID="S-8174" azimuth="9.4610" horizDistance="29.180" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="19" setupID="S-8127" targetSetupID="S-8250" azimuth="9.2600" horizDistance="85.910" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="20" setupID="S-8126" targetSetupID="S-8127" azimuth="314.0200" horizDistance="0.550" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="21" setupID="S-8007" targetSetupID="S-8045" azimuth="77.0710" horizDistance="41.150" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="22" setupID="S-8045" targetSetupID="S-8046" azimuth="77.0710" horizDistance="15.460" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedArcObservation name="23" setupID="S-8046" targetSetupID="S-8047" chordAzimuth="84.4900" radius="64.845" length="17.425" rot="cw" arcType="Measured" desc="Connection" ></ReducedArcObservation>
+<ReducedObservation name="24" setupID="S-8131" targetSetupID="S-7999" azimuth="155.2700" horizDistance="0.500" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="25" setupID="S-2464" targetSetupID="S-2442" azimuth="99.4600" horizDistance="0.455" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="26" setupID="S-2429" targetSetupID="S-8196" azimuth="9.2200" horizDistance="0.455" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="27" setupID="S-1594" targetSetupID="S-8005" azimuth="26.4400" horizDistance="74.205" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="28" setupID="S-826" targetSetupID="S-1594" azimuth="10.3830" horizDistance="16.165" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="29" setupID="S-8176" targetSetupID="S-1774" azimuth="189.4700" horizDistance="3.885" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="30" setupID="S-8178" targetSetupID="S-1768" azimuth="189.5000" horizDistance="3.905" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="31" setupID="S-5248" targetSetupID="S-7883" azimuth="3.2840" horizDistance="3.885" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="32" setupID="S-8127" targetSetupID="S-1491" azimuth="257.0710" horizDistance="4.065" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="33" setupID="S-1491" targetSetupID="S-7883" azimuth="273.2840" horizDistance="11.860" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="34" setupID="S-8007" targetSetupID="S-1768" azimuth="273.2840" horizDistance="34.435" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="35" setupID="S-1768" targetSetupID="S-1774" azimuth="273.2840" horizDistance="30.480" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="36" setupID="S-1774" targetSetupID="S-1670" azimuth="273.2840" horizDistance="38.530" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="37" setupID="S-1670" targetSetupID="S-1476" azimuth="273.2840" horizDistance="1.525" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="38" setupID="S-1768" targetSetupID="S-1775" azimuth="189.4650" horizDistance="49.585" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="39" setupID="S-1775" targetSetupID="S-2589" azimuth="281.0910" horizDistance="26.225" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="40" setupID="S-2589" targetSetupID="S-1791" azimuth="281.0910" horizDistance="1.835" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="41" setupID="S-7940" targetSetupID="S-1644" azimuth="3.2900" horizDistance="0.455" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="42" setupID="S-1644" targetSetupID="S-8270" azimuth="273.2840" horizDistance="1.525" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="43" setupID="S-8270" targetSetupID="S-738" azimuth="9.4610" horizDistance="76.510" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="44" setupID="S-738" targetSetupID="S-7949" azimuth="87.4620" horizDistance="3.050" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="45" setupID="S-7949" targetSetupID="S-8250" azimuth="87.4620" horizDistance="103.000" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="46" setupID="S-8127" targetSetupID="S-8007" azimuth="189.2540" horizDistance="16.470" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="47" setupID="S-8007" targetSetupID="S-1811" azimuth="189.2540" horizDistance="54.195" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="48" setupID="S-1791" targetSetupID="S-8174" azimuth="281.0310" horizDistance="42.060" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="49" setupID="S-8174" targetSetupID="S-2242" azimuth="9.4610" horizDistance="13.715" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="50" setupID="S-7883" targetSetupID="S-1644" azimuth="273.2840" horizDistance="87.710" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="51" setupID="S-7998" targetSetupID="S-8046" azimuth="166.5300" horizDistance="3.925" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="52" setupID="S-7997" targetSetupID="S-8047" azimuth="166.2200" horizDistance="4.150" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="53" setupID="S-2467" targetSetupID="S-1670" azimuth="95.4000" horizDistance="5.840" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="54" setupID="S-2466" targetSetupID="S-2242" azimuth="87.1200" horizDistance="6.380" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="55" setupID="S-2242" targetSetupID="S-2231" azimuth="9.4610" horizDistance="25.000" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="56" setupID="S-2231" targetSetupID="S-1476" azimuth="9.4610" horizDistance="1.525" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="57" setupID="S-1476" targetSetupID="S-8270" azimuth="9.4610" horizDistance="15.330" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="58" setupID="S-3082" targetSetupID="S-790" azimuth="272.2430" horizDistance="7.235" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="59" setupID="S-8338" targetSetupID="S-826" azimuth="331.0320" horizDistance="9.145" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="60" setupID="S-1664" targetSetupID="S-3612" azimuth="265.3700" horizDistance="3.945" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="61" setupID="S-3091" targetSetupID="S-1474" azimuth="170.1800" horizDistance="3.800" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="62" setupID="S-8327" targetSetupID="S-826" azimuth="331.0320" horizDistance="29.600" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="63" setupID="S-3096" targetSetupID="S-1474" azimuth="170.1800" horizDistance="17.550" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="64" setupID="S-1474" targetSetupID="S-1590" azimuth="99.2730" horizDistance="10.060" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="65" setupID="S-1590" targetSetupID="S-3612" azimuth="9.4550" horizDistance="64.340" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="66" setupID="S-3612" targetSetupID="S-1592" azimuth="99.4550" horizDistance="9.900" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedArcObservation name="67" setupID="S-1594" targetSetupID="S-790" chordAzimuth="16.1510" radius="133.845" length="26.220" rot="cw" arcType="Measured" desc="Connection" ></ReducedArcObservation>
+<ReducedObservation name="68" setupID="S-1592" targetSetupID="S-2442" azimuth="15.4830" horizDistance="1.510" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="69" setupID="S-8324" targetSetupID="S-2596" azimuth="110.3600" horizDistance="6.350" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="70" setupID="S-1664" targetSetupID="S-2442" azimuth="94.5100" horizDistance="6.255" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="71" setupID="S-2442" targetSetupID="S-2596" azimuth="9.4610" horizDistance="38.405" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="72" setupID="S-2596" targetSetupID="S-1679" azimuth="99.4600" horizDistance="34.270" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="73" setupID="S-31" targetSetupID="S-2242" azimuth="99.4600" horizDistance="0.320" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="74" setupID="S-8005" targetSetupID="S-8142" azimuth="189.2204" horizDistance="62.451" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="75" setupID="S-8142" targetSetupID="S-7989" azimuth="38.3958" horizDistance="351.325" distanceType="Measured" azimuthType="Measured" desc="Connection" distanceAdoptionFactor="0.99992250" ></ReducedObservation>
+<ReducedObservation name="76" setupID="S-7989" targetSetupID="S-7995" azimuth="267.5455" horizDistance="286.149" distanceType="Measured" azimuthType="Measured" desc="Connection" distanceAdoptionFactor="0.99992100" ></ReducedObservation>
+<ReducedObservation name="77" setupID="S-7995" targetSetupID="S-7984" azimuth="192.5107" horizDistance="183.517" distanceType="Measured" azimuthType="Measured" desc="Connection" distanceAdoptionFactor="0.99992250" ></ReducedObservation>
+<ReducedObservation name="78" setupID="S-7984" targetSetupID="S-2442" azimuth="146.5759" horizDistance="21.681" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="79" setupID="S-7984" targetSetupID="S-8142" azimuth="128.2309" horizDistance="136.862" distanceType="Measured" azimuthType="Measured" desc="Connection" distanceAdoptionFactor="0.99992400" ></ReducedObservation>
+<ReducedObservation name="80" setupID="S-1616" targetSetupID="S-1594" azimuth="280.3820" horizDistance="20.725" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="81" setupID="S-14" targetSetupID="S-1594" azimuth="11.5830" horizDistance="109.720" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="82" setupID="S-1594" targetSetupID="S-8259" azimuth="37.5730" horizDistance="122.850" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="83" setupID="S-14" targetSetupID="S-1610" azimuth="99.0810" horizDistance="23.285" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="84" setupID="S-1610" targetSetupID="S-1616" azimuth="10.3820" horizDistance="109.075" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<RedHorizontalPosition name="50352" setupID="S-7984" latitude="6258118.887" longitude="334142.510" class="B" order="2" currencyDate="2013-06-14" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="86" setupID="S-7984" height="80.083" verticalDatum="AHD" class="LB" order="L2" />
+<RedHorizontalPosition name="15731" setupID="S-7989" latitude="6258308.206" longitude="334469.265" class="B" order="2" currencyDate="2013-06-14" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="88" setupID="S-7989" height="86.045" verticalDatum="AHD" class="LB" order="L2" />
+<RedHorizontalPosition name="15730" setupID="S-7995" latitude="6258297.791" longitude="334183.330" class="B" order="2" currencyDate="2013-06-14" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="90" setupID="S-7995" height="85.946" verticalDatum="AHD" class="LB" order="L2" />
+<RedHorizontalPosition name="135144" setupID="S-8142" latitude="6258033.909" longitude="334249.777" class="C" order="3" currencyDate="2013-06-14" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="92" setupID="S-8142" height="66.219" verticalDatum="AHD" class="LB" order="L2" />
+</ObservationGroup>
+</Survey>
+<Monuments>
+<Monument name="1" pntRef="31" type="GIP" originSurvey="DP1086676" state="Found"/>
+<Monument name="2" pntRef="841" type="Occupation" state="Not Marked" desc="( 0.360 Clear CNR B.K BLD)"/>
+<Monument name="3" pntRef="1469" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="4" pntRef="1491" type="Conc Block" originSurvey="DP35206" state="Gone"/>
+<Monument name="5" pntRef="1664" type="DH&amp;W" originSurvey="DP1086676" state="Found"/>
+<Monument name="6" pntRef="1679" type="GIN" state="Placed" desc="IN TOP FCE CAP:"/>
+<Monument name="7" pntRef="2350" type="Nail" state="Placed" desc="TOP TIMBER RET WALL"/>
+<Monument name="8" pntRef="2429" type="Conc Block" originSurvey="DP21172" state="Found"/>
+<Monument name="9" pntRef="2464" type="GIP" originSurvey="DP21172" state="Found"/>
+<Monument name="10" pntRef="2466" type="DH&amp;W" originSurvey="DP833744" state="Found"/>
+<Monument name="11" pntRef="2467" type="DH&amp;W" originSurvey="DP833744" state="Found By Me"/>
+<Monument name="12" pntRef="2601" type="Approved Mark" state="Gone" desc="BOLT (DP1074678)"/>
+<Monument name="13" pntRef="3082" type="DH&amp;W" originSurvey="DP1074678" state="Found"/>
+<Monument name="14" pntRef="3091" type="DH&amp;W" originSurvey="DP1074678" state="Found"/>
+<Monument name="15" pntRef="3096" type="DH&amp;W" originSurvey="DP1074678" state="Found"/>
+<Monument name="16" pntRef="5248" type="DH&amp;W" originSurvey="DP214198" state="Found"/>
+<Monument name="17" pntRef="5252" type="DH&amp;W" state="Placed"/>
+<Monument name="18" pntRef="7880" type="GIP" state="Gone" desc="(DP189577)"/>
+<Monument name="19" pntRef="7884" type="GIP" state="Gone" desc="(DP189577)"/>
+<Monument name="20" pntRef="7885" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="21" pntRef="7889" type="DH&amp;W" state="Placed"/>
+<Monument name="22" pntRef="7919" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="23" pntRef="7925" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="24" pntRef="7926" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="25" pntRef="7927" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="26" pntRef="7928" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="27" pntRef="7934" type="DH&amp;W" state="Gone" desc="(DP214198)"/>
+<Monument name="28" pntRef="7940" type="Conc Block" originSurvey="DP35206" state="Found"/>
+<Monument name="29" pntRef="7954" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="30" pntRef="7955" type="Occupation" state="Not Marked" desc=">:"/>
+<Monument name="31" pntRef="7984" type="PM" state="Found"/>
+<Monument name="32" pntRef="7989" type="PM" state="Found"/>
+<Monument name="33" pntRef="7995" type="PM" state="Found"/>
+<Monument name="34" pntRef="7997" type="DH&amp;W" originSurvey="DP37107" state="Found By Me"/>
+<Monument name="35" pntRef="7998" type="DH&amp;W" originSurvey="DP37107" state="Found By Me"/>
+<Monument name="36" pntRef="8002" type="Conc Block" state="Gone" desc="(DP20044)"/>
+<Monument name="37" pntRef="8126" type="Conc Block" originSurvey="DP20044" state="Adopted" desc="0.3 DEEP"/>
+<Monument name="38" pntRef="8131" type="DH&amp;W" originSurvey="DP189577" state="Found By Me" desc="DH IN RK FD (0.5 DEEP)"/>
+<Monument name="39" pntRef="8142" type="SSM" state="Found"/>
+<Monument name="40" pntRef="8176" type="DH&amp;W" originSurvey="DP214198" state="Found"/>
+<Monument name="41" pntRef="8178" type="DH&amp;W" originSurvey="DP214198" state="Found"/>
+<Monument name="42" pntRef="8259" type="Conc Block" state="Gone" desc="(DP20044)"/>
+<Monument name="43" pntRef="8265" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="44" pntRef="8266" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="45" pntRef="8274" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="46" pntRef="8275" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="47" pntRef="8278" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="48" pntRef="8279" type="Occupation" state="Not Marked" desc=">:"/>
+<Monument name="49" pntRef="8292" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="50" pntRef="8315" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="51" pntRef="8319" type="Occupation" state="Not Marked" desc=">:"/>
+<Monument name="52" pntRef="8320" type="Occupation" state="Not Marked" desc=">"/>
+<Monument name="53" pntRef="8324" type="DH&amp;W" originSurvey="DP1086676" state="Found"/>
+<Monument name="54" pntRef="8327" type="DH&amp;W" originSurvey="DP1074678" state="Found"/>
+<Monument name="55" pntRef="8338" type="DH&amp;W" originSurvey="DP1074678" state="Found"/>
+</Monuments>
+</LandXML>

@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Rubber Sheeting, Etc</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">QGIS Plugin - LandXML to Database Loader</h1>
+    <h2 style=" text-align: center;">along with Rubber Sheeting, </h2>
+    <h2 style=" text-align: center;">and Two Point Transformations.</h2>
+    <p style="text-align: center;">by Spatial Tapestry<br>
+      email: SpatialTapestry@gmail.com</p>
+    <p style="text-align: left;"><br>
+    </p>
+    <table style="width: 100%" border="1">
+      <tbody>
+        <tr>
+          <td>
+            <h4>Donations can be made to:</h4>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp;
+              paypal.me/SpatialTapestry (@SpatialTapestry)</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp; ANZ Bank:
+              &nbsp;&nbsp;&nbsp;</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp; Account Name:
+              Spatial Tapestry P/L</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp; BSB: 012430</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp; Account Number:
+              493104982</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp; Swift: <b style="box-sizing: border-box; font-weight: 700; color: rgb(73, 73, 73); font-family: myriad-pro, Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(245, 245, 245); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">ANZBAU3M</b></div>
+          </td>
+          <td>
+            <h4>It is assumed the user knows: </h4>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp;
+              1/&nbsp;&nbsp;&nbsp; how to make one or more themes 'Active' in
+              the QGIS Menu</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp;
+              2/&nbsp;&nbsp;&nbsp; the correct database connection parameters
+              for their database</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp;
+              3/&nbsp;&nbsp;&nbsp; the CRS/SRID/EPSG that the themes will be
+              stored in</div>
+            <div style="text-align: left;">&nbsp;&nbsp;&nbsp;
+              4/&nbsp;&nbsp;&nbsp; the database connectors have been installed,
+              see <em><strong><br>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  Installation Instructions</strong></em> below.</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <div style="text-align: left;"><br>
+    </div>
+    <div style="text-align: left;">
+      <h2 style="text-align: left;">LandXML to Database (PostGIS only at this
+        time)</h2>
+      <p>Australia and New Zealand have moved to LandXML as the format for
+        collecting and exchanging Survey/Title dimensions.</p>
+      <p>The current QGIS Plugins are specific to their regions</p>
+      <p>This plugin is intended to be generic, and has been tested against
+        LandXML Files from around Australia and New Zealand. It also stores the
+        various features in a PosGIS enabled set of tables.</p>
+      <div style="text-align: center;"><img src="Form_LXML.png" alt="" title="LandXML Form"></div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">See below for instructions on setting up a
+        database connection to PostGRES/PostGIS.</div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">Click "Create Schema and all Tables (Do
+        this ONCE only)" to create a Schema and the necessary tables. It is
+        probably best to use something like PGAdmin4 to ensure the schema and
+        the tables have been created.</div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">The file "log.WhatIsGoingOn" records the
+        SQL being generated.</div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">There are 3 landXML files supplied in the
+        plugin's folder, in the "LandXML_Samples" Folder.</div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">Click "Browse &amp; Load" to open one, or
+        select one of your own.</div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">The general idea is that you select a
+        Monument, or CG_Point if there are no monuments in the plan, and you
+        specify the Easting and Northing where that monument is in the real
+        world. A 'Rotation' and a 'Scale Factor' can also be applied if needed.
+        The CRS/SRID must of the Easting and Northing must also be selected.</div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">Click "Write Transformed landXML to DB".
+        You will need to add the themes to the QGIS Legend.</div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="margin-left: 40px;"><img src="QGIS_LXML.png" alt="" title="QGIS_LandXMLThemes"></div>
+    </div>
+    <div style="text-align: left;"><br>
+    </div>
+    <div style="text-align: left;"><br>
+    </div>
+    <div style="text-align: left;">To get the Bearings and Distances shown as
+      above you need to set the Label Value to "title_dms || '\n&nbsp; ' ||
+      titledist", Allowed Positions to "On Line" only, and Label Anchoring to
+      "Center of Text".</div>
+    <div style="text-align: left;"><br>
+    </div>
+    <div style="text-align: left;">Future work may include generating Shift
+      Vectors - enabling Cadastral Upgrades.</div>
+    <div style="text-align: left;"><br>
+    </div>
+    <div style="text-align: left;">
+      <h2 style="text-align: left;">Rubber Sheeting, and Two Point
+        Transformations</h2>
+    </div>
+    <p>QGIS seems to be missing 'Spatial Upgrade' tools to things like Rubber
+      Sheeting or Two Point Transformations.</p>
+    <p>Spatial Tapestry has been doing 'Spatial Upgrades' for Utilities and
+      Local Government for 30 years, and has an excellent Windows Desktop
+      Application which is far more advanced than this Plugin. The effort to
+      port that functionality to QGIS would be maybe 3 to 5 years. Please feel
+      free to email the author for the User Manual.</p>
+    <p>However for many the Rubber Sheeting algorithm provided will adequate.
+      This is nothing more than calculating the weighted average shift from the
+      10 nearest Shift Vectors.</p>
+    <p>Spatial Tapestry would love to hear back from anyone with ideas for other
+      algorithms, happy to look at coding them if they sound interesting.</p>
+    <p>This plugin has 2 tools. Rubber Sheeting and Two Point Transformation.
+      Both operate on the 'Active Themes' in the QGIS Legend, and store the
+      results in either a Postgres/PostGIS, Oracle or SQL Server database. </p>
+    <div style="text-align: center;"><img src="RubberSheeting1.png" alt="RubberSheeting"
+        title="RubberSheeting"></div>
+    <br>
+    <div style="text-align: left;">
+      <h1>User Instructions:</h1>
+      <p>There are 3 parts to this, setting up the storage (which must be a
+        database), setting up the Shift Vector scenario to do a Rubber Sheeting
+        process over the active themes, and setting up a Two Point
+        Transformation process over the active themes.</p>
+      <h2>Setting up the Storage</h2>
+      <p>Select the database where the data is to be stored. Note that Oracle is
+        supported via both the 'oracledb' and 'Devart' connectors.</p>
+      <p>Enter the database connection parameters and the SRID. The SQL can be
+        written to a local file, in the user's home directory on both Windows
+        and Linux, if that is wanted then check the 'Write SQL to (ASCII) File'
+        CheckBox. The SQL can also be executed against the database directly, if
+        that is wanted then check the 'Execute SQL against the Database'
+        CheckBox. If both are wanted then check both CheckBoxes.</p>
+      <p>Click "Save Project File'. The Project file will be loaded everytime
+        that database type is selected.</p>
+      <p>Click "Test Database Connection, User Name and Password" if there is a
+        need to test the connection. The plugin will attempt to open the
+        connection and create a 'testtable'.</p>
+      <p>The 'Delete the QGIS Selected Themes from Serv' button can be used to
+        delete one or more themes from the database. This may be useful for
+        several reasons such as MSSQL not accepting invalid coordinates, where
+        one fixes a geometry in QGIS and needs to reload the theme, bearing in
+        mind that MSSQL does not support 'IF EXISTS' on a 'DROP THEME' command.
+        It is also useful for dropping themes when no longer needed.</p>
+      <p>The 'Process the QGIS Selected Themes to Serv' is how the SQL is
+        generated and stored to file and/or executed to the database. As this is
+        running, one can look at their home directory and see the SQL and/or TXT
+        (Report) Files being created as each theme is processed.</p>
+      <h3>Database specifics:</h3>
+      <p>Postgres needs a schema to work in and is generally to easiest one to
+        manipulate from SQL with the 'IF EXISTS' and 'IF NOT EXISTS' clauses.
+        The SQL Files are compatible for PGAdmin 3 and 4, and DBeaver.</p>
+      <p>Oracle supports 4000 characters in client side SQL and&nbsp; 32700
+        characters with binding/clobs for the geometry so some very large
+        features may not load. <em><strong>Thanks to Simon Greener for help
+            with Bind Variables and Clobs.</strong></em> Oracle only supports
+        schemas for the user themselves. The SQL Files are compatible for SQL
+        Developer and DBeaver.</p>
+      <p>MS SQL does not support 'IF EXISTS' and 'IF NOT EXISTS' clauses so
+        reprocessing can be tedious. Schemas are supported but seems to be
+        simply prefixes to the table name. The SQL Files are compatible for MS
+        SQL Server Admin, and DBeaver.</p>
+      <p>In all cases it falls to the user to have all the connection details
+        sorted, so basically if DBeaver and other tools cannot connect then
+        neither can this Plugin.</p>
+      <h2>Rubber Sheeting Instructions:</h2>
+      <p>There is a sample GeoPackage and QGIS Project provided. There must be a
+        theme in the legend called 'stt_vectorvector' before the "Write out
+        Rubber Sheeted X,Y" can be Ticked (and enabled). This theme must have a
+        LineString geometry type and contain geometries containing the Shift
+        Vectors. Mostly they represent joins between an older (less accurate)
+        landbase/cadastre and a newer (more accurate) one. However they can be
+        joins to a orthophoto, geodetic shifts, anything really.</p>
+      <div style="text-align: center;"><img src="file:///home/r/.local/share/QGIS/QGIS3/profiles/default/python/plugins/rubbersheeting/QGIS_Original.png"
+          alt="QGIS SVs and Orig Themes" title="QGIS SVs and Orig Themes"></div>
+      <p>Simply make the themes active and click "Process the QGIS Selected
+        Themes" button to write out the Rubber Sheeted geometries to the
+        destination. Note that the theme names will have an "_rs" appended to
+        the theme name.</p>
+      <p>Turning on the "Rubber Sheeted Themes" will show the themes like the
+        image below:</p>
+      <img src="QGIS_RubberSheeted.png" alt="QGIS Rubber Sheeted Themes" title="QGIS Rubber Sheeted Themes">
+      <p>Whilst the Rubber Sheeting algorithm provided will do a reasonable job
+        for most themes in most circumstances, there is no attempt at
+        maintaining Rigid Themes (e.g. buildings), Straight Lines (e.g. power
+        lines or sewer mains), Implied Vertical Topology (where a house sewer
+        line joins (visually) a street sewer line and there is no matching point
+        in the street sewer line - i.e. Vertical Topology), etc. As mentioned
+        elsewhere, if you have these types of geometries, please contact the
+        author who can help through a consultation process.</p>
+      <h2>Two Point Transformation Instructions - with known CRS/SRIDs:</h2>
+      <p>To access this, click "Two Point Transformation - known CRS/SRID" at
+        the bottom right of the form.</p>
+      <p>A Two Point Transformation can be useful when geometries are found to
+        be in the wrong location. Simply export those features to say a
+        GeoPackage, open the themes in QGIS, make them active, set the
+        transformation parameters and import them back into new themes in your
+        database, and use QGIS to replace the original features.</p>
+      <div style="text-align: center;"><img src="file:///home/r/.local/share/QGIS/QGIS3/profiles/default/python/plugins/rubbersheeting/RubberSheeting2.png"
+          alt="Two Point Transformation" title="Two Point Transformation"></div>
+      <p>Another use for this is to reproject themes and store them in your
+        database.</p>
+      <p>Simply make the themes active and click "Process the QGIS Selected
+        Themes" button to write out the Rubber Sheeted geometries to the
+        destination. Note that the theme names will have an "_tp" appended to
+        the theme name.</p>
+      <h2>Two Point Transformation Instructions - Local Coordinates:</h2>
+      <p>To access this, click "Two Point Transformation - Local Coordinates" at
+        the bottom right of the form.</p>
+      <p>A Two Point Transformation can be useful when importing geometries such
+        as airports, buildings, bridges, interchanges, landXML Survey Plans,
+        etc, which are often in a Local Coordinate System.</p>
+      <p> </p>
+      <p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Note:
+        The 'Units' can say 'degrees', as below:</p>
+      <h1 style=" margin-top:0px; margin-bottom:0px; margin-left:10px; margin-right:10px; -qt-block-indent:0; text-indent:0px;"><span
+          style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; font-size:x-large; color:#589632;">Coordinate
+          Reference System (CRS)</span></h1>
+      <hr>
+      <table style=" margin-top:0px; margin-bottom:0px; margin-left:10px; margin-right:10px;"
+        cellspacing="2" cellpadding="0" border="0">
+        <tbody>
+          <tr>
+            <td style=" padding-left:20; padding-right:15; border-top-color:#000000; border-right-color:#000000; border-bottom-color:#000000; border-left-color:#000000;">
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; font-weight:600; color:#000000;">Name</span></p>
+            </td>
+            <td>
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; color:#000000;">Undefined
+                  geographic SRS</span></p>
+            </td>
+          </tr>
+          <tr>
+            <td style=" padding-left:20; padding-right:15; border-top-color:#000000; border-right-color:#000000; border-bottom-color:#000000; border-left-color:#000000;">
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; font-weight:600; color:#000000;">Units</span></p>
+            </td>
+            <td>
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; color:#000000;">degrees</span></p>
+            </td>
+          </tr>
+          <tr>
+            <td style=" padding-left:20; padding-right:15; border-top-color:#000000; border-right-color:#000000; border-bottom-color:#000000; border-left-color:#000000;">
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; font-weight:600; color:#000000;">Method</span></p>
+            </td>
+            <td>
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; color:#000000;">Lat/long
+                  (Geodetic alias)</span></p>
+            </td>
+          </tr>
+          <tr>
+            <td style=" padding-left:20; padding-right:15; border-top-color:#000000; border-right-color:#000000; border-bottom-color:#000000; border-left-color:#000000;">
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; font-weight:600; color:#000000;">Celestial
+                  body</span></p>
+            </td>
+            <td>
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; color:#000000;">Earth</span></p>
+            </td>
+          </tr>
+          <tr>
+            <td style=" padding-left:20; padding-right:15; border-top-color:#000000; border-right-color:#000000; border-bottom-color:#000000; border-left-color:#000000;">
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; font-weight:600; color:#000000;">Reference</span></p>
+            </td>
+            <td>
+              <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                  style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; color:#000000;">Static
+                  (relies on a datum which is plate-fixed)</span></p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div style="text-align: center;"><br>
+      </div>
+      <div style="text-align: left;">What matters is that the extent is
+        representative of the theme's extent in Metres:</div>
+      <div style="text-align: left;">
+        <table style=" margin-top:0px; margin-bottom:0px; margin-left:10px; margin-right:10px;"
+          cellspacing="2" cellpadding="0" border="0">
+          <tbody>
+            <tr>
+              <td style=" padding-left:20; padding-right:15; border-top-color:#000000; border-right-color:#000000; border-bottom-color:#000000; border-left-color:#000000;">
+                <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                    style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; font-weight:600; color:#000000;">Extent</span></p>
+              </td>
+              <td>
+                <p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span
+                    style=" font-family:'Lato','Open Sans','Lucida Grande','Segoe UI','Arial','sans-serif'; color:#000000;">2062.0131835937500000,0.0000000000000000
+                    : 2266.5377312982200237,242.7969452785899875</span></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: center;"><img src="RubberSheeting3.png" alt="RubberSheeting3"
+          title="RubberSheeting3"></div>
+      <p>A good way to do this is to get the coordinates of one corner in the
+        the source theme, get the coordinate of the same point in the GIS
+        Coordinate System, work out any rotation and scale factors, and enter
+        these in the form above. </p>
+      <p>Simply make the themes active and click "Process the QGIS Selected
+        Themes" button to write out the Rubber Sheeted geometries to the
+        destination. Note that the theme names will have an "_ltp" appended to
+        the theme name.</p>
+      <p>Note: If the themes are in feet, treat it as metres but change the
+        Scale Factor to 0.3048.</p>
+      <p>There is a LP026765_NoCRS.gpkg file with an Australian Survey Plan
+        loaded, with no CRS/SRID assigned. This should simulate .DWG files
+        loaded to .GPKG via QGIS's Import functionality. The QGIS Project file,
+        "rubbersheeting.qgs" will display these as:</p>
+      <div style="text-align: center;"><img src="lclCoordSurveyPlan.png" alt="Local Coord Survey Plan"
+          title="Local Coord Survey Plan"></div>
+      <p>Running the "Two Point Transformation - Local Coordinates" will
+        produce:</p>
+      <div style="text-align: center;"><img src="lclSurveyPlanTrans.png" alt="Transformed Local Coord Survey Plan"
+          title="Transformed Local Coord Survey Plan"></div>
+      <div style="text-align: center;"><br>
+      </div>
+      <div style="text-align: left;"><br>
+      </div>
+      <div style="text-align: left;">
+        <h2>Specific Spatial Upgrade Items NOT Addressed by this RubberSheeting
+          Algorithm</h2>
+      </div>
+      <div style="text-align: left;">
+        <div class="Section1">
+          <h3><span lang="EN-AU">Maintain Straight Lines -&gt; SL Tol in (cm):
+              (and) Straighten -&gt; Max Deflection Angle (Deg):</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;SAManager can detect
+              those parts of LineString and MultiLineString themes that are
+              ‘roughly’ straight, meaning that there is a set of consecutive
+              points with a Peuker Douglas tolerance within the specified value,
+              and where the maximum deflection angle is within the specified
+              value. Once these straight lines are detected, these straight
+              pieces can be maintained and straightened.</span></p>
+          <div style="text-align: center;"><a href="Remove%20Spikes"><img src="MaintainStraightLines.png"
+                alt="Maintain Straight Lines" title="Maintain Straight Lines"></a></div>
+          <p class="MsoNormal"><span lang="EN-AU">Much depends on the type of
+              theme being processed.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">If the theme is a cadastral
+              layer, then there are many examples in older built up areas where
+              nothing should be done to this line, i.e. it should remain where
+              the black line is. E.g. when a two lot strata is being surveyed
+              for subdivision the surveyor must pick up the centre of the common
+              walls, but the walls were put in by a bricklayer and not
+              necessarily straight, and can step sideways sometimes to avoid an
+              obstacle.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">If the theme is sewerage main,
+              then almost certainly the black line should be converted to the
+              red line, as sewerage mains are precast straight and are surveyed
+              to be straight in the construction phase.</span></p>
+          <h3><span lang="EN-AU">&lt;- Maintain Implied Vertical Topology</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;SAManager can detect and
+              maintain LineString start and end points which appear to be on top
+              of another LineString theme, but where the start/end point is not
+              in the other theme. An example of this would be a water feeder
+              theme going from the mains into the lots, but where a water mains
+              only includes its own start and end and bend points.</span></p>
+          <div style="text-align: center;"><a href="Remove%20Spikes"><img src="file:///home/r/.local/share/QGIS/QGIS3/profiles/default/python/plugins/rubbersheeting/MaintainImpliedVerticalTopology.png"
+                alt="Maintain Implied Vertical Topology" title="Maintain Implied Vertical Topology"></a></div>
+          <p class="MsoNormal"><span lang="EN-AU">In the diagram above, the
+              mains theme (<b>Black</b>) has the 2 nodes at <b>A</b> and <b>B</b>,
+              nothing at <b><span style="color:
+#0070C0">b</span></b> or any of the other <span style="color:#0070C0">side
+                sewerage lines</span>. However it is imperative for the <span style="color:
+#0070C0">side sewerage lines</span> to remain on top of the mains theme no
+              matter the shifts.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;</span><span lang="EN-AU">&lt;-
+              Maintain Intersection Bearing - (*** not proportion***)</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;Some themes such as
+              water feeder/lateral pipes are often built at right angles from
+              the mains to reduce costs. The often random direction and size of
+              shift vectors along road frontages and around the lots will tend
+              to rotate these lateral pipes. This option attempts to move the
+              intersection point along the mains to keep the original
+              intersection bearing.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">There are limitations, as the
+              intersection cannot be moved past the mains start or end points,
+              or past any bend point, or past any other intersection point.
+              Doing so would cause a ‘Z’ topology.</span></p>
+          <div style="text-align: center;"><a href="Remove%20Spikes"><img src="file:///home/r/.local/share/QGIS/QGIS3/profiles/default/python/plugins/rubbersheeting/MaintainIntersectionBearing.png"
+                alt="Maintain Intersection Bearing" title="Maintain Intersection Bearing"></a></div>
+          <p class="MsoNormal"><span lang="EN-AU">With the two Shift Vectors on
+              the left, the angle at <b>a</b> would not be maintained. With
+              this option the angle is maintained at <b><span style="color:#FFC000">b</span></b>.</span></p>
+          <h3><span lang="EN-AU">Scaled LineString Object</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;The geometric
+              manipulation for this treatment is complicated, but generally
+              works well in practice.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">Some themes such as water and
+              sewer mains can benefit from this processing.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">Linestrings less than 400-500m
+              are treated to a 2 point transformation using the start and end
+              point.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">Linestrings longer than this
+              often have issues as the road frontage corners often shift in a
+              way that cause undesirable offsets, and as such a 2 point
+              transformation is not applied. </span></p>
+          <p class="MsoNormal"><span lang="EN-AU">The offset to the nearest road
+              boundary is calculated during the data loading process. This
+              offset is used to nudge points back to the original offset during
+              each iteration. This competes with all the other processes, but
+              does have a good influence on the placement of these linestring
+              features.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">The nett result of this
+              processing might be best described as adding a certain stiffness
+              to the linestring, generally keeping the shape but accommodating
+              road frontages that have changed more than most normally do.</span></p>
+          <h3><span lang="EN-AU">Snap this Theme To 'Snap to Themes'</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;Some themes, such as
+              suburbs, LGA and other Admin themes, often have missing/additional
+              nodes along the Destination Landbase.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">SAManager can detect this and
+              do the necessary edits to have the theme co-incident with the
+              Target Snap to Themes. <br>
+            </span></p>
+          <h3><span lang="EN-AU">This Theme Is a target 'Snap to Theme'</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">This is usually only the
+              Destination Landbase. Suburb and other administration layers are
+              often initially derived by merging cadastral/landbase parcels and
+              doing any modification necessary.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">As the cadastre evolves, these
+              layers are often not maintained. When a new cadastre/landbase is
+              derived via an upgrade project, nodes may be added or deleted or
+              moved. Especially along circular arcs.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">The act of rubbersheeting
+              moves the points to their new position but does not reconcile any
+              topological differences. Setting this flag triggers this process
+              to run after the upgrade has been completed. <br>
+            </span></p>
+          <h3><span lang="EN-AU">Remove Spikes -&gt; Tol (mm):</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;Spikes, ‘V’ and ‘Z’ like
+              shapes can be created with the above ‘non-upgrade’ options, and
+              often exist in the original geometry.</span></p>
+          <img src="RemoveSpikes.png" alt="Remove Spikes" title="Remove Spikes">
+          <h3><span lang="EN-AU">Rigid Object support for Polygons (only)</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;This set of parameters
+              defines how SAManager finds and processes groups of features
+              within the current theme. The features are defined by a field name
+              and a value in that field. E.g. The Field name might be ‘GroupId’,
+              and all the features with the value of (say) ‘123’ are treated as
+              the one feature.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">Each point goes through the
+              IBG process, being shifted by the shift vectors to give an
+              adjusted coordinate. The adjusted coordinates for all the features
+              within a group are compared with the original to compute an
+              average X and Y shift, which is applied to all those point. If
+              ‘Allow Rotation’ is checked, the two furthest apart points are
+              used to compute a rotation. A Similarity Transformation is then
+              applied to all those points.</span></p>
+          <h4><span lang="EN-AU">Allow Rotation</span></h4>
+          <p class="MsoNormal"><span lang="EN-AU">This is set of the groups of
+              features can be rotated.</span></p>
+          <h4><span lang="EN-AU">SD Group Field Name:</span></h4>
+          <p class="MsoNormal"><span lang="EN-AU">This is the field name of the
+              field holding the group value.</span></p>
+          <h4><span lang="EN-AU">SD Group Name (*/value):</span></h4>
+          <p class="MsoNormal"><span lang="EN-AU">If there is a subset of the
+              group values that should be processed, and not the other features,
+              then this can be used to limit this processing to that subset. <br>
+            </span></p>
+          <h3><span lang="EN-AU">Rigid Polygon Object</span></h3>
+          <p class="MsoNormal"><span lang="EN-AU">&nbsp;In some situation the
+              original landbase has unreasonable bends and the GIS Operator puts
+              in the Sewer/Water/Gas lines as (near) straight features. During a
+              normal rubbersheeting process, the shift vectors introduce
+              unwanted bends in the utility themes. Extracting the features in
+              those areas and putting them into a theme and setting this flag
+              will cause those features to be far more rigid.</span></p>
+          <p class="MsoNormal"><span lang="EN-AU">The real features (due to
+              vertical topology) are held rigid too, and greatly retain their
+              original shape.</span></p>
+        </div>
+      </div>
+      <h2></h2>
+      <h2>Installation Instructions:</h2>
+      <p>QGIS 3.28 is recommended. Do not install Python, instead we will use
+        the Python installed with QGIS. (Installing Python 3.12 on Windows
+        causes problems)</p>
+      <p>All 3 database connectors must be installed otherwise to code will
+        return errors. Alternatively the Python Source code can be modified to
+        remove references to any unwanted connectors.</p>
+      <h3>Ubuntu<br>
+      </h3>
+      <p>pip3 install -U psycopg2<br>
+        pip3 install -U oracledb<br>
+        pip3 install -U pyodbc</p>
+      <h3>Windows 10/11<br>
+      </h3>
+      <p> On Windows the "PythonPath" Environment Variable must be set - be sure
+        to adjust this to your particular computer and QGIS Version:<br>
+        PYTHONPATH<br>
+        C:\Program Files\QGIS 3.28.15\apps\qgis\python;C:\Program Files\QGIS
+        3.28.15\apps\qgis\python\plugins;C:\Program Files\QGIS
+        3.28.15\apps\Qt5\plugins;C:\Program Files\QGIS 3.28.15\share\gdal;</p>
+      <p>C:\Program Files\QGIS 3.28.15\apps\Python39\Scripts\pip3 install -U
+        psycopg2<br>
+        C:\Program Files\QGIS 3.28.15\apps\Python39\Scripts\pip3 install -U
+        oracledb<br>
+        C:\Program Files\QGIS 3.28.15\apps\Python39\Scripts\ pip3 install -U
+        pyodbc</p>
+      <h3>Devart components<br>
+      </h3>
+      The Devart components are used by the 'pyodbc' connector to deal with the
+      MS SQL Server and Oracle. i.e. If you are uploading to PostgreSQL or
+      Oracle (and the oracledb connector is working) then the Devart components
+      are not necessary.</div>
+    <div style="text-align: left;">Note: QGIS 3.28.15 has Python 3.9 as part of
+      its installation!</div>
+    <div style="text-align: left;"><br>
+    </div>
+    <div style="text-align: left;">The following URLs will help with the DEVART
+      components.</div>
+    <div style="text-align: left;"><a href="https://www.devart.com/python/oracle/download.html">https://www.devart.com/python/oracle/download.html</a></div>
+    <div style="text-align: left;"><span style="color: rgb(61, 61, 61); font-family: fira-sans, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Python
+        Connector for Oracle 1.0 - Python 3.9 for Windows</span></div>
+    <div style="text-align: left;"><span style="color: rgb(61, 61, 61); font-family: fira-sans, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Or<br>
+      </span></div>
+    <div style="text-align: left;"><span style="color: rgb(61, 61, 61); font-family: fira-sans, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Python
+        Connector for Oracle 1.0 - Python 3.9 for Linux</span></div>
+    <div style="text-align: left;"><br>
+      cd C:\Users\r\Downloads\devart_oracle_cp39_win\DevartPythonOracle\whl</div>
+    <div style="text-align: left;">"C:\Program Files\QGIS
+      3.28.15\apps\Python39\Scripts\pip3" install
+      devart_oracle_connector-1.0.1-cp39-cp39-win_amd64.whl
+      <p><a href="https://www.devart.com/python/sqlserver/download.html">https://www.devart.com/python/sqlserver/download.html</a></p>
+      <span style="color: rgb(61, 61, 61); font-family: fira-sans, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Python
+        Connector for SQL Server 1.0 - Python 3.9 for Windows</span><span style="color: rgb(61, 61, 61); font-family: fira-sans, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"><br>
+      </span></div>
+    <div style="text-align: left;"><span style="color: rgb(61, 61, 61); font-family: fira-sans, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Or</span></div>
+    <div style="text-align: left;"><span style="color: rgb(61, 61, 61); font-family: fira-sans, sans-serif; font-size: 18px; font-style: normal; font-variant-ligatures: none; font-variant-caps: normal; font-weight: 500; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">Python
+        Connector for SQL Server 1.0 - Python 3.9 for Linux</span>
+      <div style="text-align: left;"></div>
+      <p>cd
+        C:\Users\r\Downloads\devart_sqlserver_cp39_win\DevartPythonSqlServer\whl</p>
+      <p>"C:\Program Files\QGIS 3.28.15\apps\Python39\Scripts\pip3" install
+        devart_sqlserver_connector-1.0.1-cp39-cp39-win_amd64.whl<br>
+      </p>
+      <h2>Sample Database .config files:</h2>
+      <p>The plugin stores the database connection details for easy reuse. These
+        are included in the Plugin's folder but need to be moved to the user's
+        home folder before they can be accessed.</p>
+      <p>The first 3 characters indicate the connection type:</p>
+      <h3 style=" margin: 0px; text-indent: 0px; text-align: left;">PGS_ST_SDL.Config
+        (Postgres)</h3>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;">host=192.168.56.1<br>
+        database=gisdb<br>
+        user=rogermsu<br>
+        password=rogermsu<br>
+        port=15432<br>
+        schemaname=test123<br>
+        tableSRID=EPSG:7844<br>
+        DatabaseType=PGS<br>
+        Output2=Serv</p>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;"><br>
+      </p>
+      <h3 style=" margin: 0px; text-indent: 0px; text-align: left;">MSS_ST_SDL.Config
+        (Microsoft SQL Server via Devart)<br>
+      </h3>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;">host=192.168.56.1<br>
+        database=gisdb<br>
+        user=drrog<br>
+        password=drrog<br>
+        port=11433<br>
+        schemaname=testSchema<br>
+        tableSRID=EPSG:7844<br>
+        DatabaseType=MSS<br>
+        Output2=Both<br>
+      </p>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;"><br>
+      </p>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;"></p>
+      <h3 style=" margin: 0px; text-indent: 0px; text-align: left;">ORA_ST_SDL.Config
+        (Oracle)<br>
+      </h3>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;">host=192.168.56.1<br>
+        database=xe<br>
+        user=drrog<br>
+        password=drrog<br>
+        port=11521<br>
+        schemaname=testSchema<br>
+        tableSRID=EPSG:7844<br>
+        DatabaseType=ORA<br>
+        Output2=Both<br>
+      </p>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;"><br>
+      </p>
+      <p style="margin: 0px; text-indent: 0px; text-align: left;"></p>
+      <h3 style=" margin: 0px; text-indent: 0px; text-align: left;">ORD_ST_SDL.Config
+        (Oracle via Devart)<br>
+      </h3>
+      host=192.168.56.1<br>
+      database=free<br>
+      user=drrog<br>
+      password=drrog<br>
+      port=1521<br>
+      schemaname=testSchema<br>
+      tableSRID=EPSG:7844<br>
+      DatabaseType=ORD<br>
+      Output2=Both
+      <p></p>
+      <p> </p>
+      <p> </p>
+      <h4>Some Postgres code to get started with (PGADMIN4):</h4>
+      <p>CREATE DATABASE gisdb WITH OWNER = postgres ENCODING = 'UTF8'
+        TABLESPACE = pg_default CONNECTION LIMIT = 300;<br>
+        CREATE ROLE rogermsu LOGIN PASSWORD 'rogermsu' SUPERUSER INHERIT
+        CREATEDB CREATEROLE NOREPLICATION;<br>
+        CREATE SCHEMA testdata AUTHORIZATION rogermsu;<br>
+        create extension postgis;<br>
+        <br>
+      </p>
+      <h4>Some Oracle code to get started with (SQL Developer)</h4>
+      <p>Note: With Oracle each user has their own schema<br>
+        Enter user-name: system<br>
+        Enter password:<br>
+        Last Successful login time: Wed Jan 10 2024 14:33:56 +08:00<br>
+        Connected to:<br>
+        Oracle Database 21c Express Edition Release 21.0.0.0.0 - Production<br>
+        Version 21.3.0.0.0<br>
+        SQL&gt; create user drrog identified by drrog;<br>
+        create user drrog identified by drrog<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *<br>
+        ERROR at line 1:<br>
+        ORA-65096: invalid common user or role name<br>
+        SQL&gt; alter session set "_ORACLE_SCRIPT"=true;<br>
+        Session altered.<br>
+        SQL&gt; create user drrog identified by drrog;<br>
+        User created.<br>
+        SQL&gt;<br>
+        -- USER SQL<br>
+        CREATE USER "drrog" IDENTIFIED BY "drrog"&nbsp; ;<br>
+        -- ROLES<br>
+        GRANT "CONNECT" TO "DRROG" ;<br>
+        GRANT "DBA" TO "DRROG" ;<br>
+        -- SYSTEM PRIVILEGES<br>
+        GRANT ALTER ANY TABLE TO "DRROG" ;<br>
+        GRANT DROP ANY TABLE TO "DRROG" ;<br>
+        GRANT INSERT ANY TABLE TO "DRROG" ;<br>
+        GRANT CREATE ANY TABLE TO "DRROG" ;</p>
+      <h4>Some MSSQL comments to get started with:</h4>
+      <p>Remember to open up TCPIP on the server and create the user, etc.</p>
+      <p><br>
+      </p>
+      <p> </p>
+      <p></p>
+      <p></p>
+      <p></p>
+      <p></p>
+    </div>
+  </body>
+</html>

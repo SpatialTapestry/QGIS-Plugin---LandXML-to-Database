@@ -1,0 +1,54 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=landXMLtoDB_Free
+qgisMinimumVersion=3.28
+description=Provides LandXML to Database tools, etc, storing to PostGIS initially, later to Oracle and MS SQL.
+about=Thanks for Chris Cook, LINZ.
+  The LandXml format is an Xml format used to transfer cadastral survey data.
+  The format can describe cadastral survey parcels, nodes, and observations.
+  This plugin is used to extract information from a LandXml data file into memory layers in the QGIS plugin.
+  Currently it supports parcels and nodes, and observations.
+  The plugin will eventually support LXML Files from around Australia and New Zealand, and abroad as samples are provided.
+  NOTE!!! This plugin will crash on initial download as there are missing Python Connectors to the databases.
+  See "RubberSheetingETC.html" and "landXMLtoDB.html" in the plugin folder for User and Installation instructions. Python Database Connectors: psycopg2, oracledb, pyodbc,{Devart ODBC Driver for Oracle},{Devart ODBC Driver for SQL Server}
+
+version=0.3
+
+# Optional items:
+
+# changelog=
+homepage=https://github.com/SpatialTapestry/LandXML-to-Database
+tracker=https://github.com/SpatialTapestry/LandXML-to-Database/issues
+repository=https://github.com/SpatialTapestry/LandXML-to-Database
+
+
+# tags are comma separated with spaces allowed
+tags=landXML, rubber sheeting, two point transformation, python, vector, postGIS, Oracle, MS SQL, data migration
+
+icon=tapestry.png
+
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
+# Author contact information
+author=Roger Merritt, Spatial Tapestry PL
+email=SpatialTapestry@gmail.com
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check their documentation for more information.
+# plugin_dependencies=
+
+#Category of the plugin: Raster, Vector, Database or Web
+category=Vector

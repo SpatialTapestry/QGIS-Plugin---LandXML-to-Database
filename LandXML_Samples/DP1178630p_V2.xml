@@ -1,0 +1,1084 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<LandXML version="1.0" date="2012-10-08" time="16:44:20" xmlns="http://www.landxml.org/schema/LandXML-1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.landxml.org/schema/LandXML-1.2 http://www.landxml.org/schema/LandXML-1.2/LandXML-1.2.xsd">
+<Units>
+<Metric areaUnit="squareMeter" linearUnit="meter" volumeUnit="cubicMeter" angularUnit="decimal dd.mm.ss" temperatureUnit="celsius" pressureUnit="milliBars" directionUnit="decimal dd.mm.ss"/>
+</Units>
+<CoordinateSystem datum="MGA" horizontalDatum="Local" verticalDatum="AHD"/>
+<FeatureDictionary name="ReferenceDataContext" version="NSW-101013">
+<DocFileRef name="au-gov-nsw-icsm-cif-enumerated-types.xsd" location="http://www.lpi.nsw.gov.au/__data/assets/xml_file/0010/137368/xml-govau-nsw-icsm-eplan-cif-referencedata-101013.xml"/>
+</FeatureDictionary>
+<Application name="LandMark" version="LMK12.1" />
+<CgPoints zoneNumber="56">
+<CgPoint name="1" state="existing" pntSurv="reference">6249394.624464 340443.538319 13.5550</CgPoint>
+<CgPoint name="3" state="existing" pntSurv="reference">6249349.497141 340438.569951 13.8940</CgPoint>
+<CgPoint name="35" state="existing" pntSurv="sideshot">6249385.944161 340441.528152 13.6841</CgPoint>
+<CgPoint name="36" state="existing" pntSurv="sideshot">6249391.485588 340442.161484 13.5903</CgPoint>
+<CgPoint name="37" state="existing" pntSurv="sideshot">6249392.533914 340442.284864 13.5805</CgPoint>
+<CgPoint name="38" state="existing" pntSurv="sideshot">6249395.331342 340442.574925 13.7546</CgPoint>
+<CgPoint name="39" state="existing" pntSurv="sideshot">6249398.889631 340443.688690 13.5352</CgPoint>
+<CgPoint name="40" state="existing" pntSurv="sideshot">6249385.552290 340436.673317 13.8183</CgPoint>
+<CgPoint name="41" state="existing" pntSurv="sideshot">6249387.377398 340436.867760 13.7223</CgPoint>
+<CgPoint name="42" state="existing" pntSurv="sideshot">6249397.671341 340438.018855 13.7587</CgPoint>
+<CgPoint name="43" state="existing" pntSurv="sideshot">6249399.460490 340438.495902 13.6790</CgPoint>
+<CgPoint name="44" state="existing" pntSurv="sideshot">6249398.648191 340438.151364 13.7523</CgPoint>
+<CgPoint name="78" state="existing" pntSurv="sideshot">6249403.742102 340419.981098 13.8545</CgPoint>
+<CgPoint name="80" state="existing" pntSurv="sideshot">6249380.580675 340436.124550</CgPoint>
+<CgPoint name="81" state="existing" pntSurv="sideshot">6249399.739418 340419.113776 13.8464</CgPoint>
+<CgPoint name="82" state="existing" pntSurv="sideshot">6249389.460480 340417.952880 13.8411</CgPoint>
+<CgPoint name="83" state="existing" pntSurv="sideshot">6249382.669695 340417.200477</CgPoint>
+<CgPoint name="85" state="existing" pntSurv="sideshot">6249404.338014 340439.615651</CgPoint>
+<CgPoint name="86" state="existing" pntSurv="sideshot">6249408.605934 340421.102112</CgPoint>
+<CgPoint name="320" state="existing" pntSurv="boundary">6249349.613908 340437.509360</CgPoint>
+<CgPoint name="321" state="existing" pntSurv="boundary">6249385.970229 340441.512069</CgPoint>
+<CgPoint name="322" state="existing" pntSurv="boundary">6249389.287809 340411.378738</CgPoint>
+<CgPoint name="323" state="existing" pntSurv="boundary">6249404.436276 340413.046534</CgPoint>
+<CgPoint name="324" state="existing" pntSurv="boundary">6249394.762400 340442.480058</CgPoint>
+<CgPoint name="325" state="existing" pntSurv="boundary">6249398.588350 340438.304683</CgPoint>
+<CgPoint name="326" state="existing" pntSurv="boundary">6249402.855181 340446.736773</CgPoint>
+<CgPoint name="327" state="existing" pntSurv="boundary">6249407.651654 340442.347942</CgPoint>
+<CgPoint name="328" state="existing" pntSurv="boundary">6249440.765929 340433.767738</CgPoint>
+<CgPoint name="329" state="existing" pntSurv="boundary">6249411.998391 340413.879098</CgPoint>
+<CgPoint name="330" state="existing" pntSurv="traverse">6249443.507202 340417.348113</CgPoint>
+<CgPoint name="331" state="existing" pntSurv="boundary">6249410.474136 340423.037327</CgPoint>
+<CgPoint name="332" state="existing" pntSurv="boundary">6249416.016517 340426.707990</CgPoint>
+<CgPoint name="333" state="existing" pntSurv="boundary">6249441.447490 340429.672693</CgPoint>
+<CgPoint name="334" state="existing" pntSurv="traverse">6249405.876196 340454.273735</CgPoint>
+<CgPoint name="335" state="existing" pntSurv="traverse">6249437.740975 340451.494952</CgPoint>
+<CgPoint name="336" state="existing" pntSurv="sideshot">6249393.394785 340454.902000</CgPoint>
+<CgPoint name="337" state="existing" pntSurv="boundary">6249373.851456 340440.177833</CgPoint>
+<CgPoint name="338" state="existing" pntSurv="boundary">6249377.169035 340410.044502</CgPoint>
+<CgPoint name="348" state="existing" pntSurv="sideshot">6249399.220388 340435.555126 13.7998</CgPoint>
+<CgPoint name="349" state="existing" pntSurv="sideshot">6249400.509778 340429.793465 13.7725</CgPoint>
+<CgPoint name="350" state="existing" pntSurv="sideshot">6249402.204282 340422.425456 13.8096</CgPoint>
+<CgPoint name="351" state="existing" pntSurv="sideshot">6249403.477743 340416.169205 14.0720</CgPoint>
+<CgPoint name="353" state="existing" pntSurv="sideshot">6249399.698163 340412.485450 14.0158</CgPoint>
+<CgPoint name="354" state="existing" pntSurv="sideshot">6249394.948728 340411.915127 13.9424</CgPoint>
+<CgPoint name="356" state="existing" pntSurv="sideshot">6249388.820213 340417.248907 13.8692</CgPoint>
+<CgPoint name="385" state="existing" pntSurv="sideshot">6249387.636862 340417.753230</CgPoint>
+<CgPoint name="453" state="existing" pntSurv="sideshot">6249391.511705 340441.932971</CgPoint>
+<CgPoint name="454" state="existing" pntSurv="sideshot">6249385.970278 340441.299640</CgPoint>
+<CgPoint name="455" state="existing" pntSurv="sideshot">6249392.560030 340442.056352</CgPoint>
+<CgPoint name="456" state="existing" pntSurv="sideshot">6249398.990839 340443.482154</CgPoint>
+<CgPoint name="457" state="existing" pntSurv="sideshot">6249395.367036 340442.347712</CgPoint>
+<CgPoint name="458" state="existing" pntSurv="boundary">6249352.931487 340407.376029</CgPoint>
+<CgPoint name="461" state="proposed" pntSurv="reference">6249397.866317 340444.960286</CgPoint>
+<CgPoint name="462" state="proposed" pntSurv="reference">6249385.621298 340443.356608</CgPoint>
+<CgPoint name="465" state="existing" pntSurv="traverse">6249343.490906 340436.835237</CgPoint>
+<CgPoint name="466" state="existing" pntSurv="reference">6249337.494140 340436.175014</CgPoint>
+<CgPoint name="467" state="existing" pntSurv="traverse">6249340.811720 340406.041683</CgPoint>
+<CgPoint name="468" state="existing" pntSurv="traverse">6249346.977221 340406.720484</CgPoint>
+<CgPoint name="469" state="existing" pntSurv="traverse">6249346.120866 340413.992639</CgPoint>
+<CgPoint name="470" state="existing" pntSurv="traverse">6249343.922365 340433.273703</CgPoint>
+<CgPoint name="471" state="existing" pntSurv="boundary">6249361.732682 340438.843596</CgPoint>
+<CgPoint name="472" state="existing" pntSurv="boundary">6249365.050261 340408.710265</CgPoint>
+<CgPoint name="473" state="existing" pntSurv="traverse">6249462.229994 340373.443223</CgPoint>
+<CgPoint name="477" state="existing" pntSurv="traverse">6249433.776206 340368.749850</CgPoint>
+<CgPoint name="478" state="existing" pntSurv="traverse">6249434.817459 340359.478135</CgPoint>
+<CgPoint name="479" state="existing" pntSurv="traverse">6249413.782843 340366.530626</CgPoint>
+<CgPoint name="482" state="existing" pntSurv="traverse">6249412.098068 340367.876925</CgPoint>
+<CgPoint name="483" state="existing" pntSurv="traverse">6249417.130925 340336.718039</CgPoint>
+<CgPoint name="484" state="existing" pntSurv="reference">6249346.516788 340361.670053 12.1570</CgPoint>
+<CgPoint name="501" state="existing" pntSurv="control" oID="1847">6249315.043574 340360.420993 11.8850</CgPoint>
+<CgPoint name="502" state="existing" pntSurv="reference">6249435.004094 340371.491796 13.4270</CgPoint>
+<CgPoint name="503" state="existing" pntSurv="control" oID="1903">6249218.913548 340413.537132 13.9420</CgPoint>
+<CgPoint name="504" desc="A" state="existing" pntSurv="control" oID="1907">6249395.811873 340462.026820 13.1960</CgPoint>
+<CgPoint name="505" state="existing" pntSurv="traverse">6249346.792476 340360.625850</CgPoint>
+<CgPoint name="506" state="existing" pntSurv="traverse">6249435.121583 340370.433295</CgPoint>
+<CgPoint name="507" state="existing" pntSurv="traverse">6249285.649380 340350.941320</CgPoint>
+<CgPoint name="509" state="existing" pntSurv="traverse">6249447.072998 340387.093950</CgPoint>
+<CgPoint name="510" state="existing" pntSurv="traverse">6249448.333931 340388.764856</CgPoint>
+<CgPoint name="521" state="existing" pntSurv="traverse">6249342.859503 340375.522814</CgPoint>
+<CgPoint name="522" state="existing" pntSurv="traverse">6249350.236171 340376.341868</CgPoint>
+<CgPoint name="523" state="existing" pntSurv="traverse">6249360.839014 340377.519133</CgPoint>
+<CgPoint name="524" state="existing" pntSurv="traverse">6249371.441856 340378.696398</CgPoint>
+<CgPoint name="525" state="existing" pntSurv="traverse">6249382.044699 340379.873664</CgPoint>
+<CgPoint name="526" state="existing" pntSurv="traverse">6249392.647541 340381.050929</CgPoint>
+<CgPoint name="527" state="existing" pntSurv="traverse">6249403.250384 340382.228194</CgPoint>
+<CgPoint name="528" state="existing" pntSurv="traverse">6249346.864520 340406.708076</CgPoint>
+<CgPoint name="529" state="existing" pntSurv="traverse">6249357.468452 340407.875533</CgPoint>
+<CgPoint name="530" state="existing" pntSurv="traverse">6249368.072383 340409.042991</CgPoint>
+<CgPoint name="531" state="existing" pntSurv="traverse">6249378.676315 340410.210448</CgPoint>
+<CgPoint name="532" state="existing" pntSurv="traverse">6249389.280246 340411.377906</CgPoint>
+<CgPoint name="533" state="existing" pntSurv="traverse">6249399.884178 340412.545363</CgPoint>
+<CgPoint name="534" state="existing" pntSurv="traverse">6249413.853227 340383.405460</CgPoint>
+<CgPoint name="535" state="existing" pntSurv="traverse">6249424.456069 340384.582725</CgPoint>
+<CgPoint name="536" state="existing" pntSurv="traverse">6249410.488109 340413.712821</CgPoint>
+<CgPoint name="537" state="existing" pntSurv="traverse">6249421.092041 340414.880278</CgPoint>
+<CgPoint name="538" state="existing" pntSurv="traverse">6249319.229244 340348.782362</CgPoint>
+<CgPoint name="539" desc="B" state="existing" pntSurv="control" oID="1906">6249295.893000 340446.049000</CgPoint>
+<CgPoint name="549" state="existing" pntSurv="sideshot">6249373.794679 340440.163534</CgPoint>
+<CgPoint name="550" state="existing" pntSurv="sideshot">6249361.669048 340438.818482</CgPoint>
+<CgPoint name="551" state="existing" pntSurv="sideshot">6249349.603293 340437.605777</CgPoint>
+<CgPoint name="554" state="existing" pntSurv="sideshot">6249371.806692 340439.944663</CgPoint>
+<CgPoint name="557" state="existing" pntSurv="sideshot">6249386.041816 340441.318742</CgPoint>
+<CgPoint name="565" state="existing" pntSurv="sideshot">6249375.782667 340440.382404</CgPoint>
+<CgPoint name="569" state="existing" pntSurv="sideshot">6249375.807837 340440.153786</CgPoint>
+<CgPoint name="570" state="existing" pntSurv="sideshot">6249373.819850 340439.934915</CgPoint>
+<CgPoint name="571" state="existing" pntSurv="sideshot">6249371.831862 340439.716044</CgPoint>
+<CgPoint name="572" state="existing" pntSurv="sideshot">6249363.657036 340439.037352</CgPoint>
+<CgPoint name="573" state="existing" pntSurv="sideshot">6249359.681060 340438.599611</CgPoint>
+<CgPoint name="574" state="existing" pntSurv="sideshot">6249361.694218 340438.589863</CgPoint>
+<CgPoint name="575" state="existing" pntSurv="sideshot">6249363.682206 340438.808734</CgPoint>
+<CgPoint name="576" state="existing" pntSurv="sideshot">6249359.706230 340438.370992</CgPoint>
+<CgPoint name="577" state="existing" pntSurv="sideshot">6249349.951191 340437.644079</CgPoint>
+<CgPoint name="578" state="existing" pntSurv="sideshot">6249349.989493 340437.296182</CgPoint>
+<CgPoint name="579" state="existing" pntSurv="sideshot">6249349.641595 340437.257879</CgPoint>
+<CgPoint name="580" state="existing" pntSurv="sideshot">6249347.615305 340437.386906</CgPoint>
+<CgPoint name="581" state="existing" pntSurv="sideshot">6249349.628463 340437.377158</CgPoint>
+<CgPoint name="582" state="existing" pntSurv="sideshot">6249347.640475 340437.158288</CgPoint>
+<CgPoint name="583" state="existing" pntSurv="sideshot">6249398.643631 340438.273958</CgPoint>
+<CgPoint name="586" state="existing" pntSurv="sideshot">6249398.558843 340438.196266</CgPoint>
+<CgPoint name="587" state="existing" pntSurv="sideshot">6249394.950421 340442.304469</CgPoint>
+<CgPoint name="588" state="existing" pntSurv="sideshot">6249394.807990 340442.289685</CgPoint>
+<CgPoint name="592" state="existing" pntSurv="sideshot">6249404.397586 340412.991972</CgPoint>
+<CgPoint name="593" state="existing" pntSurv="sideshot">6249389.320639 340411.080540</CgPoint>
+<CgPoint name="601" state="existing" pntSurv="sideshot">6249394.758274 340442.519845</CgPoint>
+<CgPoint name="602" state="existing" pntSurv="sideshot">6249385.966104 340441.551856</CgPoint>
+<CgPoint name="LC-20" state="existing" pntSurv="sideshot">6249341.76 340421.38</CgPoint>
+<CgPoint name="LC-21" state="existing" pntSurv="sideshot">6249347.82 340422.12</CgPoint>
+<CgPoint name="LC-26" state="existing" pntSurv="sideshot">6249369.08 340424.42</CgPoint>
+<CgPoint name="LC-27" state="existing" pntSurv="sideshot">6249356.96 340423.08</CgPoint>
+<CgPoint name="LC-29" state="existing" pntSurv="sideshot">6249353.46 340392.08</CgPoint>
+<CgPoint name="LC-30" state="existing" pntSurv="sideshot">6249364.06 340393.26</CgPoint>
+<CgPoint name="LC-31" state="existing" pntSurv="sideshot">6249374.66 340394.42</CgPoint>
+<CgPoint name="LC-32" state="existing" pntSurv="sideshot">6249385.28 340395.60</CgPoint>
+<CgPoint name="LC-33" state="existing" pntSurv="sideshot">6249395.88 340396.76</CgPoint>
+<CgPoint name="LC-34" state="existing" pntSurv="sideshot">6249406.48 340397.94</CgPoint>
+<CgPoint name="LC-35" state="existing" pntSurv="sideshot">6249417.08 340399.12</CgPoint>
+<CgPoint name="LC-36" state="existing" pntSurv="sideshot">6249377.46 340378.86</CgPoint>
+<CgPoint name="LC-37" state="existing" pntSurv="sideshot">6249377.32 340359.08</CgPoint>
+<CgPoint name="LC-42" state="existing" pntSurv="sideshot">6249424.24 340421.18</CgPoint>
+<CgPoint name="LC-45" state="existing" pntSurv="sideshot">6249419.34 340445.66</CgPoint>
+<CgPoint name="LC-54" state="existing" pntSurv="sideshot">6249373.20 340441.28</CgPoint>
+<CgPoint name="LC-55" state="existing" pntSurv="sideshot">6249390.36 340441.98</CgPoint>
+<CgPoint name="LC-88" state="existing" pntSurv="sideshot">6249443.60 340369.88</CgPoint>
+<CgPoint name="LC-98" state="existing" pntSurv="sideshot">6249415.44 340351.62</CgPoint>
+<CgPoint name="LC-100" state="existing" pntSurv="sideshot">6249448.66 340371.92</CgPoint>
+<CgPoint name="LC-101" state="existing" pntSurv="sideshot">6249379.44 340364.24</CgPoint>
+<CgPoint name="LC-102" state="existing" pntSurv="sideshot">6249393.96 340426.18</CgPoint>
+<CgPoint name="LC-114" state="existing" pntSurv="sideshot">6249414.84 340431.04</CgPoint>
+<CgPoint name="LC-116" state="existing" pntSurv="sideshot">6249381.20 340425.74</CgPoint>
+</CgPoints>
+<Parcels>
+<Parcel name="B/DP100308" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-20"/>
+<CoordGeom name="DP100308-1--66">
+<Line>
+<Start pntRef="465"/>
+<End pntRef="466"/>
+</Line>
+<Line>
+<Start pntRef="466"/>
+<End pntRef="467"/>
+</Line>
+<Line>
+<Start pntRef="467"/>
+<End pntRef="468"/>
+</Line>
+<Line>
+<Start pntRef="468"/>
+<End pntRef="469"/>
+</Line>
+<Line>
+<Start pntRef="469"/>
+<End pntRef="470"/>
+</Line>
+<Line>
+<Start pntRef="470"/>
+<End pntRef="465"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="A/DP100308" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-21"/>
+<CoordGeom name="DP100308-1--65">
+<Line>
+<Start pntRef="320"/>
+<End pntRef="465"/>
+</Line>
+<Line>
+<Start pntRef="465"/>
+<End pntRef="470"/>
+</Line>
+<Line>
+<Start pntRef="470"/>
+<End pntRef="469"/>
+</Line>
+<Line>
+<Start pntRef="469"/>
+<End pntRef="468"/>
+</Line>
+<Line>
+<Start pntRef="468"/>
+<End pntRef="458"/>
+</Line>
+<Line>
+<Start pntRef="458"/>
+<End pntRef="320"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="22/DP11821" area="369.61" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-26"/>
+<CoordGeom name="DP11821-1-22">
+<Line>
+<Start pntRef="337"/>
+<End pntRef="471"/>
+</Line>
+<Line>
+<Start pntRef="471"/>
+<End pntRef="472"/>
+</Line>
+<Line>
+<Start pntRef="472"/>
+<End pntRef="338"/>
+</Line>
+<Line>
+<Start pntRef="338"/>
+<End pntRef="337"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="23/DP11821" area="369.61" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-27"/>
+<CoordGeom name="DP11821-1-23">
+<Line>
+<Start pntRef="458"/>
+<End pntRef="472"/>
+</Line>
+<Line>
+<Start pntRef="472"/>
+<End pntRef="471"/>
+</Line>
+<Line>
+<Start pntRef="471"/>
+<End pntRef="320"/>
+</Line>
+<Line>
+<Start pntRef="320"/>
+<End pntRef="458"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="44/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-29"/>
+<CoordGeom name="DP12033-1-44">
+<Line>
+<Start pntRef="523"/>
+<End pntRef="529"/>
+</Line>
+<Line>
+<Start pntRef="529"/>
+<End pntRef="528"/>
+</Line>
+<Line>
+<Start pntRef="528"/>
+<End pntRef="522"/>
+</Line>
+<Line>
+<Start pntRef="522"/>
+<End pntRef="523"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="45/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-30"/>
+<CoordGeom name="DP12033-1-45">
+<Line>
+<Start pntRef="524"/>
+<End pntRef="530"/>
+</Line>
+<Line>
+<Start pntRef="530"/>
+<End pntRef="529"/>
+</Line>
+<Line>
+<Start pntRef="529"/>
+<End pntRef="523"/>
+</Line>
+<Line>
+<Start pntRef="523"/>
+<End pntRef="524"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="46/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-31"/>
+<CoordGeom name="DP12033-1-46">
+<Line>
+<Start pntRef="525"/>
+<End pntRef="531"/>
+</Line>
+<Line>
+<Start pntRef="531"/>
+<End pntRef="530"/>
+</Line>
+<Line>
+<Start pntRef="530"/>
+<End pntRef="524"/>
+</Line>
+<Line>
+<Start pntRef="524"/>
+<End pntRef="525"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="47/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-32"/>
+<CoordGeom name="DP12033-1-47">
+<Line>
+<Start pntRef="526"/>
+<End pntRef="532"/>
+</Line>
+<Line>
+<Start pntRef="532"/>
+<End pntRef="531"/>
+</Line>
+<Line>
+<Start pntRef="531"/>
+<End pntRef="525"/>
+</Line>
+<Line>
+<Start pntRef="525"/>
+<End pntRef="526"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="48/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-33"/>
+<CoordGeom name="DP12033-1-48">
+<Line>
+<Start pntRef="527"/>
+<End pntRef="533"/>
+</Line>
+<Line>
+<Start pntRef="533"/>
+<End pntRef="532"/>
+</Line>
+<Line>
+<Start pntRef="532"/>
+<End pntRef="526"/>
+</Line>
+<Line>
+<Start pntRef="526"/>
+<End pntRef="527"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="49/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-34"/>
+<CoordGeom name="DP12033-1-49">
+<Line>
+<Start pntRef="534"/>
+<End pntRef="536"/>
+</Line>
+<Line>
+<Start pntRef="536"/>
+<End pntRef="533"/>
+</Line>
+<Line>
+<Start pntRef="533"/>
+<End pntRef="527"/>
+</Line>
+<Line>
+<Start pntRef="527"/>
+<End pntRef="534"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="50/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-35"/>
+<CoordGeom name="DP12033-1-50">
+<Line>
+<Start pntRef="535"/>
+<End pntRef="537"/>
+</Line>
+<Line>
+<Start pntRef="537"/>
+<End pntRef="536"/>
+</Line>
+<Line>
+<Start pntRef="536"/>
+<End pntRef="534"/>
+</Line>
+<Line>
+<Start pntRef="534"/>
+<End pntRef="535"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="100/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-36"/>
+<CoordGeom name="DP12033-1-100">
+<Line>
+<Start pntRef="507"/>
+<End pntRef="521"/>
+</Line>
+<Line>
+<Start pntRef="521"/>
+<End pntRef="509"/>
+</Line>
+<Line>
+<Start pntRef="509"/>
+<End pntRef="510"/>
+</Line>
+<Line>
+<Start pntRef="510"/>
+<End pntRef="330"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="101/DP12033" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-37"/>
+<CoordGeom name="DP12033-1-101">
+<Line>
+<Start pntRef="483"/>
+<End pntRef="479"/>
+</Line>
+<Line>
+<Start pntRef="479"/>
+<End pntRef="482"/>
+</Line>
+<Line>
+<Start pntRef="482"/>
+<End pntRef="505"/>
+</Line>
+<Line>
+<Start pntRef="505"/>
+<End pntRef="538"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/DP204683" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-42"/>
+<CoordGeom name="DP204683-1-1">
+<Line>
+<Start pntRef="333"/>
+<End pntRef="332"/>
+</Line>
+<Line>
+<Start pntRef="332"/>
+<End pntRef="331"/>
+</Line>
+<Line>
+<Start pntRef="331"/>
+<End pntRef="329"/>
+</Line>
+<Line>
+<Start pntRef="329"/>
+<End pntRef="330"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="C/DP321621" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-45"/>
+<CoordGeom name="DP321621-1--67">
+<Line>
+<Start pntRef="335"/>
+<End pntRef="334"/>
+</Line>
+<Curve rot="ccw" radius="12.497">
+<Start pntRef="334"/>
+<Center pntRef="336"/>
+<End pntRef="326"/>
+</Curve>
+<Line>
+<Start pntRef="326"/>
+<End pntRef="327"/>
+</Line>
+<Line>
+<Start pntRef="327"/>
+<End pntRef="328"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R1" desc="GLENAYR AVENUE 20.115 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-54"/>
+<CoordGeom name="GLENAYR -54-1">
+<Line>
+<Start pntRef="466"/>
+<End pntRef="324"/>
+</Line>
+<Curve rot="cw" radius="12.498">
+<Start pntRef="324"/>
+<Center pntRef="336"/>
+<End pntRef="334"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="R2" desc="GLENAYR AVENUE 20.115 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-55"/>
+<CoordGeom name="GLENAYR -54-2">
+<Line>
+<Start pntRef="321"/>
+<End pntRef="324"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="100/DP1115635" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-88"/>
+<CoordGeom name="P1115635-1-100">
+<Line>
+<Start pntRef="473"/>
+<End pntRef="506"/>
+</Line>
+<Line>
+<Start pntRef="506"/>
+<End pntRef="477"/>
+</Line>
+<Line>
+<Start pntRef="477"/>
+<End pntRef="478"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R3" desc="PATTERSON STREET" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-98"/>
+<CoordGeom name="PATTRSN -54-1">
+<Line>
+<Start pntRef="483"/>
+<End pntRef="479"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R4" desc="PLOWMAN STREET 15.24 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-100"/>
+<CoordGeom name="PLOWMAN -54-1">
+<Line>
+<Start pntRef="473"/>
+<End pntRef="506"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="R5" desc="PLOWMAN STREET 15.24 WIDE" class="Road" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-101"/>
+<CoordGeom name="PLOWMAN -54-2">
+<Line>
+<Start pntRef="505"/>
+<End pntRef="482"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="101" area="401.19" class="Lot" state="proposed" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-102"/>
+<CoordGeom name="REDEFINE-1-101">
+<Line>
+<Start pntRef="324"/>
+<End pntRef="321"/>
+</Line>
+<Line>
+<Start pntRef="321"/>
+<End pntRef="322"/>
+</Line>
+<Line>
+<Start pntRef="322"/>
+<End pntRef="323"/>
+</Line>
+<Line>
+<Start pntRef="323"/>
+<End pntRef="325"/>
+</Line>
+<Line>
+<Start pntRef="325"/>
+<End pntRef="324"/>
+</Line>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/SP33537" area="618.09" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-114"/>
+<CoordGeom name="SP33537-1-1">
+<Line>
+<Start pntRef="324"/>
+<End pntRef="325"/>
+</Line>
+<Line>
+<Start pntRef="325"/>
+<End pntRef="323"/>
+</Line>
+<Line>
+<Start pntRef="323"/>
+<End pntRef="329"/>
+</Line>
+<Line>
+<Start pntRef="329"/>
+<End pntRef="331"/>
+</Line>
+<Line>
+<Start pntRef="331"/>
+<End pntRef="332"/>
+</Line>
+<Line>
+<Start pntRef="332"/>
+<End pntRef="333"/>
+</Line>
+<Line>
+<Start pntRef="333"/>
+<End pntRef="328"/>
+</Line>
+<Line>
+<Start pntRef="328"/>
+<End pntRef="327"/>
+</Line>
+<Line>
+<Start pntRef="327"/>
+<End pntRef="326"/>
+</Line>
+<Curve rot="ccw" radius="12.498">
+<Start pntRef="326"/>
+<Center pntRef="336"/>
+<End pntRef="324"/>
+</Curve>
+</CoordGeom>
+</Parcel>
+<Parcel name="1/SP3973" class="Lot" state="adjoining" parcelFormat="Standard" parcelType="Single">
+<Center pntRef="LC-116"/>
+<CoordGeom name="SP3973-1-1">
+<Line>
+<Start pntRef="338"/>
+<End pntRef="322"/>
+</Line>
+<Line>
+<Start pntRef="322"/>
+<End pntRef="321"/>
+</Line>
+<Line>
+<Start pntRef="321"/>
+<End pntRef="337"/>
+</Line>
+<Line>
+<Start pntRef="337"/>
+<End pntRef="338"/>
+</Line>
+</CoordGeom>
+</Parcel>
+</Parcels>
+<PlanFeatures name="occupations">
+<PlanFeature name="BUILDINGx1" desc="NO. 53 2 STOREY BK RES FLATS">
+<CoordGeom name="BLDG-6-1">
+<Line>
+<Start pntRef="41"/>
+<End pntRef="82"/>
+</Line>
+<Line>
+<Start pntRef="82"/>
+<End pntRef="81"/>
+</Line>
+<Line>
+<Start pntRef="81"/>
+<End pntRef="42"/>
+</Line>
+<Line>
+<Start pntRef="42"/>
+<End pntRef="41"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="BUILDINGx2" desc="NO.51 BK RES FLAT BLDG">
+<CoordGeom name="BLDG-6-2">
+<Line>
+<Start pntRef="85"/>
+<End pntRef="43"/>
+</Line>
+<Line>
+<Start pntRef="43"/>
+<End pntRef="78"/>
+</Line>
+<Line>
+<Start pntRef="78"/>
+<End pntRef="86"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="BUILDINGx3" desc="NO 55 BK RES FLAT BLDG">
+<CoordGeom name="BLDG-6-3">
+<Line>
+<Start pntRef="83"/>
+<End pntRef="385"/>
+</Line>
+<Line>
+<Start pntRef="385"/>
+<End pntRef="40"/>
+</Line>
+<Line>
+<Start pntRef="40"/>
+<End pntRef="80"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx4" desc="LAPPED AND CAPPED PALING FCE">
+<CoordGeom name="FC8 -62-1">
+<Line>
+<Start pntRef="592"/>
+<End pntRef="353"/>
+</Line>
+<Line>
+<Start pntRef="353"/>
+<End pntRef="354"/>
+</Line>
+<Line>
+<Start pntRef="354"/>
+<End pntRef="593"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx5" desc="PALING FENCE">
+<CoordGeom name="FC8 -62-2">
+<Line>
+<Start pntRef="557"/>
+<End pntRef="356"/>
+</Line>
+<Line>
+<Start pntRef="356"/>
+<End pntRef="593"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx6" desc="PALING FENCE">
+<CoordGeom name="FC8 -62-60">
+<Line>
+<Start pntRef="44"/>
+<End pntRef="348"/>
+</Line>
+<Line>
+<Start pntRef="348"/>
+<End pntRef="349"/>
+</Line>
+<Line>
+<Start pntRef="349"/>
+<End pntRef="350"/>
+</Line>
+<Line>
+<Start pntRef="350"/>
+<End pntRef="351"/>
+</Line>
+<Line>
+<Start pntRef="351"/>
+<End pntRef="592"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx7" desc="BK PIER">
+<CoordGeom name="PIER -62-1">
+<Line>
+<Start pntRef="579"/>
+<End pntRef="578"/>
+</Line>
+<Line>
+<Start pntRef="578"/>
+<End pntRef="577"/>
+</Line>
+<Line>
+<Start pntRef="577"/>
+<End pntRef="551"/>
+</Line>
+<Line>
+<Start pntRef="551"/>
+<End pntRef="579"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx8" desc="BK WALL">
+<CoordGeom name="WALL -62-1">
+<Line>
+<Start pntRef="454"/>
+<End pntRef="453"/>
+</Line>
+<Line>
+<Start pntRef="453"/>
+<End pntRef="36"/>
+</Line>
+<Line>
+<Start pntRef="36"/>
+<End pntRef="602"/>
+</Line>
+<Line>
+<Start pntRef="602"/>
+<End pntRef="35"/>
+</Line>
+<Line>
+<Start pntRef="35"/>
+<End pntRef="454"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx9" desc="BK WALL">
+<CoordGeom name="WALL -62-2">
+<Line>
+<Start pntRef="455"/>
+<End pntRef="457"/>
+</Line>
+<Curve rot="cw" radius="12.718">
+<Start pntRef="457"/>
+<Center pntRef="336"/>
+<End pntRef="456"/>
+</Curve>
+<Line>
+<Start pntRef="456"/>
+<End pntRef="39"/>
+</Line>
+<Curve rot="ccw" radius="12.479">
+<Start pntRef="39"/>
+<Center pntRef="336"/>
+<End pntRef="38"/>
+</Curve>
+<Line>
+<Start pntRef="38"/>
+<End pntRef="601"/>
+</Line>
+<Line>
+<Start pntRef="601"/>
+<End pntRef="37"/>
+</Line>
+<Line>
+<Start pntRef="37"/>
+<End pntRef="455"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx10" desc="BK WALL">
+<CoordGeom name="WALL -62-3">
+<Line>
+<Start pntRef="565"/>
+<End pntRef="549"/>
+</Line>
+<Line>
+<Start pntRef="549"/>
+<End pntRef="570"/>
+</Line>
+<Line>
+<Start pntRef="570"/>
+<End pntRef="569"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx11" desc="BK WALL">
+<CoordGeom name="WALL -62-4">
+<Line>
+<Start pntRef="571"/>
+<End pntRef="570"/>
+</Line>
+<Line>
+<Start pntRef="570"/>
+<End pntRef="549"/>
+</Line>
+<Line>
+<Start pntRef="549"/>
+<End pntRef="554"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx12" desc="BK WALL">
+<CoordGeom name="WALL -62-5">
+<Line>
+<Start pntRef="572"/>
+<End pntRef="550"/>
+</Line>
+<Line>
+<Start pntRef="550"/>
+<End pntRef="574"/>
+</Line>
+<Line>
+<Start pntRef="574"/>
+<End pntRef="575"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx13" desc="BK WALL">
+<CoordGeom name="WALL -62-6">
+<Line>
+<Start pntRef="576"/>
+<End pntRef="574"/>
+</Line>
+<Line>
+<Start pntRef="574"/>
+<End pntRef="550"/>
+</Line>
+<Line>
+<Start pntRef="550"/>
+<End pntRef="573"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx14" desc="BK WALL">
+<CoordGeom name="WALL -62-7">
+<Line>
+<Start pntRef="582"/>
+<End pntRef="581"/>
+</Line>
+<Line>
+<Start pntRef="581"/>
+<End pntRef="551"/>
+</Line>
+<Line>
+<Start pntRef="551"/>
+<End pntRef="580"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+<PlanFeature name="FENCEx15" desc="LOW BK WALL">
+<CoordGeom name="WALL -62-8">
+<Line>
+<Start pntRef="588"/>
+<End pntRef="586"/>
+</Line>
+<Line>
+<Start pntRef="586"/>
+<End pntRef="583"/>
+</Line>
+<Line>
+<Start pntRef="583"/>
+<End pntRef="587"/>
+</Line>
+<Line>
+<Start pntRef="587"/>
+<End pntRef="588"/>
+</Line>
+</CoordGeom>
+</PlanFeature>
+</PlanFeatures>
+<Survey>
+<SurveyHeader name="1178630" desc="Plan of REDEFINITION OF LOT D IN DP 321621" jurisdiction="New South Wales" surveyFormat="Standard" type="surveyed" surveyorFirm="YOUDALE &amp; STRUDWICK &amp; CO" surveyorReference="7111-DP" >
+<Personnel name="PHILIP D YOUDALE"/>
+<PurposeOfSurvey name="Redefinition" />
+<Annotation type="Plans Used" name="2" desc="DP100308,DP11821,DP12033,DP204683,DP321621,DP1115635" />
+<Annotation type="Plans Used" name="3" desc="SP33537,SP3973,DP11788" />
+<AdministrativeArea adminAreaType="Local Government Area" adminAreaName="WAVERLEY"/>
+<AdministrativeArea adminAreaType="Parish" adminAreaName="ALEXANDRIA"/>
+<AdministrativeArea adminAreaType="Locality" adminAreaName="NORTH BONDI" adminAreaCode="2026"/>
+<AdministrativeArea adminAreaType="County" adminAreaName="CUMBERLAND"/>
+<AdministrativeArea adminAreaType="Survey Region" adminAreaName="Urban"/>
+<Annotation type="Subdivision Number" name="s1" desc="N/A"/>
+<AdministrativeDate adminDateType="Date Of Survey" adminDate="2012-07-25"/>
+</SurveyHeader>
+<InstrumentSetup id="S-1" stationName="1" instrumentHeight="0">
+<InstrumentPoint pntRef="1" />
+</InstrumentSetup>
+<InstrumentSetup id="S-3" stationName="3" instrumentHeight="0">
+<InstrumentPoint pntRef="3" />
+</InstrumentSetup>
+<InstrumentSetup id="S-320" stationName="320" instrumentHeight="0">
+<InstrumentPoint pntRef="320" />
+</InstrumentSetup>
+<InstrumentSetup id="S-321" stationName="321" instrumentHeight="0">
+<InstrumentPoint pntRef="321" />
+</InstrumentSetup>
+<InstrumentSetup id="S-322" stationName="322" instrumentHeight="0">
+<InstrumentPoint pntRef="322" />
+</InstrumentSetup>
+<InstrumentSetup id="S-323" stationName="323" instrumentHeight="0">
+<InstrumentPoint pntRef="323" />
+</InstrumentSetup>
+<InstrumentSetup id="S-324" stationName="324" instrumentHeight="0">
+<InstrumentPoint pntRef="324" />
+</InstrumentSetup>
+<InstrumentSetup id="S-325" stationName="325" instrumentHeight="0">
+<InstrumentPoint pntRef="325" />
+</InstrumentSetup>
+<InstrumentSetup id="S-461" stationName="461" instrumentHeight="0">
+<InstrumentPoint pntRef="461" />
+</InstrumentSetup>
+<InstrumentSetup id="S-462" stationName="462" instrumentHeight="0">
+<InstrumentPoint pntRef="462" />
+</InstrumentSetup>
+<InstrumentSetup id="S-466" stationName="466" instrumentHeight="0">
+<InstrumentPoint pntRef="466" />
+</InstrumentSetup>
+<InstrumentSetup id="S-484" stationName="484" instrumentHeight="0">
+<InstrumentPoint pntRef="484" />
+</InstrumentSetup>
+<InstrumentSetup id="S-501" stationName="501" instrumentHeight="0">
+<InstrumentPoint pntRef="501" />
+</InstrumentSetup>
+<InstrumentSetup id="S-502" stationName="502" instrumentHeight="0">
+<InstrumentPoint pntRef="502" />
+</InstrumentSetup>
+<InstrumentSetup id="S-503" stationName="503" instrumentHeight="0">
+<InstrumentPoint pntRef="503" />
+</InstrumentSetup>
+<InstrumentSetup id="S-504" stationName="504" instrumentHeight="0">
+<InstrumentPoint pntRef="504" />
+</InstrumentSetup>
+<InstrumentSetup id="S-505" stationName="505" instrumentHeight="0">
+<InstrumentPoint pntRef="505" />
+</InstrumentSetup>
+<InstrumentSetup id="S-506" stationName="506" instrumentHeight="0">
+<InstrumentPoint pntRef="506" />
+</InstrumentSetup>
+<InstrumentSetup id="S-521" stationName="521" instrumentHeight="0">
+<InstrumentPoint pntRef="521" />
+</InstrumentSetup>
+<InstrumentSetup id="S-525" stationName="525" instrumentHeight="0">
+<InstrumentPoint pntRef="525" />
+</InstrumentSetup>
+<InstrumentSetup id="S-531" stationName="531" instrumentHeight="0">
+<InstrumentPoint pntRef="531" />
+</InstrumentSetup>
+<InstrumentSetup id="S-539" stationName="539" instrumentHeight="0">
+<InstrumentPoint pntRef="539" />
+</InstrumentSetup>
+<ObservationGroup id="OG-1">
+<ReducedObservation name="1" setupID="S-324" targetSetupID="S-321" azimuth="186.1700" horizDistance="8.845" distanceType="Measured" azimuthType="Measured" desc="Road" coordGeomRefs="REDEFINE-1-101" ></ReducedObservation>
+<ReducedObservation name="2" setupID="S-321" targetSetupID="S-322" azimuth="276.1700" horizDistance="30.315" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="REDEFINE-1-101" ></ReducedObservation>
+<ReducedObservation name="3" setupID="S-322" targetSetupID="S-323" azimuth="6.1700" horizDistance="15.240" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="REDEFINE-1-101" ></ReducedObservation>
+<ReducedObservation name="4" setupID="S-323" targetSetupID="S-325" azimuth="103.0210" horizDistance="25.925" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="REDEFINE-1-101" ></ReducedObservation>
+<ReducedObservation name="5" setupID="S-325" targetSetupID="S-324" azimuth="132.3000" horizDistance="5.665" distanceType="Measured" azimuthType="Measured" desc="Boundary" coordGeomRefs="REDEFINE-1-101" ></ReducedObservation>
+<ReducedObservation name="6" setupID="S-3" targetSetupID="S-320" azimuth="276.1700" horizDistance="1.065" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="7" setupID="S-320" targetSetupID="S-466" azimuth="186.1700" horizDistance="12.195" distanceType="Deducted" azimuthType="Deducted" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="8" setupID="S-502" targetSetupID="S-506" azimuth="276.2000" horizDistance="1.065" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="9" setupID="S-505" targetSetupID="S-521" azimuth="104.4720" horizDistance="15.405" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="10" setupID="S-521" targetSetupID="S-525" azimuth="6.2010" horizDistance="39.425" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="11" setupID="S-525" targetSetupID="S-531" azimuth="96.2010" horizDistance="30.525" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="12" setupID="S-531" targetSetupID="S-322" azimuth="6.1700" horizDistance="10.675" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="13" setupID="S-1" targetSetupID="S-324" azimuth="277.2600" horizDistance="1.065" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="14" setupID="S-484" targetSetupID="S-505" azimuth="284.4700" horizDistance="1.080" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="15" setupID="S-506" targetSetupID="S-505" azimuth="186.2010" horizDistance="88.870" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="16" setupID="S-320" targetSetupID="S-321" azimuth="6.1700" horizDistance="36.575" distanceType="Measured" azimuthType="Measured" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="17" setupID="S-461" targetSetupID="S-324" azimuth="218.3800" horizDistance="3.975" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="18" setupID="S-462" targetSetupID="S-321" azimuth="280.4300" horizDistance="1.875" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="19" setupID="S-324" targetSetupID="S-504" azimuth="86.5540" horizDistance="19.575" desc="Connection" ></ReducedObservation>
+<ReducedObservation name="20" setupID="S-504" targetSetupID="S-539" azimuth="189.0506" horizDistance="101.188" desc="Connection" distanceAdoptionFactor="0.99990800" ></ReducedObservation>
+<ReducedObservation name="21" setupID="S-539" targetSetupID="S-503" azimuth="202.5347" horizDistance="83.564" desc="Connection" distanceAdoptionFactor="0.99990800" ></ReducedObservation>
+<ReducedObservation name="22" setupID="S-503" targetSetupID="S-501" azimuth="331.0439" horizDistance="109.829" desc="Connection" distanceAdoptionFactor="0.99990850" ></ReducedObservation>
+<ReducedObservation name="23" setupID="S-501" targetSetupID="S-322" azimuth="34.2750" horizDistance="90.050" desc="Connection" distanceAdoptionFactor="0.99990850" ></ReducedObservation>
+<RedHorizontalPosition name="1847" setupID="S-501" latitude="6249315.041" longitude="340360.415" class="B" order="2" currencyDate="2012-04-27" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="25" setupID="S-501" height="11.882" verticalDatum="AHD" class="LC" order="L3" />
+<RedHorizontalPosition name="1903" setupID="S-503" latitude="6249218.910" longitude="340413.536" class="B" order="2" currencyDate="2012-04-27" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="27" setupID="S-503" height="13.938" verticalDatum="AHD" class="LC" order="L3" />
+<RedHorizontalPosition name="1907" setupID="S-504" latitude="6249395.813" longitude="340462.027" class="B" order="2" currencyDate="2012-04-27" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="29" setupID="S-504" height="13.186" verticalDatum="AHD" class="LC" order="L3" />
+<RedHorizontalPosition name="1906" setupID="S-539" latitude="6249295.893" longitude="340446.049" class="B" order="2" currencyDate="2012-04-27" horizontalFix="SCIMS" horizontalDatum="MGA"/>
+<RedVerticalObservation name="31" setupID="S-539" height="13.544" verticalDatum="AHD" class="LC" order="L3" />
+</ObservationGroup>
+</Survey>
+<Monuments>
+<Monument name="1" pntRef="1" type="Approved Mark" condition="Reliable" originSurvey="DP100308" state="Found" desc="PLUG FD"/>
+<Monument name="2" pntRef="3" type="DH&amp;W" condition="Reliable" originSurvey="DP100308" state="Found"/>
+<Monument name="3" pntRef="40" type="Occupation" state="Not Marked" desc="BLD:0.945ClearBr186"/>
+<Monument name="4" pntRef="41" type="Occupation" state="Not Marked" desc="BLD:0.89ClearBr6"/>
+<Monument name="5" pntRef="42" type="Occupation" state="Not Marked" desc="BLD:0.96ClearBr193"/>
+<Monument name="6" pntRef="43" type="Occupation" state="Not Marked" desc="BLD:0.895ClearBr13"/>
+<Monument name="7" pntRef="78" type="Occupation" state="Not Marked" desc="BLD:0.89ClearBr13"/>
+<Monument name="8" pntRef="82" type="Occupation" state="Not Marked" desc="BLD:0.89ClearBr6"/>
+<Monument name="9" pntRef="321" type="DH&amp;W" state="Placed"/>
+<Monument name="10" pntRef="322" type="GIN" state="Placed" desc="GIN IN TOP OF FCE POST"/>
+<Monument name="11" pntRef="324" type="Approved Mark" state="Placed" desc="NAIL &amp; Ws IN TOP OF BK WALL"/>
+<Monument name="12" pntRef="325" type="DH&amp;W" state="Placed"/>
+<Monument name="13" pntRef="385" type="Occupation" state="Not Marked" desc="BLD:0.945ClearBr186"/>
+<Monument name="14" pntRef="461" type="DH&amp;W" condition="Original" state="Placed"/>
+<Monument name="15" pntRef="462" type="DH&amp;W" condition="Original" state="Placed"/>
+<Monument name="16" pntRef="466" type="DH&amp;W" state="Gone" desc="RM GONE"/>
+<Monument name="17" pntRef="484" type="Conc Block" condition="Reliable" originSurvey="DP12033" state="Found"/>
+<Monument name="18" pntRef="501" type="PM" state="Found"/>
+<Monument name="19" pntRef="502" type="Conc Block" originSurvey="DP11788" state="Found"/>
+<Monument name="20" pntRef="503" type="PM" state="Found"/>
+<Monument name="21" pntRef="504" type="PM" state="Found"/>
+<Monument name="22" pntRef="539" type="PM" state="Found"/>
+<Monument name="23" pntRef="549" type="Occupation" state="Not Marked" desc="BK:0.01ClearBr276:BK:0.06Br186"/>
+<Monument name="24" pntRef="550" type="Occupation" state="Not Marked" desc="BK:0.02ClearBr276:BK:0.065Br186"/>
+<Monument name="25" pntRef="551" type="Occupation" state="Not Marked" desc="BK:0.095OverBr96:BK:On-Bdy"/>
+<Monument name="26" pntRef="592" type="Occupation" state="Not Marked" desc="0.05ClearBr193:0.05OverBr276"/>
+<Monument name="27" pntRef="593" type="Occupation" state="Not Marked" desc="0.30OverBr276"/>
+<Monument name="28" pntRef="601" type="Occupation" state="Not Marked" desc="0.04OverBr96"/>
+<Monument name="29" pntRef="602" type="Occupation" state="Not Marked" desc="0.04OverBr96"/>
+</Monuments>
+</LandXML>

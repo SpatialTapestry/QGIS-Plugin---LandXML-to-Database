@@ -1,0 +1,54 @@
+sed 's/7844/xxxx/' dest_landbase.sql > x
+mv x dest_landbase.sql
+sed 's/7844/xxxx/' dest_point.sql > x
+mv x dest_point.sql
+sed 's/7844/xxxx/' srce_landbase.sql > x
+mv x srce_landbase.sql
+sed 's/7844/xxxx/' stt_csbbdysections.sql > x
+mv x stt_csbbdysections.sql
+sed 's/7844/xxxx/' stt_dp_cgpoint.sql > x
+mv x stt_dp_cgpoint.sql
+sed 's/7844/xxxx/' stt_dp_easement.sql > x
+mv x stt_dp_easement.sql
+sed 's/7844/xxxx/' stt_dp_feature.sql > x
+mv x stt_dp_feature.sql
+sed 's/7844/xxxx/' stt_dp_monument.sql > x
+mv x stt_dp_monument.sql
+sed 's/7844/xxxx/' stt_dp_parcel.sql > x
+mv x stt_dp_parcel.sql
+sed 's/7844/xxxx/' stt_dp_surveyline.sql > x
+mv x stt_dp_surveyline.sql
+sed 's/7844/xxxx/' stt_error_log.sql > x
+mv x stt_error_log.sql
+sed 's/7844/xxxx/' stt_paatwarequest.sql > x
+mv x stt_paatwarequest.sql
+sed 's/7844/xxxx/' stt_plandata.sql > x
+mv x stt_plandata.sql
+sed 's/7844/xxxx/' stt_point.sql > x
+mv x stt_point.sql
+sed 's/7844/xxxx/' stt_probfeats.sql > x
+mv x stt_probfeats.sql
+sed 's/7844/xxxx/' stt_shift_vect_request.sql > x
+mv x stt_shift_vect_request.sql
+sed 's/7844/xxxx/' stt_straighlines.sql > x
+mv x stt_straighlines.sql
+sed 's/7844/xxxx/' stt_superblock_dst.sql > x
+mv x stt_superblock_dst.sql
+sed 's/7844/xxxx/' stt_superblock_src.sql > x
+mv x stt_superblock_src.sql
+sed 's/7844/xxxx/' stt_tempworkarea.sql > x
+mv x stt_tempworkarea.sql
+sed 's/7844/xxxx/' stt_themedata.sql > x
+mv x stt_themedata.sql
+sed 's/7844/xxxx/' stt_twa_xover.sql > x
+mv x stt_twa_xover.sql
+sed 's/7844/xxxx/' stt_vectorcgpoint.sql > x
+mv x stt_vectorcgpoint.sql
+sed 's/7844/xxxx/' stt_vectorpositionequ.sql > x
+mv x stt_vectorpositionequ.sql
+sed 's/7844/xxxx/' stt_vectorraster.sql > x
+mv x stt_vectorraster.sql
+sed 's/7844/xxxx/' stt_vectorvector.sql > x
+mv x stt_vectorvector.sql
+sed 's/7844/xxxx/' stt_vv_import_probs.sql > x
+mv x stt_vv_import_probs.sql
